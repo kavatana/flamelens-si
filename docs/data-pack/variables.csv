@@ -1,0 +1,52 @@
+variable_id,label,unit,kind,group,description
+o2_fraction,Oxygen,fraction,number,atmosphere,Oxygen mole fraction of the oxidizer. For most tests this is the ambient atmosphere in the chamber; for inverse flames it is the oxidizer stream fed through the burner (see o2_basis).
+o2_basis,Oxygen refers to,"",category,atmosphere,"""ambient"" when oxygen describes the atmosphere surrounding the fuel; ""oxidizer stream"" when oxygen is injected into a fuel atmosphere (inverse flames)."
+pressure_kpa,Pressure,kPa,number,atmosphere,Total pressure of the test atmosphere.
+n2_fraction,Nitrogen,fraction,number,atmosphere,Nitrogen mole fraction of the ambient atmosphere.
+co2_fraction,Carbon dioxide,fraction,number,atmosphere,Carbon dioxide mole fraction of the ambient atmosphere (a suppressant in FLEX).
+he_fraction,Helium,fraction,number,atmosphere,Helium mole fraction of the ambient atmosphere.
+diluent,Diluent,"",category,atmosphere,Inert gas or gases making up the balance of the atmosphere.
+flow_speed_cm_s,Flow speed,cm/s,number,atmosphere,Speed of the forced gas flow past the fuel.
+flow_direction,Flow direction,"",category,atmosphere,Direction of the forced flow relative to flame spread: concurrent or opposed.
+ambient_temperature_c,Ambient temperature,°C,number,atmosphere,Initial temperature of the test atmosphere.
+flame_type,Flame type,"",category,context,normal (fuel flows into oxidizer) or inverse (oxidizer flows into fuel).
+field_polarity,Electric-field polarity,"",category,context,Polarity of the high-voltage mesh electrode relative to the burner.
+test_date,Test date,"",text,context,Date of the test or session (ISO format).
+investigator,Investigator,"",text,context,Principal investigator whose test matrix the run belongs to.
+description,Description,"",text,context,Free-text description from the PSI table.
+notes,Notes,"",text,context,Operator comments from the PSI table.
+fuel,Fuel or material,"",category,fuel,Fuel species or solid material
+fuel_phase,Fuel phase,"",category,fuel,"gas, liquid or solid."
+fuel_fraction,Fuel fraction,fraction,number,fuel,Mole (volume) fraction of fuel in the fuel stream; the rest is inert diluent.
+fuel_diluent,Fuel diluent,"",category,fuel,Inert gas mixed into the fuel stream.
+fuel_flow_mg_s,Fuel flow rate,mg/s,number,fuel,Mass flow rate of fuel.
+oxidizer_flow_mg_s,Oxidizer flow rate,mg/s,number,fuel,Mass flow rate of oxygen through the burner (inverse flames).
+geometry,Geometry,"",category,fuel,Shape of the fuel sample or burner.
+size_mm,Characteristic size,mm,number,fuel,"Droplet, burner, nozzle, rod or sphere diameter."
+sample_thickness_mm,Sample thickness,mm,number,fuel,Thickness of a solid sample.
+sample_length_cm,Sample length,cm,number,fuel,Length of a solid sample.
+sample_width_cm,Sample width,cm,number,fuel,Width of a solid sample.
+o2_fraction_final,Oxygen at end of test,fraction,number,measurement,Oxygen mole fraction measured after the test.
+co2_fraction_final,Carbon dioxide at end of test,fraction,number,measurement,Carbon dioxide mole fraction measured after the test.
+co_ppm_final,Carbon monoxide at end of test,ppm,number,measurement,Carbon monoxide concentration measured after the test.
+adiabatic_flame_temp_k,Adiabatic flame temperature,K,number,measurement,Calculated adiabatic flame temperature for the test's reactants.
+stoich_mixture_fraction,Stoichiometric mixture fraction,ratio,number,measurement,Zst - where the flame sits between the fuel and oxidizer sides.
+peak_burner_temp_c,Peak burner temperature,°C,number,measurement,Highest burner surface temperature reached.
+heater_ratio,Heater resistance ratio,ratio,number,measurement,"Rt/R0, the heater wire's resistance relative to room temperature - a proxy for sample heating temperature in the smoke experiments."
+heating_time_s,Heating time,s,number,measurement,How long the sample was heated to generate smoke.
+aging_time_s,Smoke aging time,s,number,measurement,Time the smoke was held before measurement.
+mass_loss_rate_mg_min,Mass loss rate,mg/min,number,measurement,Rate at which the heated sample lost mass.
+igniter_power_w,Igniter power,W,number,outcome,Electrical power applied to the igniter.
+ignition_time_s,Ignition time,s,number,outcome,How long the igniter was powered.
+ignited,Ignited,"",boolean,outcome,Whether a hot flame was established.
+flames_ignited,Flames ignited,count,number,outcome,Number of flames ignited in a test session (session-level tables).
+burn_time_s,Burn time,s,number,outcome,Duration of burning.
+end_mode,How the test ended,"",category,outcome,"Self-extinguished, flow terminated, extinction, disruption or burned to completion."
+burning_rate_mm2_s,Burning-rate constant,mm²/s,number,outcome,"Droplet burning-rate constant. The PSI column header reads ""Burning rate; mm""; droplet burning-rate constants are conventionally reported in mm²/s and the values are in that range."
+extinction_diameter_mm,Extinction diameter,mm,number,outcome,Droplet diameter at which the visible flame went out.
+spread_rate_mm_s,Flame spread rate,mm/s,number,outcome,Speed at which the flame moved along a solid sample in microgravity.
+burn_length_cm,Burn length,cm,number,outcome,Length of a solid sample consumed in microgravity.
+spread_rate_1g_mm_s,Flame spread rate at 1 g,mm/s,number,outcome,Spread rate of the same material in the normal-gravity comparison test.
+burn_length_1g_cm,Burn length at 1 g,cm,number,outcome,Burn length of the same material in the normal-gravity comparison test.
+cool_flame,Cool flame observed,"",boolean,outcome,"Whether a low-temperature ""cool"" flame was observed."
+flame_color,Flame colour,"",category,outcome,Visible colour of the flame as logged by the science team.

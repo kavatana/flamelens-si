@@ -1,0 +1,2 @@
+source_id,accession,file_name,psi_path,folder,bytes,sha256,source_kind,fetched_at
+S1,PSI-20,NTRS-20220005205.pdf,https://ntrs.nasa.gov/api/citations/20220005205/downloads/ACME%20CSSCI%20paper%2020220402.pdf,NTRS,741399,dc6c88a0dde80265e4fd6defa2895aea86f8967e19c1b3c0ae46986c5d775743,publication,

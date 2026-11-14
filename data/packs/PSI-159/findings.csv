@@ -1,0 +1,5 @@
+finding_id,accession,quote,source_id,locator,subject,variable_id,value_num,unit,gravity,conditions,test_ids
+F1,PSI-159,Cool flames were discovered in normal-flame CFI-G testing with n-butane,S1,p. 8,Gaseous cool flames were discovered on the ISS with n-butane,,,,0g,,
+F2,PSI-159,"As expected, the cool flames are significantly smaller than the corresponding hot flames.",S1,p. 8,Cool flames are much smaller than the matching hot flames,,,,0g,,
+F3,PSI-159,Non- premixed cool flames had been discovered in droplet combustion research conducted in the CIR in 2012 but droplet combustion involves unsteady burning rates.,S1,p. 8,Why CFI-G: non-premixed cool flames were first found with droplets on the ISS in 2012,,,,0g,,
+F4,PSI-159,"When ACME’s ISS testing ended in Feb. 2022, over 1,500 flames were ignited for its six experiments.",S1,p. 8,"Scope: over 1,500 flames were lit for the six ACME experiments, November 2017 to February 2022",,,,0g,,

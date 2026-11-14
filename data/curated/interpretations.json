@@ -1,0 +1,110 @@
+{
+ "scenario:lunar-habitat": {
+  "body": {
+   "summary": "PSI cannot yet say how a fabric or a plastic burns in this cabin. The studies of solid materials stayed at or below normal air, and the tests that did reach 34% oxygen burned gas or liquid fuel.",
+   "points": [
+    {
+     "text": "BASS-II, the main study of solid materials, only ever lowered the oxygen. It never went above cabin air.",
+     "accession": "PSI-25",
+     "quote": "Main variables are airflow speed and oxygen concentration (oxygen varied below 21% by adding nitrogen).",
+     "source": "psi"
+    },
+    {
+     "text": "BRE is the strongest lead. It used a gas burner built to imitate burning solids, and it tested this exact atmosphere.",
+     "accession": "PSI-20",
+     "quote": "8.2 psia, 34 % oxygen",
+     "source": "psi"
+    },
+    {
+     "text": "In BRE, turning off the airflow did not put the flame out once oxygen was raised. Stopping ventilation is a standard first response to a fire on a spacecraft.",
+     "accession": "PSI-20",
+     "quote": "The ongoing combustion without air flow was notably seen in elevated-oxygen atmospheres which are being considered for use in future spacecraft",
+     "source": "psi"
+    },
+    {
+     "text": "FLEX mapped where droplet flames go out as oxygen and pressure change, with tests up to 34% oxygen at reduced pressure.",
+     "accession": "PSI-69",
+     "quote": "determine the Limiting Oxygen Index (LOI) as a function of ambient pressure",
+     "source": "psi"
+    }
+   ],
+   "caution": "All of this was measured in weightlessness. Nothing in PSI was measured at lunar gravity."
+  },
+  "model": "Claude (Anthropic), written at build time"
+ },
+ "scenario:pressurized-rover": {
+  "body": {
+   "summary": "Liquid-fuel tests cover this atmosphere well. Solid materials do not: the nearest test of a solid is still at ordinary cabin air.",
+   "points": [
+    {
+     "text": "FLEX burned droplets right around this oxygen level and pressure, with and without a suppressant gas.",
+     "accession": "PSI-69",
+     "quote": "measure the effectiveness of various gaseous fire suppressants such as CO2, He, and SF6",
+     "source": "psi"
+    },
+    {
+     "text": "BRE names this atmosphere as one of the three it set out to test.",
+     "accession": "PSI-20",
+     "quote": "10.2 psia, 26.5 %",
+     "source": "psi"
+    },
+    {
+     "text": "In a small cabin, detecting a fire early matters most. SAME measured what smoke looks like to a detector in weightlessness.",
+     "accession": "PSI-102",
+     "quote": "SAME will provide quantitative data on the sensitivity of these detectors to reduced gravity smokes",
+     "source": "psi"
+    }
+   ],
+   "caution": "A rover on the Moon sits in one-sixth gravity, which no test here reproduces."
+  },
+  "model": "Claude (Anthropic), written at build time"
+ },
+ "scenario:station": {
+  "body": {
+   "summary": "This is the best-covered case in the archive. Solids, liquids and gases were all burned at or near cabin air, inside real station hardware.",
+   "points": [
+    {
+     "text": "BASS-II burned rods, slabs, films and fabric at cabin oxygen and below, to find where each one stops burning.",
+     "accession": "PSI-25",
+     "quote": "Study the ignition, flame growth, flame spread, and extinction limits for solid fuels burning in low-velocity forced flows in microgravity.",
+     "source": "psi"
+    },
+    {
+     "text": "Saffire lit samples up to a metre long inside an uncrewed cargo ship. These are the only large fires in the set.",
+     "accession": "PSI-98",
+     "quote": "determine how rapidly a large scale fire grows in low-gravity",
+     "source": "psi"
+    },
+    {
+     "text": "The working assumption behind these studies is that, given airflow, a material burns at least as well in orbit as on the ground.",
+     "accession": "PSI-26",
+     "quote": "materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity",
+     "source": "psi"
+    }
+   ],
+   "caution": "Several of these tables do not list pressure. Cabin pressure is used for them, and those marks are drawn hollow."
+  },
+  "model": "Claude (Anthropic), written at build time"
+ },
+ "scenario:suit": {
+  "body": {
+   "summary": "Nothing in the archive comes close to pure oxygen. The highest oxygen level tested in a surrounding atmosphere is about 40%.",
+   "points": [
+    {
+     "text": "The 85% oxygen values in CFI-G are not a pure-oxygen atmosphere. They are a stream of oxygen injected into fuel gas.",
+     "accession": "PSI-159",
+     "source": "challenge",
+     "quote": "an oxygen-nitrogen mixture of up to 85% oxygen flowed from the spherical burner creating an inside-out flame"
+    },
+    {
+     "text": "NASA screens spacecraft materials at normal gravity, which is why orbital studies such as BASS exist.",
+     "accession": "PSI-26",
+     "quote": "Current NASA spacecraft materials selection is based on a standard test method (NASA–STD–6001 Test 1) that segregates material based on 1-g behavior without consideration of low gravity effects.",
+     "source": "psi"
+    }
+   ],
+   "caution": "For a suit, treat this archive as background physics, not as evidence about suit materials."
+  },
+  "model": "Claude (Anthropic), written at build time"
+ }
+}

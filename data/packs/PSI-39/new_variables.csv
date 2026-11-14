@@ -1,0 +1,7 @@
+variable_id,label,unit,kind,group,definition_quote,definition_source_id,definition_locator
+burning_rate_cool_mm2_s,Cool-flame burning-rate constant,mm²/s,number,outcome,unknown,,
+extinction_diameter_cool_mm,Cool-flame extinction diameter,mm,number,outcome,unknown,,
+droplet_diameter_mm,Droplet diameter,mm,number,measurement,DropletDiameter_mm,S4,"row 0, column DropletDiameter_mm"
+flame_diameter_visible_mm,"Flame diameter, colour camera",mm,number,measurement,ColorCamFlameDiameter_mm,S5,"row 0, column ColorCamFlameDiameter_mm"
+cool_flame_diameter_mm,Cool-flame diameter (FWHM),mm,number,measurement,CoolFlameDiameterFWHM_mm,S18,"row 0, column CoolFlameDiameterFWHM_mm"
+fiber_supported,Droplet on a support fiber,,boolean,context,Fiber:,S67,p. 1

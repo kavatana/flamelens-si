@@ -1,0 +1,5 @@
+finding_id,accession,quote,source_id,locator,subject,variable_id,value_num,unit,gravity,conditions,test_ids
+F1,PSI-23,"Both radiative and kinetic (i.e., convective) extinction of the spherical flames appear to have been observed.",S1,p. 8,Spherical flames: both radiative and kinetic extinction appear to have been seen,,,,0g,,
+F2,PSI-23,Radiative extinction seems to occur at high flow rates and kinetic extinction at low flow rates.,S1,p. 8,"Radiative extinction at high fuel flow, kinetic extinction at low flow",,,,0g,,
+F3,PSI-23,"With helium, rather than nitrogen, dilution of both the fuel and oxygen, the extinction limits are shifted and kinetic extinction is generally difficult to discern.",S1,p. 8,With helium instead of nitrogen as diluent the extinction limits shift,,,,0g,,
+F4,PSI-23,"When ACME’s ISS testing ended in Feb. 2022, over 1,500 flames were ignited for its six experiments.",S1,p. 8,"Scope: over 1,500 flames were lit for the six ACME experiments, November 2017 to February 2022",,,,0g,,

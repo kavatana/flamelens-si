@@ -1,0 +1,5 @@
+variable_id,label,unit,kind,group,definition_quote,definition_source_id,definition_locator
+droplet_diameter_mm,Droplet diameter,mm,number,measurement,Droplet size as a function of time,S1,p. 22
+flame_diameter_oh_mm,"Flame diameter, OH camera (LLUV)",mm,number,measurement,LLUV flame size as a function of time,S1,p. 22
+flame_diameter_visible_mm,"Flame diameter, colour camera",mm,number,measurement,Color camera flame size as a function of time,S1,p. 22
+fiber_supported,Droplet on a support fiber,,boolean,measurement,Fiber—Yes or No depending on whether a support fiber was in place for the tests,S1,p. 25

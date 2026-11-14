@@ -1,0 +1,21 @@
+variable_id,label,unit,kind,group,definition_quote,definition_source_id,definition_locator
+saffire_anemometer_1_cm_s,Saffire anemometer 1,cm/s,number,measurement,Anemometer 1; cm/sec,R1,Calibrated Data!H1
+saffire_anemometer_2_cm_s,Saffire anemometer 2,cm/s,number,measurement,Anemometer 2; cm/sec,R1,Calibrated Data!I1
+saffire_radiometer_1_mw_cm2,Saffire radiometer 1,mW/cm²,number,measurement,Radiometer 1; mw/cm^2,R1,Calibrated Data!K1
+saffire_radiometer_2_mw_cm2,Saffire radiometer 2,mW/cm²,number,measurement,Radiometer 2; mw/cm^2,R1,Calibrated Data!L1
+saffire_radiometer_3_mw_cm2,Saffire radiometer 3,mW/cm²,number,measurement,Radiometer 3; mw/cm^2,R1,Calibrated Data!M1
+saffire_radiometer_4_mw_cm2,Saffire radiometer 4,mW/cm²,number,measurement,Radiometer 4; mw/cm^2,R1,Calibrated Data!N1
+saffire_humidity_pct,Saffire humidity,%,number,measurement,Humidity; %,R1,Calibrated Data!O1
+saffire_inlet_temp_c,Saffire test section inlet temperature,°C,number,measurement,Test Section Inlet Temp; Degrees C,R1,Calibrated Data!P1
+saffire_plume_temp_tc1_c,"Saffire plume temperature, thermocouple TC1",°C,number,measurement,Plume Temp 1 (TC1); Degrees C,R1,Calibrated Data!Q1
+saffire_plume_temp_tc2_c,"Saffire plume temperature, thermocouple TC2",°C,number,measurement,Plume Temp 2 (TC2); Degrees C,R1,Calibrated Data!R1
+saffire_plume_temp_tc3_c,"Saffire plume temperature, thermocouple TC3",°C,number,measurement,Plume Temp 3 (TC3); Degrees C,R1,Calibrated Data!S1
+saffire_plume_temp_tc4_c,"Saffire plume temperature, thermocouple TC4",°C,number,measurement,Plume Temp 4 (TC4); Degrees C,R1,Calibrated Data!T1
+saffire_plume_temp_tc5_c,"Saffire plume temperature, thermocouple TC5",°C,number,measurement,Plume Temp 5 (TC5); Degrees C,R1,Calibrated Data!U1
+saffire_plume_temp_tc6_c,"Saffire plume temperature, thermocouple TC6",°C,number,measurement,Plume Temp 6 (TC6); Degrees C,R1,Calibrated Data!V1
+saffire_sample_temp_tc7_c,"Saffire sample temperature, thermocouple TC7",°C,number,measurement,Sample Temp 1 (TC7); Degrees C,R1,Calibrated Data!W1
+saffire_sample_temp_tc8_c,"Saffire sample temperature, thermocouple TC8",°C,number,measurement,Sample Temp 2 (TC8); Degrees C,R1,Calibrated Data!X1
+saffire_sample_temp_tc9_c,"Saffire sample temperature, thermocouple TC9",°C,number,measurement,Sample Temp 3 (TC9); Degrees C,R1,Calibrated Data!Y1
+saffire_sample_temp_tc10_c,"Saffire sample temperature, thermocouple TC10",°C,number,measurement,Sample Temp 4 (TC10); Degrees C,R1,Calibrated Data!Z1
+saffire_sample_temp_tc11_c,"Saffire sample temperature, thermocouple TC11",°C,number,measurement,Sample Temp 5 (TC11); Degrees C,R1,Calibrated Data!AA1
+saffire_sample_temp_tc12_c,"Saffire sample temperature, thermocouple TC12",°C,number,measurement,Sample Temp 6 (TC12); Degrees C,R1,Calibrated Data!AB1

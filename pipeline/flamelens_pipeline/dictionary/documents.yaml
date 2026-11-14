@@ -1,0 +1,24 @@
+# NASA files, other than the experimental tables, that the pipeline reads.
+#
+# Each file is downloaded into data/raw/psi/documents/<accession>/ and recorded in the
+# manifest with its checksum. A file of kind "text" can be quoted: give a value or a column
+# `evidence_source: doc:<id>`, and the build stops unless the quotation is in the file word
+# for word. A file of kind "sheet" is kept as a snapshot so a figure taken from it can be
+# checked by hand; the pipeline does not read it.
+
+- id: bass2-readme
+  accession: PSI-25
+  file: "PSI-25_Science Documents_BASS-II_ReadMe.docx"
+  title: BASS-II ReadMe
+  kind: text
+  why: NASA's own explanation of the columns in the BASS-II test matrix, including the air-speed display.
+
+- id: bass2-fan-calibration
+  accession: PSI-25
+  file: "PSI-25_Reference Data_Fan calibration data.xlsx"
+  title: BASS-II fan calibration data
+  kind: sheet
+  why: >-
+    The air speed the duct reached at each fan setting. Its largest reading, 59 cm/s, is the
+    ceiling used when the Air display column is read, and its fan display reads 38 with no
+    air moving.

@@ -1,0 +1,10 @@
+test_id,accession,is_new,label,run_status,replicate_group,matched_by
+PSI-99/saffire2/1,PSI-99,0,Sample 2-1,as_run,,
+PSI-99/saffire2/2,PSI-99,0,Sample 2-2,as_run,,
+PSI-99/saffire2/3,PSI-99,0,Sample 2-3,as_run,,
+PSI-99/saffire2/4,PSI-99,0,Sample 2-4,as_run,,
+PSI-99/saffire2/5,PSI-99,0,Sample 2-5,as_run,,
+PSI-99/saffire2/6,PSI-99,0,Sample 2-6,as_run,,
+PSI-99/saffire2/7,PSI-99,0,Sample 2-7,as_run,,
+PSI-99/saffire2/8,PSI-99,0,Sample 2-8,as_run,,
+PSI-99/saffire2/9,PSI-99,0,Sample 2-9,as_run,,

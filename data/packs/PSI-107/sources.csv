@@ -1,0 +1,5 @@
+source_id,accession,file_name,psi_path,folder,bytes,sha256,source_kind,fetched_at
+S1,PSI-107,PSI-107_Raw Data_SmokePointReview-0g-3.xlsx,/Home/psi-data/PSI-107/Raw Data/PSI-107_Raw Data_SmokePointReview-0g-3.xlsx,Raw Data,295735,ed43c2b6c1cb82d1060ed4739a1ea04c68410e53e9f894f8078df0bda1f09fa9,analyzed_data,
+S2,PSI-107,PSI-107_Reports_SPICE_FinalReport.pdf,/Home/psi-data/PSI-107/Reports/PSI-107_Reports_SPICE_FinalReport.pdf,Reports,601754,95e76859017d201dcd6a9fb12f1df568aed77e0edf7a1b609975db37f32fa680,report,
+S3,PSI-107,PSI-107_Raw Data_Spice Flight Test Data II modified.xls,/Home/psi-data/PSI-107/Raw Data/PSI-107_Raw Data_Spice Flight Test Data II modified.xls,Raw Data,429568,52cdb88a3d6c1a4008abb3c1edc601f96a210985e1227e42687b5400784d108d,analyzed_data,
+G1,PSI-107,PSI-20_Science Documents_ISS_Researchers_Guide_-_Combustion_In_Reduced_Gravity.pdf,/Home/psi-data/PSI-20/Science Documents/PSI-20_Science Documents_ISS_Researchers_Guide_-_Combustion_In_Reduced_Gravity.pdf,Science Documents,1532064,d85c92823f8917979df00e09e8e0ca40f42092a330ef30dcb8a8af34e7ee6bc0,publication,

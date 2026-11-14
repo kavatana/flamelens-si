@@ -1,0 +1,8 @@
+{
+  "accession": "PSI-107",
+  "pack_version": "3",
+  "created": "",
+  "created_by": "FlameLens data team, with an SI tool",
+  "si_use": "An SI tool (Claude) read the SPICE smoke-point workbook and the final report, wrote and ran a script, which joins each smoke-point row to the site's SPICE rows by day, ignition time, fuel, nozzle, fuel rate and air speed, wrote the claims, and chose the sentences of the final report that are findings (listed in REPORT.md). No value was generated or read from a plot or image. No person has checked it yet. For the Guide findings the SI tool chose the sentences, and a script cuts each one word for word from the PDF's text and stops if it is not found.",
+  "summary": "SPICE: 109 claims on 85 tests. NASA's Data II flight record gives flame lengths (new variable flame_length_mm, NASA gives no definition) for 67 tests that fit exactly one site row, plus maximum flame width and Nikon flame height for a few; the smoke-point datasheet gives smoke point length (defined in NASA's words) for 4 tests, with air speed and nozzle size as second witnesses; 23 findings from NASA's final report. Unmatched rows of both files are listed in REPORT.md. Version 3: 1 finding in NASA's words from NASA's ISS Researcher's Guide: Combustion Science (2015), one of the challenge's listed resources."
+}

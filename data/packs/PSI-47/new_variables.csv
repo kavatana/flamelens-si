@@ -1,0 +1,6 @@
+variable_id,label,unit,kind,group,definition_quote,definition_source_id,definition_locator
+particle_number_conc_cm3,Particle number concentration (P-Trak),particles/cm³,number,measurement,"The P-Trak gives a number count of the particles in an aerosol, in readings of particles/cm3.",S2,section II.A (Discussion of Method/Protocol)
+particle_mass_conc_mg_m3,Particle mass concentration (DustTrak),mg/m³,number,measurement,"DustTrak gives measurements of the total mass, in mg/m3.",S2,section II.A (Discussion of Method/Protocol)
+mass_per_particle_g,Mass per particle (DustTrak mass over P-Trak count),g,number,measurement,Mass Per Particle (gram),S1,Voice Down Data Summary!A23
+particle_diameter_mass_um,Particle diameter from the mass per particle (assumed density),µm,number,measurement,Particle Diameter (micon),S4,Data!B27
+dust_fill_toggles,Fill-valve toggles used to put dust into the sample bag,count,number,context,Six toggles were used to introduce dust into Sample Bag #2.,S2,"section II.D.5 (DAFT-3, Session 1, GMT 233, 2006)"

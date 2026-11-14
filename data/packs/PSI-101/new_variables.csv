@@ -1,0 +1,6 @@
+variable_id,label,unit,kind,group,definition_quote,definition_source_id,definition_locator
+smoke_count_mean_diameter_um,Smoke count mean diameter,µm,number,measurement,Count Mean Diameter (M1/M0) (µm),S1,"p. 4, Table 1 header"
+smoke_diameter_average_mass_um,Smoke diameter of average mass,µm,number,measurement,Diameter of Average Mass (M3/M0)1/3 (µm),S1,"p. 4, Table 1 header"
+ptrak_count_thousand_per_cm3,"P-Trak particle count reading, thousands per cm3 (as logged, before NASA's dilution and calibration)",thousand particles/cm3,number,measurement,PTrakMeasurement(PtPerCC)/1000 (Right Axis),S4,Sheet used to Graph!G1
+dusttrak_b_mass_mg_per_m3,"DustTrak B smoke mass concentration reading (as logged, before NASA's dilution and calibration)",mg/m3,number,measurement,DustTrakBMeasurement(MgPerM3) (Right Axis),S4,Sheet used to Graph!I1
+iss_detector_scatter_volts,ISS smoke detector scatter reading,V,number,measurement,ISSDetectorScatterMeasurement(Volts),S4,Sheet used to Graph!C1

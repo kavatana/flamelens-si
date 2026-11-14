@@ -1,0 +1,95 @@
+# The variable dictionary.
+#
+# Every column of every PSI experimental table is mapped onto one of these canonical
+# variables (see tables.yaml). This is what makes 24 investigations comparable.
+#
+#   kind: number | category | boolean | text
+#   unit: the canonical unit that every source value is converted to
+#   group: where the variable is shown in the interface
+
+# --- Atmosphere -----------------------------------------------------------------------
+o2_fraction:
+  label: Oxygen
+  unit: fraction
+  kind: number
+  group: atmosphere
+  description: >-
+    Oxygen mole fraction of the oxidizer. For most tests this is the ambient atmosphere in
+    the chamber; for inverse flames it is the oxidizer stream fed through the burner
+    (see o2_basis).
+o2_basis:
+  label: Oxygen refers to
+  kind: category
+  group: atmosphere
+  description: >-
+    "ambient" when oxygen describes the atmosphere surrounding the fuel; "oxidizer stream"
+    when oxygen is injected into a fuel atmosphere (inverse flames).
+pressure_kpa:
+  label: Pressure
+  unit: kPa
+  kind: number
+  group: atmosphere
+  description: Total pressure of the test atmosphere.
+n2_fraction: {label: Nitrogen, unit: fraction, kind: number, group: atmosphere, description: Nitrogen mole fraction of the ambient atmosphere.}
+co2_fraction: {label: Carbon dioxide, unit: fraction, kind: number, group: atmosphere, description: Carbon dioxide mole fraction of the ambient atmosphere (a suppressant in FLEX).}
+he_fraction: {label: Helium, unit: fraction, kind: number, group: atmosphere, description: Helium mole fraction of the ambient atmosphere.}
+diluent: {label: Diluent, kind: category, group: atmosphere, description: Inert gas or gases making up the balance of the atmosphere.}
+flow_speed_cm_s: {label: Flow speed, unit: cm/s, kind: number, group: atmosphere, description: Speed of the forced gas flow past the fuel.}
+flow_direction: {label: Flow direction, kind: category, group: atmosphere, description: "Direction of the forced flow relative to flame spread: concurrent or opposed."}
+ambient_temperature_c: {label: Ambient temperature, unit: "°C", kind: number, group: atmosphere, description: Initial temperature of the test atmosphere.}
+
+# --- Fuel -----------------------------------------------------------------------------
+fuel: {label: Fuel or material, kind: category, group: fuel, description: Fuel species or solid material, under one naming scheme.}
+fuel_phase: {label: Fuel phase, kind: category, group: fuel, description: "gas, liquid or solid."}
+fuel_fraction: {label: Fuel fraction, unit: fraction, kind: number, group: fuel, description: Mole (volume) fraction of fuel in the fuel stream; the rest is inert diluent.}
+fuel_diluent: {label: Fuel diluent, kind: category, group: fuel, description: Inert gas mixed into the fuel stream.}
+fuel_flow_mg_s: {label: Fuel flow rate, unit: mg/s, kind: number, group: fuel, description: Mass flow rate of fuel.}
+oxidizer_flow_mg_s: {label: Oxidizer flow rate, unit: mg/s, kind: number, group: fuel, description: Mass flow rate of oxygen through the burner (inverse flames).}
+geometry: {label: Geometry, kind: category, group: fuel, description: Shape of the fuel sample or burner.}
+size_mm: {label: Characteristic size, unit: mm, kind: number, group: fuel, description: "Droplet, burner, nozzle, rod or sphere diameter."}
+sample_thickness_mm: {label: Sample thickness, unit: mm, kind: number, group: fuel, description: Thickness of a solid sample.}
+sample_length_cm: {label: Sample length, unit: cm, kind: number, group: fuel, description: Length of a solid sample.}
+sample_width_cm: {label: Sample width, unit: cm, kind: number, group: fuel, description: Width of a solid sample.}
+
+# --- Ignition and outcome -------------------------------------------------------------
+igniter_power_w: {label: Igniter power, unit: W, kind: number, group: outcome, description: Electrical power applied to the igniter.}
+ignition_time_s: {label: Ignition time, unit: s, kind: number, group: outcome, description: How long the igniter was powered.}
+ignited: {label: Ignited, kind: boolean, group: outcome, description: Whether a hot flame was established.}
+flames_ignited: {label: Flames ignited, unit: count, kind: number, group: outcome, description: Number of flames ignited in a test session (session-level tables).}
+burn_time_s: {label: Burn time, unit: s, kind: number, group: outcome, description: Duration of burning.}
+end_mode: {label: How the test ended, kind: category, group: outcome, description: "Self-extinguished, flow terminated, extinction, disruption or burned to completion."}
+burning_rate_mm2_s:
+  label: Burning-rate constant
+  unit: "mm²/s"
+  kind: number
+  group: outcome
+  description: >-
+    Droplet burning-rate constant. The PSI column header reads "Burning rate; mm"; droplet
+    burning-rate constants are conventionally reported in mm²/s and the values are in that range.
+extinction_diameter_mm: {label: Extinction diameter, unit: mm, kind: number, group: outcome, description: Droplet diameter at which the visible flame went out.}
+spread_rate_mm_s: {label: Flame spread rate, unit: mm/s, kind: number, group: outcome, description: Speed at which the flame moved along a solid sample in microgravity.}
+burn_length_cm: {label: Burn length, unit: cm, kind: number, group: outcome, description: Length of a solid sample consumed in microgravity.}
+spread_rate_1g_mm_s: {label: Flame spread rate at 1 g, unit: mm/s, kind: number, group: outcome, description: Spread rate of the same material in the normal-gravity comparison test.}
+burn_length_1g_cm: {label: Burn length at 1 g, unit: cm, kind: number, group: outcome, description: Burn length of the same material in the normal-gravity comparison test.}
+cool_flame: {label: Cool flame observed, kind: boolean, group: outcome, description: Whether a low-temperature "cool" flame was observed.}
+flame_color: {label: Flame colour, kind: category, group: outcome, description: Visible colour of the flame as logged by the science team.}
+
+# --- Measurements ---------------------------------------------------------------------
+o2_fraction_final: {label: Oxygen at end of test, unit: fraction, kind: number, group: measurement, description: Oxygen mole fraction measured after the test.}
+co2_fraction_final: {label: Carbon dioxide at end of test, unit: fraction, kind: number, group: measurement, description: Carbon dioxide mole fraction measured after the test.}
+co_ppm_final: {label: Carbon monoxide at end of test, unit: ppm, kind: number, group: measurement, description: Carbon monoxide concentration measured after the test.}
+adiabatic_flame_temp_k: {label: Adiabatic flame temperature, unit: K, kind: number, group: measurement, description: Calculated adiabatic flame temperature for the test's reactants.}
+stoich_mixture_fraction: {label: Stoichiometric mixture fraction, unit: ratio, kind: number, group: measurement, description: Zst - where the flame sits between the fuel and oxidizer sides.}
+peak_burner_temp_c: {label: Peak burner temperature, unit: "°C", kind: number, group: measurement, description: Highest burner surface temperature reached.}
+heater_ratio: {label: Heater resistance ratio, unit: ratio, kind: number, group: measurement, description: "Rt/R0, the heater wire's resistance relative to room temperature - a proxy for sample heating temperature in the smoke experiments."}
+heating_time_s: {label: Heating time, unit: s, kind: number, group: measurement, description: How long the sample was heated to generate smoke.}
+aging_time_s: {label: Smoke aging time, unit: s, kind: number, group: measurement, description: Time the smoke was held before measurement.}
+mass_loss_rate_mg_min: {label: Mass loss rate, unit: mg/min, kind: number, group: measurement, description: Rate at which the heated sample lost mass.}
+
+# --- Context --------------------------------------------------------------------------
+flame_type: {label: Flame type, kind: category, group: context, description: "normal (fuel flows into oxidizer) or inverse (oxidizer flows into fuel)."}
+field_polarity: {label: Electric-field polarity, kind: category, group: context, description: Polarity of the high-voltage mesh electrode relative to the burner.}
+test_date: {label: Test date, kind: text, group: context, description: Date of the test or session (ISO format).}
+investigator: {label: Investigator, kind: text, group: context, description: Principal investigator whose test matrix the run belongs to.}
+description: {label: Description, kind: text, group: context, description: Free-text description from the PSI table.}
+notes: {label: Notes, kind: text, group: context, description: Operator comments from the PSI table.}

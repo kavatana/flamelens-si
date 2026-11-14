@@ -1,0 +1,20 @@
+{
+  "name": "flamelens-si",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FlameLens SI: what NASA's microgravity combustion archive says about fire in a crew cabin. NASA Space Apps Challenge 2026, Flame in Freefall.",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @flamelens/api --filter @flamelens/web run dev",
+    "build": "node scripts/build.mjs",
+    "start": "pnpm --parallel --filter @flamelens/api --filter @flamelens/web run start",
+    "typecheck": "pnpm -r run typecheck",
+    "lint": "pnpm -r --if-present run lint",
+    "test": "pnpm -r run test",
+    "check": "pnpm typecheck && pnpm lint && pnpm test",
+    "db:setup": "pnpm --filter @flamelens/api run db:setup"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "packageManager": "pnpm@10.33.2"
+}

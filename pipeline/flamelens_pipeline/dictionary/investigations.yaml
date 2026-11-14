@@ -1,0 +1,613 @@
+# Curated knowledge about each investigation.
+#
+# Everything in this file was written by the SI (Claude) after reading the PSI record, and
+# every judgement carries a verbatim quote from NASA's own text. The pipeline refuses to
+# build if a quote cannot be found in its source, so nothing here can drift from PSI.
+#
+#   source: psi        quote is from this investigation's PSI record
+#   source: challenge  quote is from NASA's challenge statement
+#
+# relevance.level
+#   3 direct       named by NASA as a spacecraft fire-safety study
+#   2 supporting   informs a fire-safety question (extreme oxygen, partial gravity, modelling of a direct study)
+#   1 fundamental  combustion science that is "still relevant ... just not as strongly or directly"
+#
+# pillars: 0 none, 1 touches, 2 contributes, 3 primary purpose
+
+PSI-26:
+  short: BASS
+  expansion: Burning and Suppression of Solids
+  family: msg-duct
+  platform: ISS
+  one_line: Burned small solid samples in a fan-driven duct to see how real materials burn without gravity, and whether a nitrogen jet puts them out.
+  fuel_phases: [solid]
+  fire_phases: [ignition, spread, extinction]
+  varied: [sample material, sample shape and size, flow direction, flow speed, nitrogen suppressant]
+  relevance:
+    level: 3
+    source: challenge
+    quote: "Flammability studies focus on solid materials such as fabrics and plastics, as studied in the Burning and Suppression of Solids (BASS and BASS-II) and Spacecraft Fire Safety Demonstration (Saffire-I, -II, and -III) investigations."
+  pillars:
+    prevention: {score: 3, quote: "Begin to bridge the gap between the normal gravity NASA-STD-6001 Test#1 method, ground-based microgravity tests, and actual material flammability in microgravity."}
+    suppression: {score: 3, quote: "Assess the effectiveness of an inert, gaseous extinguishing agent (similar to that used on ISS) in putting out flames over different materials, geometries, preheating, and flow."}
+  insights:
+    - text: NASA's materials screening test is run at normal gravity and does not account for low-gravity behaviour.
+      quote: "Current NASA spacecraft materials selection is based on a standard test method (NASA–STD–6001 Test 1) that segregates material based on 1-g behavior without consideration of low gravity effects."
+    - text: The working hypothesis is that, with ventilation, a material burns at least as well in microgravity as on Earth.
+      quote: "materials in microgravity, with adequate ventilation, burn as well if not better than the same material in normal gravity"
+  earth:
+    theme: materials-standards
+    text: Radiative heat-release data feeds performance-based material selection and fire models.
+    quote: "extend heat release data from tests like the NASA cone calorimeter test"
+
+PSI-25:
+  short: BASS-II
+  expansion: Burning and Suppression of Solids - II
+  family: msg-duct
+  platform: ISS
+  one_line: Mapped ignition, flame spread and extinction limits of rods, slabs, films and fabric as oxygen was lowered and airflow changed.
+  fuel_phases: [solid]
+  fire_phases: [ignition, spread, extinction]
+  varied: [oxygen concentration, flow speed and direction, sample material, sample shape, sample thickness]
+  relevance:
+    level: 3
+    source: challenge
+    quote: "Flammability studies focus on solid materials such as fabrics and plastics, as studied in the Burning and Suppression of Solids (BASS and BASS-II) and Spacecraft Fire Safety Demonstration (Saffire-I, -II, and -III) investigations."
+  pillars:
+    prevention: {score: 3, quote: "Study the ignition, flame growth, flame spread, and extinction limits for solid fuels burning in low-velocity forced flows in microgravity."}
+    suppression: {score: 2, quote: "BASS-II results contribute to the combustion computational models used in the design of fire detection and suppression systems in microgravity and on Earth."}
+    detection: {score: 1, quote: "BASS-II results contribute to the combustion computational models used in the design of fire detection and suppression systems in microgravity and on Earth."}
+  insights:
+    - text: Oxygen was only varied downward from 21%, by adding nitrogen - so BASS-II measures limits below cabin oxygen, not the enriched atmospheres planned for the Moon.
+      quote: "Main variables are airflow speed and oxygen concentration (oxygen varied below 21% by adding nitrogen)."
+    - text: The upward-burning screening test used on Earth may not be the worst case in space.
+      quote: "NASA tests and controls materials from a flammability perspective using an upward burning test in normal gravity, which is considered to be the worst-case geometry"
+  earth:
+    theme: fire-modelling
+    text: Simpler microgravity flames validate fire models that are then applied to fires on Earth.
+    quote: "These models can then be used to more accurately study flames on Earth"
+
+PSI-98:
+  short: Saffire-I
+  expansion: Spacecraft Fire Safety Experiment - I
+  family: saffire
+  platform: Cygnus
+  one_line: Lit a metre-long sheet of cotton-fiberglass fabric inside an uncrewed Cygnus cargo ship to see how a large fire grows in low gravity.
+  fuel_phases: [solid]
+  fire_phases: [ignition, spread]
+  varied: [flow direction]
+  relevance:
+    level: 3
+    source: challenge
+    quote: "Flammability studies focus on solid materials such as fabrics and plastics, as studied in the Burning and Suppression of Solids (BASS and BASS-II) and Spacecraft Fire Safety Demonstration (Saffire-I, -II, and -III) investigations."
+  pillars:
+    prevention: {score: 3, quote: "investigate the low-g flammability limits compared to those obtained in NASA’s normal"}
+    detection: {score: 1, quote: "Instruments on an unmanned cargo vessel measure oxygen, carbon dioxide, heat, pressure and flame growth"}
+  insights:
+    - text: Saffire exists because fire standards derived on Earth carry unknown risk when applied to spacecraft.
+      quote: "the use of terrestrial fires and fire standards to design spacecraft fire safety systems presents an inherent risk to the vehicle because of the significant level of uncertainty"
+    - text: It is the only way to study a realistically large fire, because that cannot be done safely with crew aboard.
+      quote: "provides a new way to study a realistic fire on an exploration vehicle, which has not been possible in the past because the risks are too high"
+  earth:
+    theme: materials-standards
+    text: Results test whether NASA's material selection criteria hold up, which informs flammability screening generally.
+    quote: "help to validate NASA’s material selection criteria"
+
+PSI-99:
+  short: Saffire-II
+  expansion: Spacecraft Fire Experiment - II
+  family: saffire
+  platform: Cygnus
+  one_line: Burned nine smaller samples - silicone, cotton-fiberglass, acrylic and Nomex - and compared each with the same material at normal gravity.
+  fuel_phases: [solid]
+  fire_phases: [ignition, spread, extinction]
+  varied: [sample material, sample thickness, flow direction, igniter power]
+  relevance:
+    level: 3
+    source: challenge
+    quote: "Flammability studies focus on solid materials such as fabrics and plastics, as studied in the Burning and Suppression of Solids (BASS and BASS-II) and Spacecraft Fire Safety Demonstration (Saffire-I, -II, and -III) investigations."
+  pillars:
+    prevention: {score: 3, quote: "investigate the low-g flammability limits compared to those obtained in NASA’s normal gravity material flammability screening test"}
+    detection: {score: 1, quote: "Instruments on an unmanned cargo vessel measure oxygen, carbon dioxide, heat, pressure and flame growth"}
+  insights:
+    - text: The sample card held nine materials so that flammability limits could be compared across them in one flight.
+      quote: "the Saffire-II investigation added more samples including SIBAL, silicone, structure PMMA, flat PMMA, and PMMA with Nomex"
+  earth:
+    theme: materials-standards
+    text: Results test whether NASA's material selection criteria hold up, which informs flammability screening generally.
+    quote: "help to validate NASA’s material selection criteria"
+
+PSI-100:
+  short: Saffire-III
+  expansion: Spacecraft Fire Experiment - III
+  family: saffire
+  platform: Cygnus
+  one_line: Repeated the large-fabric burn of Saffire-I at a higher airflow, 30 cm/s instead of 20 cm/s.
+  fuel_phases: [solid]
+  fire_phases: [ignition, spread]
+  varied: [flow speed, flow direction]
+  relevance:
+    level: 3
+    source: challenge
+    quote: "Flammability studies focus on solid materials such as fabrics and plastics, as studied in the Burning and Suppression of Solids (BASS and BASS-II) and Spacecraft Fire Safety Demonstration (Saffire-I, -II, and -III) investigations."
+  pillars:
+    prevention: {score: 3, quote: "investigate the low-g flammability limits compared to those obtained in NASA’s normal gravity material flammability screening test"}
+    detection: {score: 1, quote: "solid state sensors were used to measure pressure, CO2 and O2 mole faction"}
+  insights:
+    - text: Saffire-III changes one thing relative to Saffire-I - the airflow - so the pair isolates the effect of ventilation on a large fire.
+      quote: "the experiments were conducted at a flow velocity of 30 cm/s compared to 20 cm/s during Saffire I"
+  earth:
+    theme: materials-standards
+    text: Results test whether NASA's material selection criteria hold up, which informs flammability screening generally.
+    quote: "help to validate NASA’s material selection criteria"
+
+PSI-69:
+  short: FLEX
+  expansion: Flame Extinguishment Experiment
+  family: mdca
+  platform: ISS
+  one_line: Burned single fuel droplets in atmospheres diluted with carbon dioxide or helium to map where flames can no longer survive.
+  fuel_phases: [liquid]
+  fire_phases: [extinction]
+  varied: [oxygen concentration, pressure, suppressant gas and amount, fuel, droplet size]
+  relevance:
+    level: 3
+    source: challenge
+    quote: "Suppression was studied in the Flame Extinguishment Experiment (FLEX) through dilution of the chamber atmosphere with carbon dioxide and helium, both of which suppress fire."
+  pillars:
+    suppression: {score: 3, quote: "measure the effectiveness of various gaseous fire suppressants such as CO2, He, and SF6"}
+    prevention: {score: 2, quote: "map the flammability limits of liquid fuels in microgravity environments"}
+  insights:
+    - text: FLEX set out to find the limiting oxygen level as pressure changes, and how a suppressant moves that limit.
+      quote: "determine the Limiting Oxygen Index (LOI) as a function of ambient pressure and determine how the presence of a suppressant influences the LOI"
+    - text: Its findings are framed as applying to settings where ordinary fire suppression may not work.
+      quote: "ensuring the safety of crew members in environments where traditional fire suppression methods may be ineffective"
+  earth:
+    theme: confined-spaces
+    text: Fire safety in other sealed or low-pressure environments.
+    quote: "advance fire safety in confined and reduced-gravity environments, such as submarines or high-altitude aircraft"
+
+PSI-20:
+  short: BRE
+  expansion: Burning Rate Emulator (ACME)
+  family: acme
+  platform: ISS
+  one_line: Used a gas burner to imitate burning solids, and tested it in still air at the very atmospheres NASA is considering for exploration.
+  fuel_phases: [gas]
+  emulates:
+    phases: [solid, liquid]
+    quote: "Emphasize fuel conditions that can be related to a diverse range of condensed fuels."
+  fire_phases: [ignition, extinction]
+  varied: [oxygen concentration, pressure, burner size, fuel and dilution]
+  relevance:
+    level: 3
+    source: challenge
+    quote: "the Burning Rate Emulator (BRE) experiment of the Advanced Combustion via Microgravity Experiments (ACME) project was a study of materials flammability in still atmospheres as a function of material properties"
+  pillars:
+    prevention: {score: 3, quote: "The BRE flight program seeks to establish the burning conditions in a quiescent microgravity ambient in terms of material properties."}
+    suppression: {score: 2, quote: "the cessation of ventilation is an established step in putting out spacecraft fires"}
+  insights:
+    - text: BRE deliberately tested the three cabin atmospheres NASA considers for crewed missions, including the 34% oxygen exploration atmosphere.
+      quote: "NASA - considered atmosphere for human space missions will be examined: 14.7 psia, 21 % oxygen: 10.2 psia, 26.5 %; and 8.2 psia, 34 % oxygen."
+    - text: Turning off ventilation - a standard step in fighting a spacecraft fire - did not stop burning in oxygen-enriched atmospheres.
+      quote: "The ongoing combustion without air flow was notably seen in elevated-oxygen atmospheres which are being considered for use in future spacecraft, whereas such flames in a normal atmosphere of 21% oxygen self-extinguished in a short time."
+  earth:
+    theme: materials-standards
+    text: A burner that emulates condensed fuels gives a repeatable way to rank the flammability of materials.
+    quote: "Quasi-steady burning corresponding to various condensed-phase materials (such as PMMA and Nylon) was observed"
+
+PSI-102:
+  short: SAME
+  expansion: Smoke and Aerosol Measurement Experiment
+  family: smoke
+  platform: ISS
+  one_line: Heated common spacecraft materials until they smoked and measured the particles, to learn what a smoke detector must sense in space.
+  fuel_phases: [solid]
+  fire_phases: [smoke]
+  varied: [sample material, airflow, heating rate, smoke aging time]
+  relevance:
+    level: 3
+    source: challenge
+    quote: "Fire detection was tested in microgravity through the Smoke and Aerosol Measurement Experiment studies (SAME and SAME-R)."
+  pillars:
+    detection: {score: 3, quote: "The SAME experiment will provide technology for an advanced fire detector for future spacecraft that will be used for long duration missions."}
+  insights:
+    - text: Without buoyancy, smoke particles are expected to grow larger than on Earth - which changes what a detector sees.
+      quote: "will lead to larger particles compared to those produced in 1g"
+    - text: The data are meant to judge whether today's detectors are sensitive enough to low-gravity smoke.
+      quote: "SAME will provide quantitative data on the sensitivity of these detectors to reduced gravity smokes"
+  earth:
+    theme: smoke-detection
+    text: Particle-size data for early, pre-flame smoke supports better smoke detector design.
+    quote: "provide technology for an advanced fire detector"
+
+PSI-101:
+  short: SAME-R
+  expansion: Smoke Aerosol Measurement Experiment - Reflight
+  family: smoke
+  platform: ISS
+  one_line: Re-flew SAME with a new foam material, hotter and no-flow heating, and a better particle instrument.
+  fuel_phases: [solid]
+  fire_phases: [smoke]
+  varied: [sample material, airflow, heating temperature, smoke aging time]
+  relevance:
+    level: 3
+    source: challenge
+    quote: "Fire detection was tested in microgravity through the Smoke and Aerosol Measurement Experiment studies (SAME and SAME-R)."
+  pillars:
+    detection: {score: 3, quote: "the results from SAME-R can lead to technology for an advanced fire detector for future spacecraft that will be used for long duration missions"}
+  insights:
+    - text: SAME-R added tests with no airflow while the sample was heated - the case closest to a stagnant corner of a cabin.
+      quote: "test conditions were broadened including higher heating temperatures and no-flow during sample heating time"
+    - text: The first flight's particle samples were contaminated, which is why the reflight exists.
+      quote: "all the TEM grids were severely contaminated with some unidentified foreign particles"
+  earth:
+    theme: smoke-detection
+    text: Particle-size data for early, pre-flame smoke supports better smoke detector design.
+    quote: "can lead to technology for an advanced fire detector"
+
+PSI-47:
+  short: DAFT
+  expansion: Dust and Aerosol Measurement Feasibility Test (DAFT and DAFT-2)
+  family: smoke
+  platform: ISS
+  one_line: Checked that a commercial particle counter still works without gravity, so that the SAME smoke measurements could be trusted.
+  fuel_phases: []
+  fire_phases: [smoke]
+  varied: [instrument, sampling location]
+  relevance:
+    level: 2
+    source: challenge
+    quote: "One of the instruments used for smoke detection in the SAME and SAME-R studies was instead used to detect dust in the Dust and Aerosol Measurement Feasibility Test (DAFT and DAFT-2) studies."
+  pillars:
+    detection: {score: 2, quote: "This research will impact the development of novel fire and smoke detection systems for the International Space Station and future spacecrafts."}
+  insights:
+    - text: The counter normally relies on gravity to recycle its working fluid, so it had to be modified and proven before SAME could use it.
+      quote: "there were concerns that th P-Trak would not be reliable in microgravity as it relies on gravity to recycle isopropyl alcohol used in the measurement process"
+  earth:
+    theme: smoke-detection
+    text: The modified instrument design carries over to other sealed environments.
+    quote: "such as submarines or underwater laboratories where accurate detection of smoke can save lives"
+
+PSI-68:
+  short: FLEX-2
+  expansion: Flame Extinguishment Experiment - 2
+  family: mdca
+  platform: ISS
+  one_line: Extended FLEX to more fuels, two-component droplets and wider oxygen and pressure ranges.
+  fuel_phases: [liquid]
+  fire_phases: [extinction]
+  varied: [fuel and fuel blend, oxygen concentration, pressure, diluent gas, droplet size, flow speed]
+  relevance:
+    level: 2
+    source: psi
+    quote: "Study flame extinction mechanisms and their boundaries."
+  pillars:
+    suppression: {score: 2, quote: "Study flame extinction mechanisms and their boundaries."}
+    prevention: {score: 2, quote: "Determine the influence of droplet interactions on the flammability limits and extinction behavior of droplet arrays."}
+  insights:
+    - text: The chamber atmosphere was taken up to 40% oxygen and from half to three atmospheres of pressure.
+      quote: "varied in pressure between 0.5 atm to 3.0 atm and O2 concentration between 0.1 to 0.4 mole fraction"
+  earth:
+    theme: clean-combustion
+    text: Benchmark droplet data for cleaner, more efficient liquid-fuel combustors.
+    quote: "The combustion of liquid fuels is the overwhelming energy source in the transportation sector."
+
+PSI-39:
+  short: CFI
+  expansion: Cool Flames Investigation
+  family: mdca
+  platform: ISS
+  one_line: Studied the faint, low-temperature "cool flames" that keep a droplet burning after its visible flame has gone out.
+  fuel_phases: [liquid]
+  fire_phases: [extinction]
+  varied: [pressure, oxygen concentration, helium dilution, fuel blend]
+  relevance:
+    level: 2
+    source: psi
+    quote: "Investigate the relationship between droplet size, pressure, and flame extinction"
+  pillars:
+    suppression: {score: 2, quote: "Analyze the effects of helium dilution on cool flame behavior."}
+    prevention: {score: 1, quote: "A basic understanding of cool flames is important for understanding ignition phenomena of practical fuels and fuel additives."}
+  insights:
+    - text: Cool flames matter for fire safety because a fire that looks extinguished can still be reacting.
+      quote: "revealing critical parameters like droplet extinction diameters and flame dynamics that are not observable on Earth"
+  earth:
+    theme: clean-combustion
+    text: Cool-flame chemistry underpins cleaner, high-efficiency engines.
+    quote: "Cool flames play a key role in the development and selection of new fuels and the design of advanced engines"
+
+PSI-159:
+  short: CFI-G
+  expansion: Cool Flames Investigation with Gases (ACME)
+  family: acme
+  platform: ISS
+  one_line: Found the conditions under which gas-fed spherical flames turn into cool flames, including the highest-oxygen tests in PSI.
+  fuel_phases: [gas]
+  fire_phases: [ignition, extinction]
+  varied: [fuel, oxygen concentration, pressure, fuel dilution, flow rate, flame direction]
+  relevance:
+    level: 2
+    source: challenge
+    quote: "Microgravity tests with the highest oxygen concentrations were conducted as part of the ACME's Cool Flames Investigation with Gases (CFI-G)."
+  pillars:
+    prevention: {score: 2, quote: "Determine the conditions for which cool diffusion flames occur for propane, n-butane, and n-pentane"}
+    suppression: {score: 1, quote: "Cool diffusion flames for which a decrease in fluent flow rate will cause extinction"}
+  insights:
+    - text: Its high oxygen values belong to "inside-out" flames, where oxygen is injected into fuel - not to an oxygen-rich cabin atmosphere.
+      source: challenge
+      quote: "an oxygen-nitrogen mixture of up to 85% oxygen flowed from the spherical burner creating an inside-out flame"
+    - text: The tests span reduced and elevated pressures for both flame directions.
+      quote: "Consider multiple fuels, a range of reactant dilutions, flow rates, and pressures for normal and inverse convection directions."
+  earth:
+    theme: clean-combustion
+    text: Cool-flame kinetics for more efficient, ultra-lean engines.
+    quote: "This should facilitate the development of more efficient internal combustion engines."
+
+PSI-22:
+  short: E-FIELD Flames
+  expansion: Electric-Field Effects on Laminar Diffusion Flames (ACME)
+  family: acme
+  platform: ISS
+  one_line: Applied a high-voltage field to small gas flames; the resulting ion wind reshapes a flame much as weak gravity would.
+  fuel_phases: [gas]
+  fire_phases: [extinction]
+  varied: [field polarity and strength, fuel, fuel dilution, burner type]
+  relevance:
+    level: 2
+    source: challenge
+    quote: "Partial gravity was mimicked in ACME's Electric-Field Effects on Laminar Diffusion Flames (E-FIELD Flames) experiment through the effect of the electric field on the ions that naturally occur in flames."
+  pillars:
+    suppression: {score: 1, quote: "enabling precise manipulation of flame stability, soot behavior, and combustion dynamics through ion-driven convection"}
+  insights:
+    - text: NASA states plainly that this work was not done for a space application - its value to fire safety is as a stand-in for partial gravity.
+      quote: "The E-FIELD Flames research is not being conducted to serve any space applications"
+  earth:
+    theme: clean-combustion
+    text: Electric fields as a way to cut pollutants from practical burners.
+    quote: "The use of electric fields to control flames can reduce the production of harmful pollutants in practical terrestrial combustion."
+
+PSI-10:
+  short: Flame Design
+  expansion: Flame Design (ACME)
+  family: acme
+  platform: ISS
+  one_line: Measured when spherical gas flames start to make soot and when they go out, for both normal and inside-out flames.
+  fuel_phases: [gas]
+  fire_phases: [extinction]
+  varied: [oxygen concentration, pressure, fuel dilution, flow rate, flame direction]
+  relevance:
+    level: 1
+    source: challenge
+    quote: "Other combustion investigations within the PSI database (but not explicitly referenced above) are still relevant to fire safety, just not as strongly or directly."
+  pillars:
+    prevention: {score: 1, quote: "Evaluate whether pseudo-flammability limits can be obtained for these flames."}
+    suppression: {score: 1, quote: "Obtain extinction limits as functions of Zst, amount of N2, and pressure for normal and inverse spherical C2H4 and CH4 flames."}
+  insights:
+    - text: The team proposed a single temperature below which a microgravity spherical flame goes out.
+      quote: "Microgravity spherical diffusion flames extinguish when the peak temperature first decreases below 1130 K."
+  earth:
+    theme: clean-combustion
+    text: Lower-soot, more efficient combustors and power plants.
+    quote: "improving efficiency and reducing pollutant emissions in terrestrial combustors"
+
+PSI-21:
+  short: CLD Flame
+  expansion: Coflow Laminar Diffusion Flame (ACME)
+  family: acme
+  platform: ISS
+  one_line: Pushed methane and ethylene jet flames to their dilute and sooty extremes to give modellers benchmark data.
+  fuel_phases: [gas]
+  fire_phases: [extinction]
+  varied: [fuel, fuel dilution, flow velocity]
+  relevance:
+    level: 1
+    source: challenge
+    quote: "Other combustion investigations within the PSI database (but not explicitly referenced above) are still relevant to fire safety, just not as strongly or directly."
+  pillars:
+    suppression: {score: 1, quote: "an understanding of those factors that affect flame extinction in diffusion flames is critical in the suppression of fires"}
+    detection: {score: 1, quote: "Characterize the sooting tendencies of diffusion flames with long residence times"}
+  insights:
+    - text: NASA links this fundamental flame work to fire suppression through extinction physics.
+      quote: "an understanding of those factors that affect flame extinction in diffusion flames is critical in the suppression of fires and in improving engine efficiency"
+  earth:
+    theme: clean-combustion
+    text: Better soot and extinction models for practical burners and engines.
+    quote: "Diffusion flames are the flame type of most practical combustion devices."
+
+PSI-23:
+  short: s-Flame
+  expansion: Structure and Response of Spherical Diffusion Flames (ACME)
+  family: acme
+  platform: ISS
+  one_line: Created one-dimensional spherical flames of hydrogen, methane and ethylene to test detailed chemistry and extinction models.
+  fuel_phases: [gas]
+  fire_phases: [extinction]
+  varied: [fuel and fuel blend, diluent gas, oxygen concentration, flow rate]
+  relevance:
+    level: 1
+    source: challenge
+    quote: "Other combustion investigations within the PSI database (but not explicitly referenced above) are still relevant to fire safety, just not as strongly or directly."
+  pillars:
+    suppression: {score: 1, quote: "radiative/chemical-kinetic extinction limits (high system Damköhler numbers)"}
+  insights:
+    - text: The measurements are designed as a strict test of flame simulations, including how flames go out.
+      quote: "comprise a rigorous test of the detail"
+  earth:
+    theme: clean-combustion
+    text: Better engine and burner performance through validated flame chemistry.
+    quote: "improving performance in terms of power, efficiency, pollutant emissions, and reliability"
+
+PSI-106:
+  short: SLICE
+  expansion: Structure and Liftoff In Combustion Experiment
+  family: msg-duct
+  platform: ISS
+  one_line: Found the airflow at which small jet flames lift off their burner and blow out.
+  fuel_phases: [gas]
+  fire_phases: [extinction]
+  varied: [fuel, fuel dilution, burner diameter, coflow velocity]
+  relevance:
+    level: 1
+    source: challenge
+    quote: "Other combustion investigations within the PSI database (but not explicitly referenced above) are still relevant to fire safety, just not as strongly or directly."
+  pillars:
+    suppression: {score: 1, quote: "Determine the liftoff velocity limits for different fuels and burner diameters."}
+    prevention: {score: 1, quote: "Insights into flame stability and behavior to enhance fire safety."}
+  insights:
+    - text: Flame stability in microgravity depends on burner size, airflow and fuel, and differs from Earth.
+      quote: "are significantly influenced by burner diameter, coflow velocity, and fuel composition and are fundamentally different than flames observed on Earth"
+  earth:
+    theme: clean-combustion
+    text: Cleaner, more efficient engines and industrial burners.
+    quote: "Findings will inform the development of cleaner, more efficient engines and industrial burners."
+
+PSI-107:
+  short: SPICE
+  expansion: Smoke Point In Co-flow Experiment
+  family: msg-duct
+  platform: ISS
+  one_line: Measured the point at which a jet flame starts releasing soot, across fuels, nozzle sizes and airflow.
+  fuel_phases: [gas]
+  fire_phases: [smoke]
+  varied: [fuel, nozzle diameter, fuel flow rate, coflow velocity]
+  relevance:
+    level: 1
+    source: challenge
+    quote: "Other combustion investigations within the PSI database (but not explicitly referenced above) are still relevant to fire safety, just not as strongly or directly."
+  pillars:
+    detection: {score: 1, quote: "Identify the laminar smoke-point properties of non-buoyant jet diffusion flames under various co-flow conditions in microgravity."}
+    prevention: {score: 1, quote: "Will improve our understanding of soot formation mechanisms and help design safer spacecraft environments."}
+  insights:
+    - text: SPICE built the fan-driven flow duct that BASS, BASS-II and SLICE later reused.
+      source: challenge
+      quote: "Each of these investigations was conducted within the Microgravity Science Glovebox (MSG) using the modular fan-driven flow duct built for SPICE."
+    - text: It is one of the largest itemized data sets in PSI.
+      quote: "In total 526 flames were studied."
+  earth:
+    theme: clean-combustion
+    text: Soot-formation data for cleaner fuels and combustion processes.
+    quote: "Could possibly provide insights to better fuel formulations and combustion processes."
+
+PSI-62:
+  short: BASS flame-spread modelling
+  expansion: Concurrent Flame Spread Modeling using Flamelet Generated Manifolds, with comparison to BASS
+  family: ground
+  platform: Computational
+  builds_on: [PSI-25, PSI-26]
+  one_line: Used BASS and BASS-II imagery from PSI to build and check a model that predicts flame spread over solids in microgravity.
+  fuel_phases: [solid]
+  fire_phases: [spread]
+  varied: [sample geometry, model formulation]
+  relevance:
+    level: 2
+    source: psi
+    quote: "the long-term goal was to enable accurate prediction of flammability limits for spacecraft"
+  pillars:
+    prevention: {score: 2, quote: "This research provides predictive tools for screening new materials’ flammability limits, which can lead to the design of safer spacecrafts."}
+  insights:
+    - text: It reprocessed existing PSI images into three-dimensional soot and temperature fields - an example of new science from archived data.
+      quote: "enabling 3D reconstructions of soot and temperature fields for direct comparison to model predictions"
+  earth:
+    theme: fire-modelling
+    text: Improved fire modelling and safety standards on Earth.
+    quote: "which betters fire safety standards"
+
+PSI-115:
+  short: SAME smoke modelling
+  expansion: Advanced Modeling and Simulation of Smoke Generation in Microgravity using SAME data
+  family: ground
+  platform: Computational
+  builds_on: [PSI-102]
+  one_line: Simulated how smoke particles form and grow with and without gravity, using the SAME experiment as its reference case.
+  fuel_phases: [solid]
+  fire_phases: [smoke]
+  varied: [gravity level, cross-flow velocity]
+  relevance:
+    level: 2
+    source: psi
+    quote: "This would directly lead to better smoke detection devices and prevent fires that can lead to loss of materiel and loss of life."
+  pillars:
+    detection: {score: 2, quote: "This would directly lead to better smoke detection devices and prevent fires that can lead to loss of materiel and loss of life."}
+  insights:
+    - text: The goal is to explain, not just record, why microgravity smoke differs from smoke on Earth.
+      quote: "quantify the differences between microgravity and Earth gravity smoke, and to identify the fluid dynamic mechanisms that cause the differences"
+  earth:
+    theme: smoke-detection
+    text: Particle models that support better smoke detectors.
+    quote: "This would directly lead to better smoke detection devices"
+
+PSI-142:
+  short: Cool-flame transitions
+  expansion: Quantitative Studies of Cool Flame Transitions at Radiation / Stretch Extinction Using Counterflow Flames
+  family: ground
+  platform: Ground laboratory
+  builds_on: [PSI-69]
+  one_line: Laboratory and numerical follow-up to FLEX that charts when a hot flame becomes a cool flame and when each goes out.
+  fuel_phases: [gas, liquid]
+  fire_phases: [extinction]
+  varied: [oxygen concentration, pressure, ozone addition, fuel]
+  relevance:
+    level: 2
+    source: psi
+    quote: "Bridge the knowledge gap between the flammability limits and extinction limits of hot flames and cool flames."
+  pillars:
+    suppression: {score: 2, quote: "Verify the phenomena observed on the ISS flame extinguishment experiments."}
+    prevention: {score: 1, quote: "Develop a new diagram of the flammability limits of diffusional cool flames affected by radiation, diffusion, and convection."}
+  insights:
+    - text: At higher pressure the range in which cool and warm flames can survive gets wider.
+      quote: "At elevated pressures, it was found that the flammable region of warm flames and cool flames expands"
+  earth:
+    theme: clean-combustion
+    text: Low-temperature chemistry for engines and turbulent combustion.
+    quote: "particularly relevant to combustion in highly turbulent flow fields"
+
+PSI-117:
+  short: Cool-flame CFD
+  expansion: Effect of External Thermo-Convective Perturbation on Cool Flame Dynamics
+  family: ground
+  platform: Computational
+  builds_on: [PSI-69]
+  one_line: Simulated FLEX droplets to show how small drifts and heating decide whether a cool flame persists, re-ignites or dies.
+  fuel_phases: [liquid]
+  fire_phases: [ignition, extinction]
+  varied: [imposed convection, imposed heating, droplet size, pressure, ambient composition]
+  relevance:
+    level: 2
+    source: psi
+    quote: "Potential to improve spacecraft fire-safety modeling by resolving cool-flame/extinction behavior in microgravity"
+  pillars:
+    suppression: {score: 2, quote: "Potential to improve spacecraft fire-safety modeling by resolving cool-flame/extinction behavior in microgravity"}
+    prevention: {score: 1, quote: "leverages FLEX to define safer operating envelopes/materials"}
+  insights:
+    - text: It explains why repeated FLEX runs gave different outcomes - tiny droplet drift changes the result.
+      quote: "explain run-to-run variability by isolating the roles of deliberate heating and unintentional drift-induced convection"
+  earth:
+    theme: clean-combustion
+    text: Engine knock, efficiency and emissions.
+    quote: "Advances low-temperature combustion understanding relevant to engine knock, efficiency, and emissions"
+
+PSI-60:
+  short: SPICE soot analysis
+  expansion: Computational and Experimental Analysis of SPICE Data Sets
+  family: ground
+  platform: Computational
+  builds_on: [PSI-107]
+  one_line: Re-analysed more than 1,600 SPICE photographs to extract soot temperatures and compare soot formation with and without gravity.
+  fuel_phases: [gas]
+  fire_phases: [smoke]
+  varied: [gravity level, burner configuration, model parameters]
+  relevance:
+    level: 1
+    source: challenge
+    quote: "Other combustion investigations within the PSI database (but not explicitly referenced above) are still relevant to fire safety, just not as strongly or directly."
+  pillars:
+    detection: {score: 1, quote: "For space applications, the results support safer fire detection, suppression, and cleaner combustion technologies critical for long-duration missions."}
+    suppression: {score: 1, quote: "For space applications, the results support safer fire detection, suppression, and cleaner combustion technologies critical for long-duration missions."}
+  insights:
+    - text: Flames make far more soot in microgravity than at normal gravity, and this work tries to explain the gap.
+      quote: "increase understanding of the issues that control the large discrepancy between soot formation in 1g and in 0g flames"
+  earth:
+    theme: clean-combustion
+    text: Lower pollutant emissions and cleaner industrial combustion.
+    quote: "the insights help reduce pollutant emissions, optimize combustion efficiency"

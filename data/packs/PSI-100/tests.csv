@@ -1,0 +1,3 @@
+test_id,accession,is_new,label,run_status,replicate_group,matched_by
+PSI-100/saffire3/1,PSI-100,0,Sample S1,as_run,,
+PSI-100/saffire3/2,PSI-100,0,Sample S2,as_run,,

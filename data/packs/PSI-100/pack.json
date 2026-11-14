@@ -1,0 +1,8 @@
+{
+  "accession": "PSI-100",
+  "pack_version": "4",
+  "created": "",
+  "created_by": "FlameLens data team, with an SI tool",
+  "si_use": "An SI tool (Claude) found the two NASA Glenn presentations on NTRS, wrote and ran the script that downloaded them and PSI's files, and wrote out each table line and sentence used; the script checks that each is in the PDF's text word for word and splits each table line into its cells by fixed rules. The SI tool chose which sentences state an outcome (ignited, how the burn ended) and which state a finding; these choices are listed in REPORT.md. Curves are cells of NASA's sensor workbooks, thinned by a fixed rule, with units converted only. No value was generated, estimated or read from a picture. No person has checked it yet.",
+  "summary": "Saffire-III: 25 claims on 2 tests from NASA's own summary table of the Saffire results (two NASA Glenn presentations on NTRS), 5 NASA findings in words, 1 new 0g/1g pair(s), and 23 curve variables (CO2, pressure, oxygen, anemometers, radiometers, humidity, inlet and thermocouple temperatures) for 2 test(s) from PSI's sensor workbooks."
+}

@@ -1,0 +1,5 @@
+variable_id,label,unit,kind,group,definition_quote,definition_source_id,definition_locator
+smoke_point_length_mm,Smoke point length,mm,number,outcome,"The smoke point lengths, LSP, (and the flow conditions) were obtained from the video record and are the measured distance from the burner to the tip of the luminous flame on the flame axis.",S2,p. 19
+flame_length_mm,Flame length (Data II column Length),mm,number,outcome,unknown,,
+flame_width_max_mm,Maximum flame width,mm,number,outcome,unknown,,
+flame_height_nikon_mm,Flame height from the Nikon still,mm,number,outcome,unknown,,

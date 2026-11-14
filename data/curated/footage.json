@@ -1,0 +1,5078 @@
+[
+ {
+  "id": "PSI-25/bass2/1#main",
+  "record_id": "PSI-25/bass2/1",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT50_SAMPLE_147_TEST_B1.mp4",
+  "version": 2,
+  "size_bytes": 5803980
+ },
+ {
+  "id": "PSI-25/bass2/10#main",
+  "record_id": "PSI-25/bass2/10",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_173_TESTB10.mp4",
+  "version": 2,
+  "size_bytes": 17545851
+ },
+ {
+  "id": "PSI-25/bass2/10#second",
+  "record_id": "PSI-25/bass2/10",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_173_TESTB10_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 21543949
+ },
+ {
+  "id": "PSI-25/bass2/100#main",
+  "record_id": "PSI-25/bass2/100",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25.mp4",
+  "version": 2,
+  "size_bytes": 103836812
+ },
+ {
+  "id": "PSI-25/bass2/100#second",
+  "record_id": "PSI-25/bass2/100",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 128498079
+ },
+ {
+  "id": "PSI-25/bass2/101#main",
+  "record_id": "PSI-25/bass2/101",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT45_SAMPLE_128_TEST_T1.mp4",
+  "version": 2,
+  "size_bytes": 11667714
+ },
+ {
+  "id": "PSI-25/bass2/102#main",
+  "record_id": "PSI-25/bass2/102",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT45_SAMPLE_129_TEST_T2.mp4",
+  "version": 2,
+  "size_bytes": 13699222
+ },
+ {
+  "id": "PSI-25/bass2/103#main",
+  "record_id": "PSI-25/bass2/103",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3.mp4",
+  "version": 2,
+  "size_bytes": 37727321
+ },
+ {
+  "id": "PSI-25/bass2/103#second",
+  "record_id": "PSI-25/bass2/103",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 61076311
+ },
+ {
+  "id": "PSI-25/bass2/104#main",
+  "record_id": "PSI-25/bass2/104",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT45_SAMPLE_130_TEST_T4.mp4",
+  "version": 2,
+  "size_bytes": 8085062
+ },
+ {
+  "id": "PSI-25/bass2/105#main",
+  "record_id": "PSI-25/bass2/105",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT100_SAMPLE_131_TEST_T5.mp4",
+  "version": 2,
+  "size_bytes": 35706820
+ },
+ {
+  "id": "PSI-25/bass2/106#main",
+  "record_id": "PSI-25/bass2/106",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT100_SAMPLE_132_TEST_T6.mp4",
+  "version": 2,
+  "size_bytes": 23605877
+ },
+ {
+  "id": "PSI-25/bass2/108#main",
+  "record_id": "PSI-25/bass2/108",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9.mp4",
+  "version": 2,
+  "size_bytes": 10800404
+ },
+ {
+  "id": "PSI-25/bass2/109#main",
+  "record_id": "PSI-25/bass2/109",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_134_TEST_T10.mp4",
+  "version": 2,
+  "size_bytes": 9733029
+ },
+ {
+  "id": "PSI-25/bass2/109#second",
+  "record_id": "PSI-25/bass2/109",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_134_TEST_T10_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 16223672
+ },
+ {
+  "id": "PSI-25/bass2/11#main",
+  "record_id": "PSI-25/bass2/11",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_158_TESTB11.mp4",
+  "version": 2,
+  "size_bytes": 17478523
+ },
+ {
+  "id": "PSI-25/bass2/11#second",
+  "record_id": "PSI-25/bass2/11",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_158_TESTB11_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 20368020
+ },
+ {
+  "id": "PSI-25/bass2/110#main",
+  "record_id": "PSI-25/bass2/110",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_135_TEST_T11.mp4",
+  "version": 2,
+  "size_bytes": 12444685
+ },
+ {
+  "id": "PSI-25/bass2/110#second",
+  "record_id": "PSI-25/bass2/110",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_135_TEST_T11_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 31544262
+ },
+ {
+  "id": "PSI-25/bass2/111#main",
+  "record_id": "PSI-25/bass2/111",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_136_TEST_T12.mp4",
+  "version": 2,
+  "size_bytes": 4644924
+ },
+ {
+  "id": "PSI-25/bass2/111#second",
+  "record_id": "PSI-25/bass2/111",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_136_TEST_T12_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 5549434
+ },
+ {
+  "id": "PSI-25/bass2/113#main",
+  "record_id": "PSI-25/bass2/113",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_140_TEST_T14.mp4",
+  "version": 2,
+  "size_bytes": 13747923
+ },
+ {
+  "id": "PSI-25/bass2/113#second",
+  "record_id": "PSI-25/bass2/113",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_140_TEST_T14_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 17673653
+ },
+ {
+  "id": "PSI-25/bass2/114#main",
+  "record_id": "PSI-25/bass2/114",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15.mp4",
+  "version": 2,
+  "size_bytes": 4715080
+ },
+ {
+  "id": "PSI-25/bass2/115#main",
+  "record_id": "PSI-25/bass2/115",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT100_SAMPLE_139_TEST_T16.mp4",
+  "version": 2,
+  "size_bytes": 34952158
+ },
+ {
+  "id": "PSI-25/bass2/116#main",
+  "record_id": "PSI-25/bass2/116",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_142_TEST_T17.mp4",
+  "version": 2,
+  "size_bytes": 9404429
+ },
+ {
+  "id": "PSI-25/bass2/116#second",
+  "record_id": "PSI-25/bass2/116",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT178_SAMPLE_142_TEST_T17_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 12303319
+ },
+ {
+  "id": "PSI-25/bass2/117#main",
+  "record_id": "PSI-25/bass2/117",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_141_TEST_T18.mp4",
+  "version": 2,
+  "size_bytes": 10344053
+ },
+ {
+  "id": "PSI-25/bass2/117#second",
+  "record_id": "PSI-25/bass2/117",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_141_TEST_T18_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 17331258
+ },
+ {
+  "id": "PSI-25/bass2/118#main",
+  "record_id": "PSI-25/bass2/118",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_143_TEST_T19.mp4",
+  "version": 2,
+  "size_bytes": 9216046
+ },
+ {
+  "id": "PSI-25/bass2/118#second",
+  "record_id": "PSI-25/bass2/118",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_143_TEST_T19_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 11583343
+ },
+ {
+  "id": "PSI-25/bass2/119#second",
+  "record_id": "PSI-25/bass2/119",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 4689812
+ },
+ {
+  "id": "PSI-25/bass2/12#main",
+  "record_id": "PSI-25/bass2/12",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT50_SAMPLE_160_TEST_B12.mp4",
+  "version": 2,
+  "size_bytes": 13139046
+ },
+ {
+  "id": "PSI-25/bass2/120#main",
+  "record_id": "PSI-25/bass2/120",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21.mp4",
+  "version": 2,
+  "size_bytes": 4704569
+ },
+ {
+  "id": "PSI-25/bass2/120#second",
+  "record_id": "PSI-25/bass2/120",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 6420548
+ },
+ {
+  "id": "PSI-25/bass2/121#main",
+  "record_id": "PSI-25/bass2/121",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22.mp4",
+  "version": 2,
+  "size_bytes": 5016477
+ },
+ {
+  "id": "PSI-25/bass2/121#second",
+  "record_id": "PSI-25/bass2/121",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 7744804
+ },
+ {
+  "id": "PSI-25/bass2/122#main",
+  "record_id": "PSI-25/bass2/122",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23.mp4",
+  "version": 2,
+  "size_bytes": 5688672
+ },
+ {
+  "id": "PSI-25/bass2/122#second",
+  "record_id": "PSI-25/bass2/122",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 7433909
+ },
+ {
+  "id": "PSI-25/bass2/123#main",
+  "record_id": "PSI-25/bass2/123",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24.mp4",
+  "version": 2,
+  "size_bytes": 13938018
+ },
+ {
+  "id": "PSI-25/bass2/123#second",
+  "record_id": "PSI-25/bass2/123",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 17866853
+ },
+ {
+  "id": "PSI-25/bass2/124#main",
+  "record_id": "PSI-25/bass2/124",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25.mp4",
+  "version": 2,
+  "size_bytes": 8626310
+ },
+ {
+  "id": "PSI-25/bass2/124#second",
+  "record_id": "PSI-25/bass2/124",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 9516662
+ },
+ {
+  "id": "PSI-25/bass2/125#main",
+  "record_id": "PSI-25/bass2/125",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26.mp4",
+  "version": 2,
+  "size_bytes": 15332738
+ },
+ {
+  "id": "PSI-25/bass2/125#second",
+  "record_id": "PSI-25/bass2/125",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 22126263
+ },
+ {
+  "id": "PSI-25/bass2/126#main",
+  "record_id": "PSI-25/bass2/126",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27.mp4",
+  "version": 2,
+  "size_bytes": 13981372
+ },
+ {
+  "id": "PSI-25/bass2/126#second",
+  "record_id": "PSI-25/bass2/126",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 12998036
+ },
+ {
+  "id": "PSI-25/bass2/127#main",
+  "record_id": "PSI-25/bass2/127",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a.mp4",
+  "version": 2,
+  "size_bytes": 9339780
+ },
+ {
+  "id": "PSI-25/bass2/127#second",
+  "record_id": "PSI-25/bass2/127",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 9534038
+ },
+ {
+  "id": "PSI-25/bass2/128#main",
+  "record_id": "PSI-25/bass2/128",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b.mp4",
+  "version": 2,
+  "size_bytes": 8378753
+ },
+ {
+  "id": "PSI-25/bass2/128#second",
+  "record_id": "PSI-25/bass2/128",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 8411087
+ },
+ {
+  "id": "PSI-25/bass2/129#main",
+  "record_id": "PSI-25/bass2/129",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29.mp4",
+  "version": 2,
+  "size_bytes": 19142967
+ },
+ {
+  "id": "PSI-25/bass2/129#second",
+  "record_id": "PSI-25/bass2/129",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 20913019
+ },
+ {
+  "id": "PSI-25/bass2/13#main",
+  "record_id": "PSI-25/bass2/13",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_162_TESTB13.mp4",
+  "version": 2,
+  "size_bytes": 29172112
+ },
+ {
+  "id": "PSI-25/bass2/13#second",
+  "record_id": "PSI-25/bass2/13",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_162_TESTB13_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 31584073
+ },
+ {
+  "id": "PSI-25/bass2/14#main",
+  "record_id": "PSI-25/bass2/14",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14.mp4",
+  "version": 2,
+  "size_bytes": 3145728
+ },
+ {
+  "id": "PSI-25/bass2/14#second",
+  "record_id": "PSI-25/bass2/14",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 10228951
+ },
+ {
+  "id": "PSI-25/bass2/15#main",
+  "record_id": "PSI-25/bass2/15",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15.mp4",
+  "version": 2,
+  "size_bytes": 21089860
+ },
+ {
+  "id": "PSI-25/bass2/15#second",
+  "record_id": "PSI-25/bass2/15",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 31534268
+ },
+ {
+  "id": "PSI-25/bass2/16#main",
+  "record_id": "PSI-25/bass2/16",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_150_TESTB16.mp4",
+  "version": 2,
+  "size_bytes": 11837789
+ },
+ {
+  "id": "PSI-25/bass2/16#second",
+  "record_id": "PSI-25/bass2/16",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_150_TESTB16_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 18227573
+ },
+ {
+  "id": "PSI-25/bass2/18#main",
+  "record_id": "PSI-25/bass2/18",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18.mp4",
+  "version": 2,
+  "size_bytes": 14505745
+ },
+ {
+  "id": "PSI-25/bass2/18#second",
+  "record_id": "PSI-25/bass2/18",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 22103478
+ },
+ {
+  "id": "PSI-25/bass2/19#main",
+  "record_id": "PSI-25/bass2/19",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_151_TESTB19.mp4",
+  "version": 2,
+  "size_bytes": 10534334
+ },
+ {
+  "id": "PSI-25/bass2/19#second",
+  "record_id": "PSI-25/bass2/19",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_151_TESTB19_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 10956921
+ },
+ {
+  "id": "PSI-25/bass2/2#main",
+  "record_id": "PSI-25/bass2/2",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT50_SAMPLE_155_TEST_B2.mp4",
+  "version": 2,
+  "size_bytes": 7855717
+ },
+ {
+  "id": "PSI-25/bass2/20#main",
+  "record_id": "PSI-25/bass2/20",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_152_TESTB20.mp4",
+  "version": 2,
+  "size_bytes": 10276296
+ },
+ {
+  "id": "PSI-25/bass2/20#second",
+  "record_id": "PSI-25/bass2/20",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT183_SAMPLE_152_TESTB20_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 14714696
+ },
+ {
+  "id": "PSI-25/bass2/21#main",
+  "record_id": "PSI-25/bass2/21",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21.mp4",
+  "version": 2,
+  "size_bytes": 20112760
+ },
+ {
+  "id": "PSI-25/bass2/21#second",
+  "record_id": "PSI-25/bass2/21",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 20292338
+ },
+ {
+  "id": "PSI-25/bass2/22#main",
+  "record_id": "PSI-25/bass2/22",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22.mp4",
+  "version": 2,
+  "size_bytes": 13111581
+ },
+ {
+  "id": "PSI-25/bass2/22#second",
+  "record_id": "PSI-25/bass2/22",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 15753412
+ },
+ {
+  "id": "PSI-25/bass2/23#main",
+  "record_id": "PSI-25/bass2/23",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT50_SAMPLE_227_TEST_F1.mp4",
+  "version": 2,
+  "size_bytes": 10773471
+ },
+ {
+  "id": "PSI-25/bass2/25#main",
+  "record_id": "PSI-25/bass2/25",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT213_SAMPLE_229_TEST_F3.mp4",
+  "version": 2,
+  "size_bytes": 13139602
+ },
+ {
+  "id": "PSI-25/bass2/25#second",
+  "record_id": "PSI-25/bass2/25",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT213_SAMPLE_229_TEST_F3_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 16089495
+ },
+ {
+  "id": "PSI-25/bass2/26#main",
+  "record_id": "PSI-25/bass2/26",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_039_TEST_F4.mp4",
+  "version": 2,
+  "size_bytes": 43977075
+ },
+ {
+  "id": "PSI-25/bass2/26#second",
+  "record_id": "PSI-25/bass2/26",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT175_SAMPLE_039_TEST_F4_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 59146861
+ },
+ {
+  "id": "PSI-25/bass2/27#main",
+  "record_id": "PSI-25/bass2/27",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT51_SAMPLE_222_TEST_M1.mp4",
+  "version": 2,
+  "size_bytes": 57914129
+ },
+ {
+  "id": "PSI-25/bass2/28#main",
+  "record_id": "PSI-25/bass2/28",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT51_SAMPLE_224_TEST_M2.mp4",
+  "version": 2,
+  "size_bytes": 212015133
+ },
+ {
+  "id": "PSI-25/bass2/3#main",
+  "record_id": "PSI-25/bass2/3",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT50_SAMPLE_148_TEST_B3.mp4",
+  "version": 2,
+  "size_bytes": 8005417
+ },
+ {
+  "id": "PSI-25/bass2/30#main",
+  "record_id": "PSI-25/bass2/30",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT212_SAMPLE_171_TEST_M4.mp4",
+  "version": 2,
+  "size_bytes": 153411020
+ },
+ {
+  "id": "PSI-25/bass2/30#second",
+  "record_id": "PSI-25/bass2/30",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT212_SAMPLE_171_TEST_M4_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 189091648
+ },
+ {
+  "id": "PSI-25/bass2/31#main",
+  "record_id": "PSI-25/bass2/31",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT51_SAMPLE_167_TEST_M5.mp4",
+  "version": 2,
+  "size_bytes": 193476993
+ },
+ {
+  "id": "PSI-25/bass2/32#main",
+  "record_id": "PSI-25/bass2/32",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT212_SAMPLE_163_TEST_M6.mp4",
+  "version": 2,
+  "size_bytes": 144868608
+ },
+ {
+  "id": "PSI-25/bass2/32#second",
+  "record_id": "PSI-25/bass2/32",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT212_SAMPLE_163_TEST_M6_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 176976715
+ },
+ {
+  "id": "PSI-25/bass2/33#main",
+  "record_id": "PSI-25/bass2/33",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT192_SAMPLE_177_TEST_M7.mp4",
+  "version": 2,
+  "size_bytes": 110011647
+ },
+ {
+  "id": "PSI-25/bass2/33#second",
+  "record_id": "PSI-25/bass2/33",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT192_SAMPLE_177_TEST_M7_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 179387384
+ },
+ {
+  "id": "PSI-25/bass2/34#main",
+  "record_id": "PSI-25/bass2/34",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT192_SAMPLE_178_TEST_M8.mp4",
+  "version": 2,
+  "size_bytes": 163852409
+ },
+ {
+  "id": "PSI-25/bass2/34#second",
+  "record_id": "PSI-25/bass2/34",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT192_SAMPLE_178_TEST_M8_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 254594784
+ },
+ {
+  "id": "PSI-25/bass2/35#main",
+  "record_id": "PSI-25/bass2/35",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT192_SAMPLE_179_TEST_M9.mp4",
+  "version": 2,
+  "size_bytes": 97701031
+ },
+ {
+  "id": "PSI-25/bass2/35#second",
+  "record_id": "PSI-25/bass2/35",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT192_SAMPLE_179_TEST_M9_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 161042847
+ },
+ {
+  "id": "PSI-25/bass2/36#main",
+  "record_id": "PSI-25/bass2/36",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT204_SAMPLE_180_TEST_M10.mp4",
+  "version": 2,
+  "size_bytes": 209995144
+ },
+ {
+  "id": "PSI-25/bass2/36#second",
+  "record_id": "PSI-25/bass2/36",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT204_SAMPLE_180_TEST_M10_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 254551596
+ },
+ {
+  "id": "PSI-25/bass2/37#main",
+  "record_id": "PSI-25/bass2/37",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT192_SAMPLE_181_TEST_M11.mp4",
+  "version": 2,
+  "size_bytes": 172643300
+ },
+ {
+  "id": "PSI-25/bass2/37#second",
+  "record_id": "PSI-25/bass2/37",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT192_SAMPLE_181_TEST_M11_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 284270558
+ },
+ {
+  "id": "PSI-25/bass2/38#main",
+  "record_id": "PSI-25/bass2/38",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT212_SAMPLE_165_TEST_M12.mp4",
+  "version": 2,
+  "size_bytes": 125655846
+ },
+ {
+  "id": "PSI-25/bass2/38#second",
+  "record_id": "PSI-25/bass2/38",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT212_SAMPLE_165_TEST_M12_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 157206941
+ },
+ {
+  "id": "PSI-25/bass2/39#main",
+  "record_id": "PSI-25/bass2/39",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT212_SAMPLE_169_TEST_M13.mp4",
+  "version": 2,
+  "size_bytes": 142341116
+ },
+ {
+  "id": "PSI-25/bass2/39#second",
+  "record_id": "PSI-25/bass2/39",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT212_SAMPLE_169_TEST_M13_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 185003328
+ },
+ {
+  "id": "PSI-25/bass2/4#main",
+  "record_id": "PSI-25/bass2/4",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT50_SAMPLE_159_TEST_B4.mp4",
+  "version": 2,
+  "size_bytes": 12580563
+ },
+ {
+  "id": "PSI-25/bass2/40#main",
+  "record_id": "PSI-25/bass2/40",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT51_SAMPLE_223_TEST_M14.mp4",
+  "version": 2,
+  "size_bytes": 187975972
+ },
+ {
+  "id": "PSI-25/bass2/41#main",
+  "record_id": "PSI-25/bass2/41",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_225_TESTM15.mp4",
+  "version": 2,
+  "size_bytes": 142273046
+ },
+ {
+  "id": "PSI-25/bass2/41#second",
+  "record_id": "PSI-25/bass2/41",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_225_TESTM15_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 204744222
+ },
+ {
+  "id": "PSI-25/bass2/42#main",
+  "record_id": "PSI-25/bass2/42",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT204_SAMPLE_164_TEST_M16.mp4",
+  "version": 2,
+  "size_bytes": 112162685
+ },
+ {
+  "id": "PSI-25/bass2/42#second",
+  "record_id": "PSI-25/bass2/42",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT204_SAMPLE_164_TEST_M16_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 141580740
+ },
+ {
+  "id": "PSI-25/bass2/43#main",
+  "record_id": "PSI-25/bass2/43",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT196_SAMPLE_166_TEST_M17.mp4",
+  "version": 2,
+  "size_bytes": 188454727
+ },
+ {
+  "id": "PSI-25/bass2/43#second",
+  "record_id": "PSI-25/bass2/43",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT196_SAMPLE_166_TEST_M17_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 311887260
+ },
+ {
+  "id": "PSI-25/bass2/44#main",
+  "record_id": "PSI-25/bass2/44",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT196_SAMPLE_168_TEST_M18.mp4",
+  "version": 2,
+  "size_bytes": 154679243
+ },
+ {
+  "id": "PSI-25/bass2/44#second",
+  "record_id": "PSI-25/bass2/44",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT196_SAMPLE_168_TEST_M18_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 253121484
+ },
+ {
+  "id": "PSI-25/bass2/45#main",
+  "record_id": "PSI-25/bass2/45",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT204_SAMPLE_170_TEST_M19.mp4",
+  "version": 2,
+  "size_bytes": 183298910
+ },
+ {
+  "id": "PSI-25/bass2/45#second",
+  "record_id": "PSI-25/bass2/45",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT204_SAMPLE_170_TEST_M19_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 226568634
+ },
+ {
+  "id": "PSI-25/bass2/46#main",
+  "record_id": "PSI-25/bass2/46",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT213_SAMPLE_172_TEST_M20.mp4",
+  "version": 2,
+  "size_bytes": 170044149
+ },
+ {
+  "id": "PSI-25/bass2/46#second",
+  "record_id": "PSI-25/bass2/46",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT213_SAMPLE_172_TEST_M20_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 194213946
+ },
+ {
+  "id": "PSI-25/bass2/47#main",
+  "record_id": "PSI-25/bass2/47",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT49_SAMPLE_207_TEST_O1.mp4",
+  "version": 2,
+  "size_bytes": 34211955
+ },
+ {
+  "id": "PSI-25/bass2/48#main",
+  "record_id": "PSI-25/bass2/48",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT49_SAMPLE_204_TEST_O2.mp4",
+  "version": 2,
+  "size_bytes": 31874741
+ },
+ {
+  "id": "PSI-25/bass2/49#main",
+  "record_id": "PSI-25/bass2/49",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a.mp4",
+  "version": 2,
+  "size_bytes": 23510087
+ },
+ {
+  "id": "PSI-25/bass2/49#second",
+  "record_id": "PSI-25/bass2/49",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 27893426
+ },
+ {
+  "id": "PSI-25/bass2/5#main",
+  "record_id": "PSI-25/bass2/5",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT50_SAMPLE_156_TEST_B5.mp4",
+  "version": 2,
+  "size_bytes": 11138074
+ },
+ {
+  "id": "PSI-25/bass2/50#main",
+  "record_id": "PSI-25/bass2/50",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b.mp4",
+  "version": 2,
+  "size_bytes": 41601427
+ },
+ {
+  "id": "PSI-25/bass2/50#second",
+  "record_id": "PSI-25/bass2/50",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 42565728
+ },
+ {
+  "id": "PSI-25/bass2/51#main",
+  "record_id": "PSI-25/bass2/51",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_216_TEST_O4.mp4",
+  "version": 2,
+  "size_bytes": 146711131
+ },
+ {
+  "id": "PSI-25/bass2/51#second",
+  "record_id": "PSI-25/bass2/51",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_216_TEST_O4_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 184709109
+ },
+ {
+  "id": "PSI-25/bass2/53#main",
+  "record_id": "PSI-25/bass2/53",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b.mp4",
+  "version": 2,
+  "size_bytes": 27229112
+ },
+ {
+  "id": "PSI-25/bass2/54#main",
+  "record_id": "PSI-25/bass2/54",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_206_TEST_O6.mp4",
+  "version": 2,
+  "size_bytes": 86823830
+ },
+ {
+  "id": "PSI-25/bass2/54#second",
+  "record_id": "PSI-25/bass2/54",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_206_TEST_O6_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 129208937
+ },
+ {
+  "id": "PSI-25/bass2/55#main",
+  "record_id": "PSI-25/bass2/55",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_214_TEST_O7.mp4",
+  "version": 2,
+  "size_bytes": 87589566
+ },
+ {
+  "id": "PSI-25/bass2/55#second",
+  "record_id": "PSI-25/bass2/55",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_214_TEST_O7_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 130240123
+ },
+ {
+  "id": "PSI-25/bass2/56#main",
+  "record_id": "PSI-25/bass2/56",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a.mp4",
+  "version": 2,
+  "size_bytes": 51121188
+ },
+ {
+  "id": "PSI-25/bass2/56#second",
+  "record_id": "PSI-25/bass2/56",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 78581776
+ },
+ {
+  "id": "PSI-25/bass2/57#main",
+  "record_id": "PSI-25/bass2/57",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8b.mp4",
+  "version": 2,
+  "size_bytes": 56114010
+ },
+ {
+  "id": "PSI-25/bass2/57#second",
+  "record_id": "PSI-25/bass2/57",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8b_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 81020427
+ },
+ {
+  "id": "PSI-25/bass2/58#main",
+  "record_id": "PSI-25/bass2/58",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_209_TEST_O9.mp4",
+  "version": 2,
+  "size_bytes": 61078814
+ },
+ {
+  "id": "PSI-25/bass2/58#second",
+  "record_id": "PSI-25/bass2/58",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT177_SAMPLE_209_TEST_O9_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 88666756
+ },
+ {
+  "id": "PSI-25/bass2/59#second",
+  "record_id": "PSI-25/bass2/59",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT203_SAMPLE_210_TEST_O10_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 116397522
+ },
+ {
+  "id": "PSI-25/bass2/6#main",
+  "record_id": "PSI-25/bass2/6",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_153_TESTB6.mp4",
+  "version": 2,
+  "size_bytes": 7594452
+ },
+ {
+  "id": "PSI-25/bass2/6#second",
+  "record_id": "PSI-25/bass2/6",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_153_TESTB6_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 8744904
+ },
+ {
+  "id": "PSI-25/bass2/60#main",
+  "record_id": "PSI-25/bass2/60",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_184_TEST_O11.mp4",
+  "version": 2,
+  "size_bytes": 120784326
+ },
+ {
+  "id": "PSI-25/bass2/60#second",
+  "record_id": "PSI-25/bass2/60",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_184_TEST_O11_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 163544771
+ },
+ {
+  "id": "PSI-25/bass2/61#main",
+  "record_id": "PSI-25/bass2/61",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12.mp4",
+  "version": 2,
+  "size_bytes": 58379498
+ },
+ {
+  "id": "PSI-25/bass2/61#second",
+  "record_id": "PSI-25/bass2/61",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 71465162
+ },
+ {
+  "id": "PSI-25/bass2/62#main",
+  "record_id": "PSI-25/bass2/62",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a.mp4",
+  "version": 2,
+  "size_bytes": 153642786
+ },
+ {
+  "id": "PSI-25/bass2/63#main",
+  "record_id": "PSI-25/bass2/63",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13b.mp4",
+  "version": 2,
+  "size_bytes": 29477038
+ },
+ {
+  "id": "PSI-25/bass2/64#main",
+  "record_id": "PSI-25/bass2/64",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT213_SAMPLE_183_TEST_O14.mp4",
+  "version": 2,
+  "size_bytes": 110402103
+ },
+ {
+  "id": "PSI-25/bass2/64#second",
+  "record_id": "PSI-25/bass2/64",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT213_SAMPLE_183_TEST_O14_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 130246895
+ },
+ {
+  "id": "PSI-25/bass2/65#main",
+  "record_id": "PSI-25/bass2/65",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a.mp4",
+  "version": 2,
+  "size_bytes": 78319609
+ },
+ {
+  "id": "PSI-25/bass2/65#second",
+  "record_id": "PSI-25/bass2/65",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 80420113
+ },
+ {
+  "id": "PSI-25/bass2/66#main",
+  "record_id": "PSI-25/bass2/66",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15b.mp4",
+  "version": 2,
+  "size_bytes": 222205165
+ },
+ {
+  "id": "PSI-25/bass2/66#second",
+  "record_id": "PSI-25/bass2/66",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15b_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 256091463
+ },
+ {
+  "id": "PSI-25/bass2/68#second",
+  "record_id": "PSI-25/bass2/68",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT203_SAMPLE_211_TEST_O17_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 154147156
+ },
+ {
+  "id": "PSI-25/bass2/69#main",
+  "record_id": "PSI-25/bass2/69",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_212_TEST_O18.mp4",
+  "version": 2,
+  "size_bytes": 75137697
+ },
+ {
+  "id": "PSI-25/bass2/69#second",
+  "record_id": "PSI-25/bass2/69",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT209_SAMPLE_212_TEST_O18_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 88269340
+ },
+ {
+  "id": "PSI-25/bass2/7#main",
+  "record_id": "PSI-25/bass2/7",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT50_SAMPLE_161_TEST_B7.mp4",
+  "version": 2,
+  "size_bytes": 16692289
+ },
+ {
+  "id": "PSI-25/bass2/70#main",
+  "record_id": "PSI-25/bass2/70",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT213_SAMPLE_213_TEST_O19.mp4",
+  "version": 2,
+  "size_bytes": 109651737
+ },
+ {
+  "id": "PSI-25/bass2/70#second",
+  "record_id": "PSI-25/bass2/70",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT213_SAMPLE_213_TEST_O19_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 121826337
+ },
+ {
+  "id": "PSI-25/bass2/74#main",
+  "record_id": "PSI-25/bass2/74",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_185_TEST_P1.mp4",
+  "version": 2,
+  "size_bytes": 53049877
+ },
+ {
+  "id": "PSI-25/bass2/74#second",
+  "record_id": "PSI-25/bass2/74",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_185_TEST_P1_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 60357231
+ },
+ {
+  "id": "PSI-25/bass2/75#main",
+  "record_id": "PSI-25/bass2/75",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_188_TEST_P2.mp4",
+  "version": 2,
+  "size_bytes": 56626643
+ },
+ {
+  "id": "PSI-25/bass2/75#second",
+  "record_id": "PSI-25/bass2/75",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_188_TEST_P2_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 69541663
+ },
+ {
+  "id": "PSI-25/bass2/76#main",
+  "record_id": "PSI-25/bass2/76",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a.mp4",
+  "version": 2,
+  "size_bytes": 60651360
+ },
+ {
+  "id": "PSI-25/bass2/76#second",
+  "record_id": "PSI-25/bass2/76",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 76631703
+ },
+ {
+  "id": "PSI-25/bass2/77#main",
+  "record_id": "PSI-25/bass2/77",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3b.mp4",
+  "version": 2,
+  "size_bytes": 109145356
+ },
+ {
+  "id": "PSI-25/bass2/77#second",
+  "record_id": "PSI-25/bass2/77",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3b_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 146388142
+ },
+ {
+  "id": "PSI-25/bass2/78#main",
+  "record_id": "PSI-25/bass2/78",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT184_SAMPLE_197_TESTP4.mp4",
+  "version": 2,
+  "size_bytes": 156209211
+ },
+ {
+  "id": "PSI-25/bass2/79#main",
+  "record_id": "PSI-25/bass2/79",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5.mp4",
+  "version": 2,
+  "size_bytes": 184104096
+ },
+ {
+  "id": "PSI-25/bass2/79#second",
+  "record_id": "PSI-25/bass2/79",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 262920726
+ },
+ {
+  "id": "PSI-25/bass2/8#main",
+  "record_id": "PSI-25/bass2/8",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_157_TESTB8.mp4",
+  "version": 2,
+  "size_bytes": 18221098
+ },
+ {
+  "id": "PSI-25/bass2/8#second",
+  "record_id": "PSI-25/bass2/8",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_157_TESTB8_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 15707307
+ },
+ {
+  "id": "PSI-25/bass2/80#main",
+  "record_id": "PSI-25/bass2/80",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT184_SAMPLE_186_TESTP6.mp4",
+  "version": 2,
+  "size_bytes": 57618947
+ },
+ {
+  "id": "PSI-25/bass2/82#main",
+  "record_id": "PSI-25/bass2/82",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P9.mp4",
+  "version": 2,
+  "size_bytes": 109313158
+ },
+ {
+  "id": "PSI-25/bass2/82#second",
+  "record_id": "PSI-25/bass2/82",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P9_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 175423824
+ },
+ {
+  "id": "PSI-25/bass2/84#main",
+  "record_id": "PSI-25/bass2/84",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT210_SAMPLE_199_TEST_P12.mp4",
+  "version": 2,
+  "size_bytes": 108299394
+ },
+ {
+  "id": "PSI-25/bass2/84#second",
+  "record_id": "PSI-25/bass2/84",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT210_SAMPLE_199_TEST_P12_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 124770577
+ },
+ {
+  "id": "PSI-25/bass2/85#main",
+  "record_id": "PSI-25/bass2/85",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a.mp4",
+  "version": 2,
+  "size_bytes": 177851046
+ },
+ {
+  "id": "PSI-25/bass2/85#second",
+  "record_id": "PSI-25/bass2/85",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 246980311
+ },
+ {
+  "id": "PSI-25/bass2/86#main",
+  "record_id": "PSI-25/bass2/86",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13b.mp4",
+  "version": 2,
+  "size_bytes": 56412853
+ },
+ {
+  "id": "PSI-25/bass2/87#main",
+  "record_id": "PSI-25/bass2/87",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_189_TEST_P14.mp4",
+  "version": 2,
+  "size_bytes": 84961435
+ },
+ {
+  "id": "PSI-25/bass2/87#second",
+  "record_id": "PSI-25/bass2/87",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_189_TEST_P14_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 145518568
+ },
+ {
+  "id": "PSI-25/bass2/88#main",
+  "record_id": "PSI-25/bass2/88",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_190_TEST_P15.mp4",
+  "version": 2,
+  "size_bytes": 70783057
+ },
+ {
+  "id": "PSI-25/bass2/88#second",
+  "record_id": "PSI-25/bass2/88",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_190_TEST_P15_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 114699073
+ },
+ {
+  "id": "PSI-25/bass2/89#main",
+  "record_id": "PSI-25/bass2/89",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT203_SAMPLE_191_TEST_P16.mp4",
+  "version": 2,
+  "size_bytes": 87525194
+ },
+ {
+  "id": "PSI-25/bass2/89#second",
+  "record_id": "PSI-25/bass2/89",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT203_SAMPLE_191_TEST_P16_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 131505253
+ },
+ {
+  "id": "PSI-25/bass2/9#main",
+  "record_id": "PSI-25/bass2/9",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_154_TESTB9.mp4",
+  "version": 2,
+  "size_bytes": 4962193
+ },
+ {
+  "id": "PSI-25/bass2/9#second",
+  "record_id": "PSI-25/bass2/9",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT188_SAMPLE_154_TESTB9_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 5027782
+ },
+ {
+  "id": "PSI-25/bass2/90#main",
+  "record_id": "PSI-25/bass2/90",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT210_SAMPLE_192_TEST_P17.mp4",
+  "version": 2,
+  "size_bytes": 104648639
+ },
+ {
+  "id": "PSI-25/bass2/90#second",
+  "record_id": "PSI-25/bass2/90",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT210_SAMPLE_192_TEST_P17_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 133500600
+ },
+ {
+  "id": "PSI-25/bass2/91#second",
+  "record_id": "PSI-25/bass2/91",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT211_SAMPLE_193_TEST_P18_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 91179442
+ },
+ {
+  "id": "PSI-25/bass2/92#main",
+  "record_id": "PSI-25/bass2/92",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT203_SAMPLE_194_TEST_P19.mp4",
+  "version": 2,
+  "size_bytes": 153447514
+ },
+ {
+  "id": "PSI-25/bass2/92#second",
+  "record_id": "PSI-25/bass2/92",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT203_SAMPLE_194_TEST_P19_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 219574375
+ },
+ {
+  "id": "PSI-25/bass2/93#main",
+  "record_id": "PSI-25/bass2/93",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT211_SAMPLE_195_TEST_P20.mp4",
+  "version": 2,
+  "size_bytes": 98151714
+ },
+ {
+  "id": "PSI-25/bass2/93#second",
+  "record_id": "PSI-25/bass2/93",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT211_SAMPLE_195_TEST_P20_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 122172164
+ },
+ {
+  "id": "PSI-25/bass2/94#main",
+  "record_id": "PSI-25/bass2/94",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a.mp4",
+  "version": 2,
+  "size_bytes": 44226366
+ },
+ {
+  "id": "PSI-25/bass2/94#second",
+  "record_id": "PSI-25/bass2/94",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 58580059
+ },
+ {
+  "id": "PSI-25/bass2/95#main",
+  "record_id": "PSI-25/bass2/95",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21b.mp4",
+  "version": 2,
+  "size_bytes": 35882022
+ },
+ {
+  "id": "PSI-25/bass2/95#second",
+  "record_id": "PSI-25/bass2/95",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21b_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 45866697
+ },
+ {
+  "id": "PSI-25/bass2/96#main",
+  "record_id": "PSI-25/bass2/96",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a.mp4",
+  "version": 2,
+  "size_bytes": 32998129
+ },
+ {
+  "id": "PSI-25/bass2/96#second",
+  "record_id": "PSI-25/bass2/96",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 37816979
+ },
+ {
+  "id": "PSI-25/bass2/97#main",
+  "record_id": "PSI-25/bass2/97",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22b.mp4",
+  "version": 2,
+  "size_bytes": 73175049
+ },
+ {
+  "id": "PSI-25/bass2/97#second",
+  "record_id": "PSI-25/bass2/97",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22b_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 92114874
+ },
+ {
+  "id": "PSI-25/bass2/98#main",
+  "record_id": "PSI-25/bass2/98",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT211_SAMPLE_201_TEST_P23.mp4",
+  "version": 2,
+  "size_bytes": 154030119
+ },
+ {
+  "id": "PSI-25/bass2/98#second",
+  "record_id": "PSI-25/bass2/98",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT211_SAMPLE_201_TEST_P23_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 169994682
+ },
+ {
+  "id": "PSI-25/bass2/99#main",
+  "record_id": "PSI-25/bass2/99",
+  "accession": "PSI-25",
+  "view": "main",
+  "file_name": "PSI-25_Raw Data_BASS_GMT211_SAMPLE_819_TEST_P24.mp4",
+  "version": 2,
+  "size_bytes": 138309330
+ },
+ {
+  "id": "PSI-25/bass2/99#second",
+  "record_id": "PSI-25/bass2/99",
+  "accession": "PSI-25",
+  "view": "second",
+  "file_name": "PSI-25_Raw Data_BASS_GMT211_SAMPLE_819_TEST_P24_2ND_VIEW.mp4",
+  "version": 2,
+  "size_bytes": 174010269
+ },
+ {
+  "id": "PSI-159/cfig-inverse/1#main",
+  "record_id": "PSI-159/cfig-inverse/1",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-16h49m33s-udp____21196A1.ts",
+  "version": 1,
+  "size_bytes": 232536636
+ },
+ {
+  "id": "PSI-159/cfig-inverse/10#main",
+  "record_id": "PSI-159/cfig-inverse/10",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-19h45m42s-udp____21196F6.ts",
+  "version": 1,
+  "size_bytes": 287330176
+ },
+ {
+  "id": "PSI-159/cfig-inverse/100#main",
+  "record_id": "PSI-159/cfig-inverse/100",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-17h28m21s-udp____21256A4.ts",
+  "version": 1,
+  "size_bytes": 244133040
+ },
+ {
+  "id": "PSI-159/cfig-inverse/101#main",
+  "record_id": "PSI-159/cfig-inverse/101",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-17h44m06s-udp____21256A5.ts",
+  "version": 1,
+  "size_bytes": 240978024
+ },
+ {
+  "id": "PSI-159/cfig-inverse/102#main",
+  "record_id": "PSI-159/cfig-inverse/102",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-18h05m39s-udp____21256C1.ts",
+  "version": 1,
+  "size_bytes": 286358968
+ },
+ {
+  "id": "PSI-159/cfig-inverse/103#main",
+  "record_id": "PSI-159/cfig-inverse/103",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-18h21m54s-udp____21256F1.ts",
+  "version": 1,
+  "size_bytes": 328569104
+ },
+ {
+  "id": "PSI-159/cfig-inverse/104#main",
+  "record_id": "PSI-159/cfig-inverse/104",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-19h28m47s-udp____21256B1.ts",
+  "version": 1,
+  "size_bytes": 258048612
+ },
+ {
+  "id": "PSI-159/cfig-inverse/105#main",
+  "record_id": "PSI-159/cfig-inverse/105",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-19h58m23s-udp____21256C2.ts",
+  "version": 1,
+  "size_bytes": 159136736
+ },
+ {
+  "id": "PSI-159/cfig-inverse/106#main",
+  "record_id": "PSI-159/cfig-inverse/106",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-20h58m45s-udp____21256H1.ts",
+  "version": 1,
+  "size_bytes": 151698892
+ },
+ {
+  "id": "PSI-159/cfig-inverse/107#main",
+  "record_id": "PSI-159/cfig-inverse/107",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-21h15m12s-udp____21256H2.ts",
+  "version": 1,
+  "size_bytes": 125947780
+ },
+ {
+  "id": "PSI-159/cfig-inverse/108#main",
+  "record_id": "PSI-159/cfig-inverse/108",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-21h38m12s-udp____21256H3.ts",
+  "version": 1,
+  "size_bytes": 166254980
+ },
+ {
+  "id": "PSI-159/cfig-inverse/109#main",
+  "record_id": "PSI-159/cfig-inverse/109",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-21h57m13s-udp____21256H4.ts",
+  "version": 1,
+  "size_bytes": 153688684
+ },
+ {
+  "id": "PSI-159/cfig-inverse/11#main",
+  "record_id": "PSI-159/cfig-inverse/11",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-20h16m23s-udp____21196K1.ts",
+  "version": 1,
+  "size_bytes": 243415068
+ },
+ {
+  "id": "PSI-159/cfig-inverse/110#main",
+  "record_id": "PSI-159/cfig-inverse/110",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-22h14m43s-udp____21256H5.ts",
+  "version": 1,
+  "size_bytes": 127149100
+ },
+ {
+  "id": "PSI-159/cfig-inverse/111#main",
+  "record_id": "PSI-159/cfig-inverse/111",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-22h30m48s-udp____21256K1.ts",
+  "version": 1,
+  "size_bytes": 175828316
+ },
+ {
+  "id": "PSI-159/cfig-inverse/112#main",
+  "record_id": "PSI-159/cfig-inverse/112",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-22h45m05s-udp____21256M1.ts",
+  "version": 1,
+  "size_bytes": 110805508
+ },
+ {
+  "id": "PSI-159/cfig-inverse/113#main",
+  "record_id": "PSI-159/cfig-inverse/113",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-23h08m48s-udp____21256J1.ts",
+  "version": 1,
+  "size_bytes": 186646400
+ },
+ {
+  "id": "PSI-159/cfig-inverse/114#main",
+  "record_id": "PSI-159/cfig-inverse/114",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-13h34m26s-udp____21265A1.ts",
+  "version": 1,
+  "size_bytes": 206035592
+ },
+ {
+  "id": "PSI-159/cfig-inverse/115#main",
+  "record_id": "PSI-159/cfig-inverse/115",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-13h46m58s-udp____21265A2.ts",
+  "version": 1,
+  "size_bytes": 224495876
+ },
+ {
+  "id": "PSI-159/cfig-inverse/116#main",
+  "record_id": "PSI-159/cfig-inverse/116",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-13h57m31s-udp____21265A3.ts",
+  "version": 1,
+  "size_bytes": 279177556
+ },
+ {
+  "id": "PSI-159/cfig-inverse/117#main",
+  "record_id": "PSI-159/cfig-inverse/117",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-14h08m10s-udp____21265A4.ts",
+  "version": 1,
+  "size_bytes": 212886124
+ },
+ {
+  "id": "PSI-159/cfig-inverse/118#main",
+  "record_id": "PSI-159/cfig-inverse/118",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-14h36m33s-udp____21265A5.ts",
+  "version": 1,
+  "size_bytes": 175866856
+ },
+ {
+  "id": "PSI-159/cfig-inverse/119#main",
+  "record_id": "PSI-159/cfig-inverse/119",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-15h02m32s-udp____21265C1.ts",
+  "version": 1,
+  "size_bytes": 213987804
+ },
+ {
+  "id": "PSI-159/cfig-inverse/12#main",
+  "record_id": "PSI-159/cfig-inverse/12",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-20h29m13s-udp____21196L1.ts",
+  "version": 1,
+  "size_bytes": 255287268
+ },
+ {
+  "id": "PSI-159/cfig-inverse/120#main",
+  "record_id": "PSI-159/cfig-inverse/120",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-15h20m38s-udp____21265C2.ts",
+  "version": 1,
+  "size_bytes": 270313732
+ },
+ {
+  "id": "PSI-159/cfig-inverse/121#main",
+  "record_id": "PSI-159/cfig-inverse/121",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-15h33m43s-udp____21265C3.ts",
+  "version": 1,
+  "size_bytes": 259476848
+ },
+ {
+  "id": "PSI-159/cfig-inverse/122#main",
+  "record_id": "PSI-159/cfig-inverse/122",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-16h04m49s-udp____21265F1.ts",
+  "version": 1,
+  "size_bytes": 159901144
+ },
+ {
+  "id": "PSI-159/cfig-inverse/123#main",
+  "record_id": "PSI-159/cfig-inverse/123",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-16h19m53s-udp____21265F2.ts",
+  "version": 1,
+  "size_bytes": 231771100
+ },
+ {
+  "id": "PSI-159/cfig-inverse/124#main",
+  "record_id": "PSI-159/cfig-inverse/124",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-17h00m22s-udp____21265F3.ts",
+  "version": 1,
+  "size_bytes": 141296100
+ },
+ {
+  "id": "PSI-159/cfig-inverse/125#main",
+  "record_id": "PSI-159/cfig-inverse/125",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-17h14m38s-udp____21265F4.ts",
+  "version": 1,
+  "size_bytes": 207998876
+ },
+ {
+  "id": "PSI-159/cfig-inverse/126#main",
+  "record_id": "PSI-159/cfig-inverse/126",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-17h34m01s-udp____21265H1.ts",
+  "version": 1,
+  "size_bytes": 138199552
+ },
+ {
+  "id": "PSI-159/cfig-inverse/127#main",
+  "record_id": "PSI-159/cfig-inverse/127",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-17h49m44s-udp____21265H2.ts",
+  "version": 1,
+  "size_bytes": 248944148
+ },
+ {
+  "id": "PSI-159/cfig-inverse/128#main",
+  "record_id": "PSI-159/cfig-inverse/128",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-18h20m21s-udp____21265J1.ts",
+  "version": 1,
+  "size_bytes": 150364092
+ },
+ {
+  "id": "PSI-159/cfig-inverse/129#main",
+  "record_id": "PSI-159/cfig-inverse/129",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-18h50m13s-udp____21265K1.ts",
+  "version": 1,
+  "size_bytes": 157155216
+ },
+ {
+  "id": "PSI-159/cfig-inverse/13#main",
+  "record_id": "PSI-159/cfig-inverse/13",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-20h59m49s-udp____21196L2.ts",
+  "version": 1,
+  "size_bytes": 267071108
+ },
+ {
+  "id": "PSI-159/cfig-inverse/130#main",
+  "record_id": "PSI-159/cfig-inverse/130",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-22-19h04m52s-udp____21265H3.ts",
+  "version": 1,
+  "size_bytes": 313826520
+ },
+ {
+  "id": "PSI-159/cfig-inverse/131#main",
+  "record_id": "PSI-159/cfig-inverse/131",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-27-18h49m56s-udp____21270A1.ts",
+  "version": 1,
+  "size_bytes": 159266268
+ },
+ {
+  "id": "PSI-159/cfig-inverse/132#main",
+  "record_id": "PSI-159/cfig-inverse/132",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-27-19h01m40s-udp____21270A2.ts",
+  "version": 1,
+  "size_bytes": 205951368
+ },
+ {
+  "id": "PSI-159/cfig-inverse/133#main",
+  "record_id": "PSI-159/cfig-inverse/133",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-27-19h13m27s-udp____21270A3.ts",
+  "version": 1,
+  "size_bytes": 127047392
+ },
+ {
+  "id": "PSI-159/cfig-inverse/134#main",
+  "record_id": "PSI-159/cfig-inverse/134",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-27-19h24m13s-udp____21270A4.ts",
+  "version": 1,
+  "size_bytes": 191883140
+ },
+ {
+  "id": "PSI-159/cfig-inverse/135#main",
+  "record_id": "PSI-159/cfig-inverse/135",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-27-19h36m56s-udp____21270C1.ts",
+  "version": 1,
+  "size_bytes": 180306852
+ },
+ {
+  "id": "PSI-159/cfig-inverse/136#main",
+  "record_id": "PSI-159/cfig-inverse/136",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-27-20h11m18s-udp____21270H1.ts",
+  "version": 1,
+  "size_bytes": 168251352
+ },
+ {
+  "id": "PSI-159/cfig-inverse/137#main",
+  "record_id": "PSI-159/cfig-inverse/137",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-27-20h23m32s-udp____21270H2.ts",
+  "version": 1,
+  "size_bytes": 135771344
+ },
+ {
+  "id": "PSI-159/cfig-inverse/138#main",
+  "record_id": "PSI-159/cfig-inverse/138",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-27-20h34m07s-udp____21270H3.ts",
+  "version": 1,
+  "size_bytes": 180105128
+ },
+ {
+  "id": "PSI-159/cfig-inverse/139#main",
+  "record_id": "PSI-159/cfig-inverse/139",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-27-20h48m08s-udp____21270H4.ts",
+  "version": 1,
+  "size_bytes": 191412012
+ },
+ {
+  "id": "PSI-159/cfig-inverse/14#main",
+  "record_id": "PSI-159/cfig-inverse/14",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-21h29m57s-udp____21196M1.ts",
+  "version": 1,
+  "size_bytes": 995765500
+ },
+ {
+  "id": "PSI-159/cfig-inverse/140#main",
+  "record_id": "PSI-159/cfig-inverse/140",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-27-21h00m07s-udp____21270H5.ts",
+  "version": 1,
+  "size_bytes": 177146948
+ },
+ {
+  "id": "PSI-159/cfig-inverse/141#main",
+  "record_id": "PSI-159/cfig-inverse/141",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-17h59m58s-udp____21277A1.ts",
+  "version": 1,
+  "size_bytes": 193608980
+ },
+ {
+  "id": "PSI-159/cfig-inverse/142#main",
+  "record_id": "PSI-159/cfig-inverse/142",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-18h12m37s-udp____21277H1.ts",
+  "version": 1,
+  "size_bytes": 209451552
+ },
+ {
+  "id": "PSI-159/cfig-inverse/143#main",
+  "record_id": "PSI-159/cfig-inverse/143",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-18h25m19s-udp____21277J1.ts",
+  "version": 1,
+  "size_bytes": 216939028
+ },
+ {
+  "id": "PSI-159/cfig-inverse/144#main",
+  "record_id": "PSI-159/cfig-inverse/144",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-18h36m40s-udp____21277K1.ts",
+  "version": 1,
+  "size_bytes": 227836072
+ },
+ {
+  "id": "PSI-159/cfig-inverse/145#main",
+  "record_id": "PSI-159/cfig-inverse/145",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-18h56m34s-udp____21277K2.ts",
+  "version": 1,
+  "size_bytes": 231796480
+ },
+ {
+  "id": "PSI-159/cfig-inverse/146#main",
+  "record_id": "PSI-159/cfig-inverse/146",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-19h22m05s-udp____21277J2.ts",
+  "version": 1,
+  "size_bytes": 233321724
+ },
+ {
+  "id": "PSI-159/cfig-inverse/147#main",
+  "record_id": "PSI-159/cfig-inverse/147",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-19h57m11s-udp____21277C1.ts",
+  "version": 1,
+  "size_bytes": 208828520
+ },
+ {
+  "id": "PSI-159/cfig-inverse/148#main",
+  "record_id": "PSI-159/cfig-inverse/148",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-20h09m38s-udp____21277C2.ts",
+  "version": 1,
+  "size_bytes": 296114100
+ },
+ {
+  "id": "PSI-159/cfig-inverse/149#main",
+  "record_id": "PSI-159/cfig-inverse/149",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-20h29m53s-udp____21277L1.ts",
+  "version": 1,
+  "size_bytes": 335906180
+ },
+ {
+  "id": "PSI-159/cfig-inverse/15#main",
+  "record_id": "PSI-159/cfig-inverse/15",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-21h45m43s-udp____21196M2.ts",
+  "version": 1,
+  "size_bytes": 218016268
+ },
+ {
+  "id": "PSI-159/cfig-inverse/150#main",
+  "record_id": "PSI-159/cfig-inverse/150",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-21h04m09s-udp____21277F1.ts",
+  "version": 1,
+  "size_bytes": 268250432
+ },
+ {
+  "id": "PSI-159/cfig-inverse/151#main",
+  "record_id": "PSI-159/cfig-inverse/151",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-21h40m51s-udp____21277F2.ts",
+  "version": 1,
+  "size_bytes": 201330704
+ },
+ {
+  "id": "PSI-159/cfig-inverse/152#main",
+  "record_id": "PSI-159/cfig-inverse/152",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-22h27m17s-udp____21277M1.ts",
+  "version": 1,
+  "size_bytes": 268027652
+ },
+ {
+  "id": "PSI-159/cfig-inverse/153#main",
+  "record_id": "PSI-159/cfig-inverse/153",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-22h41m09s-udp____21277N1.ts",
+  "version": 1,
+  "size_bytes": 229896552
+ },
+ {
+  "id": "PSI-159/cfig-inverse/154#main",
+  "record_id": "PSI-159/cfig-inverse/154",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-04-23h02m36s-udp____21277P1.ts",
+  "version": 1,
+  "size_bytes": 173783252
+ },
+ {
+  "id": "PSI-159/cfig-inverse/17#main",
+  "record_id": "PSI-159/cfig-inverse/17",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-21-18h59m22s-udp____21202A1.ts",
+  "version": 1,
+  "size_bytes": 158717120
+ },
+ {
+  "id": "PSI-159/cfig-inverse/18#main",
+  "record_id": "PSI-159/cfig-inverse/18",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-21-19h15m42s-udp____21202A2.ts",
+  "version": 1,
+  "size_bytes": 169724332
+ },
+ {
+  "id": "PSI-159/cfig-inverse/19#main",
+  "record_id": "PSI-159/cfig-inverse/19",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-21-19h25m12s-udp____21202A3.ts",
+  "version": 1,
+  "size_bytes": 348771772
+ },
+ {
+  "id": "PSI-159/cfig-inverse/2#main",
+  "record_id": "PSI-159/cfig-inverse/2",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-17h11m05s-udp____21196A2.ts",
+  "version": 1,
+  "size_bytes": 271621272
+ },
+ {
+  "id": "PSI-159/cfig-inverse/20#main",
+  "record_id": "PSI-159/cfig-inverse/20",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-21-19h44m39s-udp____21202A4.ts",
+  "version": 1,
+  "size_bytes": 185146536
+ },
+ {
+  "id": "PSI-159/cfig-inverse/21#main",
+  "record_id": "PSI-159/cfig-inverse/21",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-21-21h33m29s-udp____21202H1.ts",
+  "version": 1,
+  "size_bytes": 221359096
+ },
+ {
+  "id": "PSI-159/cfig-inverse/22#main",
+  "record_id": "PSI-159/cfig-inverse/22",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-21-21h46m44s-udp____21202H2.ts",
+  "version": 1,
+  "size_bytes": 190603236
+ },
+ {
+  "id": "PSI-159/cfig-inverse/23#main",
+  "record_id": "PSI-159/cfig-inverse/23",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-21-21h56m41s-udp____21202H3.ts",
+  "version": 1,
+  "size_bytes": 262985492
+ },
+ {
+  "id": "PSI-159/cfig-inverse/24#main",
+  "record_id": "PSI-159/cfig-inverse/24",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-21-22h20m48s-udp____21202H4.ts",
+  "version": 1,
+  "size_bytes": 252357664
+ },
+ {
+  "id": "PSI-159/cfig-inverse/25#main",
+  "record_id": "PSI-159/cfig-inverse/25",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-21-22h39m56s-udp____21202J1.ts",
+  "version": 1,
+  "size_bytes": 323362068
+ },
+ {
+  "id": "PSI-159/cfig-inverse/26#main",
+  "record_id": "PSI-159/cfig-inverse/26",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-21-23h57m39s-udp____21202K1.ts",
+  "version": 1,
+  "size_bytes": 321111708
+ },
+ {
+  "id": "PSI-159/cfig-inverse/27#main",
+  "record_id": "PSI-159/cfig-inverse/27",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-22-00h25m40s-udp____21202K2.ts",
+  "version": 1,
+  "size_bytes": 213648088
+ },
+ {
+  "id": "PSI-159/cfig-inverse/28#main",
+  "record_id": "PSI-159/cfig-inverse/28",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-22-00h55m01s-udp____21202L1.ts",
+  "version": 1,
+  "size_bytes": 304115380
+ },
+ {
+  "id": "PSI-159/cfig-inverse/29#main",
+  "record_id": "PSI-159/cfig-inverse/29",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-15h54m19s-udp____21209A1.ts",
+  "version": 1,
+  "size_bytes": 201006404
+ },
+ {
+  "id": "PSI-159/cfig-inverse/3#main",
+  "record_id": "PSI-159/cfig-inverse/3",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-17h33m12s-udp____21196F1.ts",
+  "version": 1,
+  "size_bytes": 247564980
+ },
+ {
+  "id": "PSI-159/cfig-inverse/31#main",
+  "record_id": "PSI-159/cfig-inverse/31",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-16h27m28s-udp____21209A3.ts",
+  "version": 1,
+  "size_bytes": 274016768
+ },
+ {
+  "id": "PSI-159/cfig-inverse/32#main",
+  "record_id": "PSI-159/cfig-inverse/32",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-16h49m54s-udp____21209B1.ts",
+  "version": 1,
+  "size_bytes": 440083748
+ },
+ {
+  "id": "PSI-159/cfig-inverse/33#main",
+  "record_id": "PSI-159/cfig-inverse/33",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-17h06m44s-udp____21209A4.ts",
+  "version": 1,
+  "size_bytes": 284601356
+ },
+ {
+  "id": "PSI-159/cfig-inverse/34#main",
+  "record_id": "PSI-159/cfig-inverse/34",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-17h22m25s-udp____21209H1.ts",
+  "version": 1,
+  "size_bytes": 327997020
+ },
+ {
+  "id": "PSI-159/cfig-inverse/35#main",
+  "record_id": "PSI-159/cfig-inverse/35",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-17h36m56s-udp____21209J1.ts",
+  "version": 1,
+  "size_bytes": 319009492
+ },
+ {
+  "id": "PSI-159/cfig-inverse/36#main",
+  "record_id": "PSI-159/cfig-inverse/36",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-18h14m29s-udp____21209F1.ts",
+  "version": 1,
+  "size_bytes": 317347572
+ },
+ {
+  "id": "PSI-159/cfig-inverse/37#main",
+  "record_id": "PSI-159/cfig-inverse/37",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-18h35m36s-udp____21209F2.ts",
+  "version": 1,
+  "size_bytes": 340409908
+ },
+ {
+  "id": "PSI-159/cfig-inverse/38#main",
+  "record_id": "PSI-159/cfig-inverse/38",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-18h57m28s-udp____21209F3.ts",
+  "version": 1,
+  "size_bytes": 340714468
+ },
+ {
+  "id": "PSI-159/cfig-inverse/39#main",
+  "record_id": "PSI-159/cfig-inverse/39",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-19h22m34s-udp____21209B2.ts",
+  "version": 1,
+  "size_bytes": 236043588
+ },
+ {
+  "id": "PSI-159/cfig-inverse/4#main",
+  "record_id": "PSI-159/cfig-inverse/4",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-18h07m17s-udp____21196H1.ts",
+  "version": 1,
+  "size_bytes": 211067224
+ },
+ {
+  "id": "PSI-159/cfig-inverse/40#main",
+  "record_id": "PSI-159/cfig-inverse/40",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-28-19h33m15s-udp____21209K1.ts",
+  "version": 1,
+  "size_bytes": 247780992
+ },
+ {
+  "id": "PSI-159/cfig-inverse/41#main",
+  "record_id": "PSI-159/cfig-inverse/41",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-15h52m42s-udp____21216A1.ts",
+  "version": 1,
+  "size_bytes": 210452652
+ },
+ {
+  "id": "PSI-159/cfig-inverse/42#main",
+  "record_id": "PSI-159/cfig-inverse/42",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-16h03m43s-udp____21216A2.ts",
+  "version": 1,
+  "size_bytes": 228822884
+ },
+ {
+  "id": "PSI-159/cfig-inverse/43#main",
+  "record_id": "PSI-159/cfig-inverse/43",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-16h16m51s-udp____21216A3.ts",
+  "version": 1,
+  "size_bytes": 253286008
+ },
+ {
+  "id": "PSI-159/cfig-inverse/44#main",
+  "record_id": "PSI-159/cfig-inverse/44",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-16h29m24s-udp____21216A4.ts",
+  "version": 1,
+  "size_bytes": 287442224
+ },
+ {
+  "id": "PSI-159/cfig-inverse/45#main",
+  "record_id": "PSI-159/cfig-inverse/45",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-16h41m06s-udp____21216A5.ts",
+  "version": 1,
+  "size_bytes": 228210568
+ },
+ {
+  "id": "PSI-159/cfig-inverse/46#main",
+  "record_id": "PSI-159/cfig-inverse/46",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-16h52m57s-udp____21216A6.ts",
+  "version": 1,
+  "size_bytes": 322959748
+ },
+ {
+  "id": "PSI-159/cfig-inverse/47#main",
+  "record_id": "PSI-159/cfig-inverse/47",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-17h11m56s-udp____21216B1.ts",
+  "version": 1,
+  "size_bytes": 307043480
+ },
+ {
+  "id": "PSI-159/cfig-inverse/48#main",
+  "record_id": "PSI-159/cfig-inverse/48",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-17h36m56s-udp____21216C1.ts",
+  "version": 1,
+  "size_bytes": 277293608
+ },
+ {
+  "id": "PSI-159/cfig-inverse/49#main",
+  "record_id": "PSI-159/cfig-inverse/49",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-17h54m35s-udp____21216F1.ts",
+  "version": 1,
+  "size_bytes": 310807616
+ },
+ {
+  "id": "PSI-159/cfig-inverse/5#main",
+  "record_id": "PSI-159/cfig-inverse/5",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-18h20m09s-udp____21196J1.ts",
+  "version": 1,
+  "size_bytes": 226823128
+ },
+ {
+  "id": "PSI-159/cfig-inverse/50#main",
+  "record_id": "PSI-159/cfig-inverse/50",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-20h28m44s-udp____21216H1.ts",
+  "version": 1,
+  "size_bytes": 291901396
+ },
+ {
+  "id": "PSI-159/cfig-inverse/51#main",
+  "record_id": "PSI-159/cfig-inverse/51",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-20h42m18s-udp____21216H2.ts",
+  "version": 1,
+  "size_bytes": 250491388
+ },
+ {
+  "id": "PSI-159/cfig-inverse/52#main",
+  "record_id": "PSI-159/cfig-inverse/52",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-20h54m26s-udp____21216J1.ts",
+  "version": 1,
+  "size_bytes": 290857996
+ },
+ {
+  "id": "PSI-159/cfig-inverse/53#main",
+  "record_id": "PSI-159/cfig-inverse/53",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-04-21h21m43s-udp____21216K1.ts",
+  "version": 1,
+  "size_bytes": 280584924
+ },
+ {
+  "id": "PSI-159/cfig-inverse/54#main",
+  "record_id": "PSI-159/cfig-inverse/54",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-10-17h01m57s-udp____21222A1.ts",
+  "version": 1,
+  "size_bytes": 229615868
+ },
+ {
+  "id": "PSI-159/cfig-inverse/55#main",
+  "record_id": "PSI-159/cfig-inverse/55",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-10-17h16m24s-udp____21222A2.ts",
+  "version": 1,
+  "size_bytes": 239714288
+ },
+ {
+  "id": "PSI-159/cfig-inverse/56#main",
+  "record_id": "PSI-159/cfig-inverse/56",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-10-17h29m08s-udp____21222A3.ts",
+  "version": 1,
+  "size_bytes": 251748356
+ },
+ {
+  "id": "PSI-159/cfig-inverse/57#main",
+  "record_id": "PSI-159/cfig-inverse/57",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-10-17h43m16s-udp____21222A4.ts",
+  "version": 1,
+  "size_bytes": 213747916
+ },
+ {
+  "id": "PSI-159/cfig-inverse/58#main",
+  "record_id": "PSI-159/cfig-inverse/58",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-10-17h55m32s-udp____21222A5.ts",
+  "version": 1,
+  "size_bytes": 227991548
+ },
+ {
+  "id": "PSI-159/cfig-inverse/59#main",
+  "record_id": "PSI-159/cfig-inverse/59",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-10-18h15m51s-udp____21222B1.ts",
+  "version": 1,
+  "size_bytes": 238238488
+ },
+ {
+  "id": "PSI-159/cfig-inverse/6#main",
+  "record_id": "PSI-159/cfig-inverse/6",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-18h33m40s-udp____21196F2.ts",
+  "version": 1,
+  "size_bytes": 314787388
+ },
+ {
+  "id": "PSI-159/cfig-inverse/60#main",
+  "record_id": "PSI-159/cfig-inverse/60",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-10-19h00m27s-udp____21222C1.ts",
+  "version": 1,
+  "size_bytes": 259059488
+ },
+ {
+  "id": "PSI-159/cfig-inverse/61#main",
+  "record_id": "PSI-159/cfig-inverse/61",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-10-19h12m42s-udp____21222C2.ts",
+  "version": 1,
+  "size_bytes": 236448728
+ },
+ {
+  "id": "PSI-159/cfig-inverse/62#main",
+  "record_id": "PSI-159/cfig-inverse/62",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-10-19h50m44s-udp____21222F1.ts",
+  "version": 1,
+  "size_bytes": 190614516
+ },
+ {
+  "id": "PSI-159/cfig-inverse/63#main",
+  "record_id": "PSI-159/cfig-inverse/63",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-10-20h12m21s-udp____21222F2.ts",
+  "version": 1,
+  "size_bytes": 190099208
+ },
+ {
+  "id": "PSI-159/cfig-inverse/64#main",
+  "record_id": "PSI-159/cfig-inverse/64",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-17h28m58s-udp____21228A1.ts",
+  "version": 1,
+  "size_bytes": 233589624
+ },
+ {
+  "id": "PSI-159/cfig-inverse/65#main",
+  "record_id": "PSI-159/cfig-inverse/65",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-17h43m33s-udp____21228A2.ts",
+  "version": 1,
+  "size_bytes": 222378056
+ },
+ {
+  "id": "PSI-159/cfig-inverse/66#main",
+  "record_id": "PSI-159/cfig-inverse/66",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-18h00m51s-udp____21228A3.ts",
+  "version": 1,
+  "size_bytes": 248422448
+ },
+ {
+  "id": "PSI-159/cfig-inverse/67#main",
+  "record_id": "PSI-159/cfig-inverse/67",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-18h13m11s-udp____21228A4.ts",
+  "version": 1,
+  "size_bytes": 243984708
+ },
+ {
+  "id": "PSI-159/cfig-inverse/68#main",
+  "record_id": "PSI-159/cfig-inverse/68",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-18h28m50s-udp____21228B1.ts",
+  "version": 1,
+  "size_bytes": 244536112
+ },
+ {
+  "id": "PSI-159/cfig-inverse/69#main",
+  "record_id": "PSI-159/cfig-inverse/69",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-18h58m27s-udp____21228C1.ts",
+  "version": 1,
+  "size_bytes": 209384060
+ },
+ {
+  "id": "PSI-159/cfig-inverse/7#main",
+  "record_id": "PSI-159/cfig-inverse/7",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-18h55m34s-udp____21196F3.ts",
+  "version": 1,
+  "size_bytes": 231053504
+ },
+ {
+  "id": "PSI-159/cfig-inverse/70#main",
+  "record_id": "PSI-159/cfig-inverse/70",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-19h15m12s-udp____21228C2.ts",
+  "version": 1,
+  "size_bytes": 326962080
+ },
+ {
+  "id": "PSI-159/cfig-inverse/71#main",
+  "record_id": "PSI-159/cfig-inverse/71",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-19h30m40s-udp____21228C3.ts",
+  "version": 1,
+  "size_bytes": 252613156
+ },
+ {
+  "id": "PSI-159/cfig-inverse/72#main",
+  "record_id": "PSI-159/cfig-inverse/72",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-19h44m56s-udp____21228C4.ts",
+  "version": 1,
+  "size_bytes": 265831624
+ },
+ {
+  "id": "PSI-159/cfig-inverse/73#main",
+  "record_id": "PSI-159/cfig-inverse/73",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-19h58m53s-udp____21228F1.ts",
+  "version": 1,
+  "size_bytes": 312264240
+ },
+ {
+  "id": "PSI-159/cfig-inverse/74#main",
+  "record_id": "PSI-159/cfig-inverse/74",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-20h49m18s-udp____21228H1.ts",
+  "version": 1,
+  "size_bytes": 122898044
+ },
+ {
+  "id": "PSI-159/cfig-inverse/75#main",
+  "record_id": "PSI-159/cfig-inverse/75",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-21h03m09s-udp____21228H2.ts",
+  "version": 1,
+  "size_bytes": 161650860
+ },
+ {
+  "id": "PSI-159/cfig-inverse/76#main",
+  "record_id": "PSI-159/cfig-inverse/76",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-21h25m04s-udp____21228J1.ts",
+  "version": 1,
+  "size_bytes": 150083784
+ },
+ {
+  "id": "PSI-159/cfig-inverse/77#main",
+  "record_id": "PSI-159/cfig-inverse/77",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-21h42m27s-udp____21228K1.ts",
+  "version": 1,
+  "size_bytes": 167176180
+ },
+ {
+  "id": "PSI-159/cfig-inverse/78#main",
+  "record_id": "PSI-159/cfig-inverse/78",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-22h02m00s-udp____21228K2.ts",
+  "version": 1,
+  "size_bytes": 164321964
+ },
+ {
+  "id": "PSI-159/cfig-inverse/79#main",
+  "record_id": "PSI-159/cfig-inverse/79",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-22h16m30s-udp____21228L1.ts",
+  "version": 1,
+  "size_bytes": 143756080
+ },
+ {
+  "id": "PSI-159/cfig-inverse/8#main",
+  "record_id": "PSI-159/cfig-inverse/8",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-19h06m21s-udp____21196F4.ts",
+  "version": 1,
+  "size_bytes": 242838660
+ },
+ {
+  "id": "PSI-159/cfig-inverse/80#main",
+  "record_id": "PSI-159/cfig-inverse/80",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-16-22h31m25s-udp____21228L2.ts",
+  "version": 1,
+  "size_bytes": 141543696
+ },
+ {
+  "id": "PSI-159/cfig-inverse/81#main",
+  "record_id": "PSI-159/cfig-inverse/81",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-23-14h04m54s-udp____21235A1.ts",
+  "version": 1,
+  "size_bytes": 304716980
+ },
+ {
+  "id": "PSI-159/cfig-inverse/82#main",
+  "record_id": "PSI-159/cfig-inverse/82",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-23-14h20m24s-udp____21235A2.ts",
+  "version": 1,
+  "size_bytes": 311558112
+ },
+ {
+  "id": "PSI-159/cfig-inverse/83#main",
+  "record_id": "PSI-159/cfig-inverse/83",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-23-14h32m48s-udp____21235C1.ts",
+  "version": 1,
+  "size_bytes": 318896880
+ },
+ {
+  "id": "PSI-159/cfig-inverse/84#main",
+  "record_id": "PSI-159/cfig-inverse/84",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-23-14h46m04s-udp____21235F1.ts",
+  "version": 1,
+  "size_bytes": 296518112
+ },
+ {
+  "id": "PSI-159/cfig-inverse/85#main",
+  "record_id": "PSI-159/cfig-inverse/85",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-23-15h07m16s-udp____21235F2.ts",
+  "version": 1,
+  "size_bytes": 240530396
+ },
+ {
+  "id": "PSI-159/cfig-inverse/86#main",
+  "record_id": "PSI-159/cfig-inverse/86",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-23-15h20m17s-udp____21235H1.ts",
+  "version": 1,
+  "size_bytes": 243738616
+ },
+ {
+  "id": "PSI-159/cfig-inverse/87#main",
+  "record_id": "PSI-159/cfig-inverse/87",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-23-15h30m49s-udp____21235J1.ts",
+  "version": 1,
+  "size_bytes": 303788448
+ },
+ {
+  "id": "PSI-159/cfig-inverse/88#main",
+  "record_id": "PSI-159/cfig-inverse/88",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-23-15h53m14s-udp____21235B1.ts",
+  "version": 1,
+  "size_bytes": 440509756
+ },
+ {
+  "id": "PSI-159/cfig-inverse/89#main",
+  "record_id": "PSI-159/cfig-inverse/89",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-23-16h24m44s-udp____21235K1.ts",
+  "version": 1,
+  "size_bytes": 334035768
+ },
+ {
+  "id": "PSI-159/cfig-inverse/9#main",
+  "record_id": "PSI-159/cfig-inverse/9",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-07-15-19h21m04s-udp____21196F5.ts",
+  "version": 1,
+  "size_bytes": 220696960
+ },
+ {
+  "id": "PSI-159/cfig-inverse/90#main",
+  "record_id": "PSI-159/cfig-inverse/90",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-23-16h44m04s-udp____21235L1.ts",
+  "version": 1,
+  "size_bytes": 429705584
+ },
+ {
+  "id": "PSI-159/cfig-inverse/91#main",
+  "record_id": "PSI-159/cfig-inverse/91",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-30-15h32m07s-udp____21242A1.ts",
+  "version": 1,
+  "size_bytes": 177108032
+ },
+ {
+  "id": "PSI-159/cfig-inverse/92#main",
+  "record_id": "PSI-159/cfig-inverse/92",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-30-15h47m54s-udp____21242P1.ts",
+  "version": 1,
+  "size_bytes": 133265680
+ },
+ {
+  "id": "PSI-159/cfig-inverse/93#main",
+  "record_id": "PSI-159/cfig-inverse/93",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-30-17h00m09s-udp____21242F2.ts",
+  "version": 1,
+  "size_bytes": 133304408
+ },
+ {
+  "id": "PSI-159/cfig-inverse/94#main",
+  "record_id": "PSI-159/cfig-inverse/94",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-30-18h06m59s-udp____21242F3.ts",
+  "version": 1,
+  "size_bytes": 114847696
+ },
+ {
+  "id": "PSI-159/cfig-inverse/95#main",
+  "record_id": "PSI-159/cfig-inverse/95",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-08-30-18h21m07s-udp____21242F4.ts",
+  "version": 1,
+  "size_bytes": 128665696
+ },
+ {
+  "id": "PSI-159/cfig-inverse/97#main",
+  "record_id": "PSI-159/cfig-inverse/97",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-16h09m12s-udp____21256A1.ts",
+  "version": 1,
+  "size_bytes": 236939220
+ },
+ {
+  "id": "PSI-159/cfig-inverse/98#main",
+  "record_id": "PSI-159/cfig-inverse/98",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-16h42m04s-udp____21256A2.ts",
+  "version": 1,
+  "size_bytes": 244867368
+ },
+ {
+  "id": "PSI-159/cfig-inverse/99#main",
+  "record_id": "PSI-159/cfig-inverse/99",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-09-13-17h02m47s-udp____21256A3.ts",
+  "version": 1,
+  "size_bytes": 243114268
+ },
+ {
+  "id": "PSI-159/cfig-normal/1#main",
+  "record_id": "PSI-159/cfig-normal/1",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-15h24m41s-udp____21088A1.ts",
+  "version": 1,
+  "size_bytes": 490049448
+ },
+ {
+  "id": "PSI-159/cfig-normal/10#main",
+  "record_id": "PSI-159/cfig-normal/10",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-20h14m26s-udp____21088H2.ts",
+  "version": 1,
+  "size_bytes": 389977612
+ },
+ {
+  "id": "PSI-159/cfig-normal/100#main",
+  "record_id": "PSI-159/cfig-normal/100",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-20h11m04s-udp____21130M3.ts",
+  "version": 1,
+  "size_bytes": 109095836
+ },
+ {
+  "id": "PSI-159/cfig-normal/101#main",
+  "record_id": "PSI-159/cfig-normal/101",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-20h50m20s-udp____21130G1.ts",
+  "version": 1,
+  "size_bytes": 144169304
+ },
+ {
+  "id": "PSI-159/cfig-normal/102#main",
+  "record_id": "PSI-159/cfig-normal/102",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-21h15m43s-udp____21130G2.ts",
+  "version": 1,
+  "size_bytes": 172046320
+ },
+ {
+  "id": "PSI-159/cfig-normal/103#main",
+  "record_id": "PSI-159/cfig-normal/103",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-21h31m46s-udp____21130G3.ts",
+  "version": 1,
+  "size_bytes": 139008516
+ },
+ {
+  "id": "PSI-159/cfig-normal/104#main",
+  "record_id": "PSI-159/cfig-normal/104",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-21h54m36s-udp____21130G4.ts",
+  "version": 1,
+  "size_bytes": 182071232
+ },
+ {
+  "id": "PSI-159/cfig-normal/105#main",
+  "record_id": "PSI-159/cfig-normal/105",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-22h11m22s-udp____21130G5.ts",
+  "version": 1,
+  "size_bytes": 136105608
+ },
+ {
+  "id": "PSI-159/cfig-normal/106#main",
+  "record_id": "PSI-159/cfig-normal/106",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-22h23m18s-udp____21130G6.ts",
+  "version": 1,
+  "size_bytes": 140623436
+ },
+ {
+  "id": "PSI-159/cfig-normal/107#main",
+  "record_id": "PSI-159/cfig-normal/107",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-22h52m50s-udp____21130G7.ts",
+  "version": 1,
+  "size_bytes": 127221104
+ },
+ {
+  "id": "PSI-159/cfig-normal/108#main",
+  "record_id": "PSI-159/cfig-normal/108",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_21130N1-vlc-record-2021-05-10-23h23m18s-udp___233.1.14.13_50400-.ts",
+  "version": 1,
+  "size_bytes": 14767400
+ },
+ {
+  "id": "PSI-159/cfig-normal/109#main",
+  "record_id": "PSI-159/cfig-normal/109",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-23h38m53s-udp____21130N2.ts",
+  "version": 1,
+  "size_bytes": 83072500
+ },
+ {
+  "id": "PSI-159/cfig-normal/11#main",
+  "record_id": "PSI-159/cfig-normal/11",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-23h52m46s-udp____21088M4.ts",
+  "version": 1,
+  "size_bytes": 114995088
+ },
+ {
+  "id": "PSI-159/cfig-normal/110#main",
+  "record_id": "PSI-159/cfig-normal/110",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-11-01h11m38s-udp____21130N3.ts",
+  "version": 1,
+  "size_bytes": 99530020
+ },
+ {
+  "id": "PSI-159/cfig-normal/111#main",
+  "record_id": "PSI-159/cfig-normal/111",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-11-01h53m24s-udp____21130N4.ts",
+  "version": 1,
+  "size_bytes": 105841932
+ },
+ {
+  "id": "PSI-159/cfig-normal/112#main",
+  "record_id": "PSI-159/cfig-normal/112",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-11-02h42m42s-udp____21130N5.ts",
+  "version": 1,
+  "size_bytes": 90998956
+ },
+ {
+  "id": "PSI-159/cfig-normal/113#main",
+  "record_id": "PSI-159/cfig-normal/113",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-13h35m21s-udp____21137A1.ts",
+  "version": 1,
+  "size_bytes": 214541652
+ },
+ {
+  "id": "PSI-159/cfig-normal/114#main",
+  "record_id": "PSI-159/cfig-normal/114",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-13h56m08s-udp____21137A2.ts",
+  "version": 1,
+  "size_bytes": 209545928
+ },
+ {
+  "id": "PSI-159/cfig-normal/115#main",
+  "record_id": "PSI-159/cfig-normal/115",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-14h06m53s-udp____21137A3.ts",
+  "version": 1,
+  "size_bytes": 406340192
+ },
+ {
+  "id": "PSI-159/cfig-normal/116#main",
+  "record_id": "PSI-159/cfig-normal/116",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-14h26m22s-udp____21137B1.ts",
+  "version": 1,
+  "size_bytes": 383375240
+ },
+ {
+  "id": "PSI-159/cfig-normal/117#main",
+  "record_id": "PSI-159/cfig-normal/117",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-14h45m43s-udp____21137B2.ts",
+  "version": 1,
+  "size_bytes": 400135816
+ },
+ {
+  "id": "PSI-159/cfig-normal/118#main",
+  "record_id": "PSI-159/cfig-normal/118",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-15h38m23s-udp____21137A4.ts",
+  "version": 1,
+  "size_bytes": 186581916
+ },
+ {
+  "id": "PSI-159/cfig-normal/119#main",
+  "record_id": "PSI-159/cfig-normal/119",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-15h57m14s-udp____21137A5.ts",
+  "version": 1,
+  "size_bytes": 227667060
+ },
+ {
+  "id": "PSI-159/cfig-normal/12#main",
+  "record_id": "PSI-159/cfig-normal/12",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-30-00h11m09s-udp____21088L1.ts",
+  "version": 1,
+  "size_bytes": 81920248
+ },
+ {
+  "id": "PSI-159/cfig-normal/120#main",
+  "record_id": "PSI-159/cfig-normal/120",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-16h09m11s-udp____21137A6.ts",
+  "version": 1,
+  "size_bytes": 158583264
+ },
+ {
+  "id": "PSI-159/cfig-normal/121#main",
+  "record_id": "PSI-159/cfig-normal/121",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-16h28m19s-udp____21137A7.ts",
+  "version": 1,
+  "size_bytes": 189538592
+ },
+ {
+  "id": "PSI-159/cfig-normal/122#main",
+  "record_id": "PSI-159/cfig-normal/122",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-17h30m17s-udp____21137D1.ts",
+  "version": 1,
+  "size_bytes": 119771416
+ },
+ {
+  "id": "PSI-159/cfig-normal/123#main",
+  "record_id": "PSI-159/cfig-normal/123",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-17h45m50s-udp____21137D2.ts",
+  "version": 1,
+  "size_bytes": 150284568
+ },
+ {
+  "id": "PSI-159/cfig-normal/124#main",
+  "record_id": "PSI-159/cfig-normal/124",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-17-18h10m57s-udp____21137C1.ts",
+  "version": 1,
+  "size_bytes": 171322896
+ },
+ {
+  "id": "PSI-159/cfig-normal/125#main",
+  "record_id": "PSI-159/cfig-normal/125",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-15h59m00s-udp____21153A1.ts",
+  "version": 1,
+  "size_bytes": 303605336
+ },
+ {
+  "id": "PSI-159/cfig-normal/126#main",
+  "record_id": "PSI-159/cfig-normal/126",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-16h13m32s-udp____21153A2.ts",
+  "version": 1,
+  "size_bytes": 366854928
+ },
+ {
+  "id": "PSI-159/cfig-normal/127#main",
+  "record_id": "PSI-159/cfig-normal/127",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-16h38m17s-udp____21153A3.ts",
+  "version": 1,
+  "size_bytes": 687667716
+ },
+ {
+  "id": "PSI-159/cfig-normal/128#main",
+  "record_id": "PSI-159/cfig-normal/128",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-17h05m11s-udp____21153F1.ts",
+  "version": 1,
+  "size_bytes": 305884648
+ },
+ {
+  "id": "PSI-159/cfig-normal/129#main",
+  "record_id": "PSI-159/cfig-normal/129",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-17h41m30s-udp____21153A4.ts",
+  "version": 1,
+  "size_bytes": 220311372
+ },
+ {
+  "id": "PSI-159/cfig-normal/13#main",
+  "record_id": "PSI-159/cfig-normal/13",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-30-00h54m53s-udp____21088N1.ts",
+  "version": 1,
+  "size_bytes": 90956468
+ },
+ {
+  "id": "PSI-159/cfig-normal/130#main",
+  "record_id": "PSI-159/cfig-normal/130",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-17h51m51s-udp____21153A5.ts",
+  "version": 1,
+  "size_bytes": 685075760
+ },
+ {
+  "id": "PSI-159/cfig-normal/131#main",
+  "record_id": "PSI-159/cfig-normal/131",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-19h47m02s-udp____21153C1.ts",
+  "version": 1,
+  "size_bytes": 290241168
+ },
+ {
+  "id": "PSI-159/cfig-normal/132#main",
+  "record_id": "PSI-159/cfig-normal/132",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-20h10m39s-udp____21153C2.ts",
+  "version": 1,
+  "size_bytes": 290184580
+ },
+ {
+  "id": "PSI-159/cfig-normal/133#main",
+  "record_id": "PSI-159/cfig-normal/133",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-20h31m20s-udp____21153C3.ts",
+  "version": 1,
+  "size_bytes": 436472268
+ },
+ {
+  "id": "PSI-159/cfig-normal/134#main",
+  "record_id": "PSI-159/cfig-normal/134",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-21h08m15s-udp____21153G1.ts",
+  "version": 1,
+  "size_bytes": 414346924
+ },
+ {
+  "id": "PSI-159/cfig-normal/135#main",
+  "record_id": "PSI-159/cfig-normal/135",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-21h26m56s-udp____21153C4.ts",
+  "version": 1,
+  "size_bytes": 626963644
+ },
+ {
+  "id": "PSI-159/cfig-normal/136#main",
+  "record_id": "PSI-159/cfig-normal/136",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-21h46m36s-udp____21153C5.ts",
+  "version": 1,
+  "size_bytes": 247884768
+ },
+ {
+  "id": "PSI-159/cfig-normal/137#main",
+  "record_id": "PSI-159/cfig-normal/137",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-22h02m00s-udp____21153C6.ts",
+  "version": 1,
+  "size_bytes": 256623008
+ },
+ {
+  "id": "PSI-159/cfig-normal/138#main",
+  "record_id": "PSI-159/cfig-normal/138",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-02-22h15m05s-udp____21153C7.ts",
+  "version": 1,
+  "size_bytes": 230477472
+ },
+ {
+  "id": "PSI-159/cfig-normal/139#main",
+  "record_id": "PSI-159/cfig-normal/139",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-15h23m45s-udp____21162A1.ts",
+  "version": 1,
+  "size_bytes": 307655232
+ },
+ {
+  "id": "PSI-159/cfig-normal/14#main",
+  "record_id": "PSI-159/cfig-normal/14",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-30-01h12m44s-udp____21088P1.ts",
+  "version": 1,
+  "size_bytes": 103336832
+ },
+ {
+  "id": "PSI-159/cfig-normal/140#main",
+  "record_id": "PSI-159/cfig-normal/140",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-15h50m34s-udp____21162A2.ts",
+  "version": 1,
+  "size_bytes": 271502080
+ },
+ {
+  "id": "PSI-159/cfig-normal/141#main",
+  "record_id": "PSI-159/cfig-normal/141",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-16h15m28s-udp____21162A3.ts",
+  "version": 1,
+  "size_bytes": 573457528
+ },
+ {
+  "id": "PSI-159/cfig-normal/142#main",
+  "record_id": "PSI-159/cfig-normal/142",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-16h39m21s-udp____21162B1.ts",
+  "version": 1,
+  "size_bytes": 417125752
+ },
+ {
+  "id": "PSI-159/cfig-normal/143#main",
+  "record_id": "PSI-159/cfig-normal/143",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-16h59m22s-udp____21162A4.ts",
+  "version": 1,
+  "size_bytes": 707752884
+ },
+ {
+  "id": "PSI-159/cfig-normal/144#main",
+  "record_id": "PSI-159/cfig-normal/144",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-18h12m05s-udp____21162C1.ts",
+  "version": 1,
+  "size_bytes": 183013488
+ },
+ {
+  "id": "PSI-159/cfig-normal/145#main",
+  "record_id": "PSI-159/cfig-normal/145",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-18h32m10s-udp____21162C2.ts",
+  "version": 1,
+  "size_bytes": 140543912
+ },
+ {
+  "id": "PSI-159/cfig-normal/146#main",
+  "record_id": "PSI-159/cfig-normal/146",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-18h43m13s-udp____21162C3.ts",
+  "version": 1,
+  "size_bytes": 130780320
+ },
+ {
+  "id": "PSI-159/cfig-normal/147#main",
+  "record_id": "PSI-159/cfig-normal/147",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-19h04m05s-udp____21162C4.ts",
+  "version": 1,
+  "size_bytes": 210178548
+ },
+ {
+  "id": "PSI-159/cfig-normal/149#main",
+  "record_id": "PSI-159/cfig-normal/149",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-19h54m23s-udp____21162D1.ts",
+  "version": 1,
+  "size_bytes": 252010240
+ },
+ {
+  "id": "PSI-159/cfig-normal/15#main",
+  "record_id": "PSI-159/cfig-normal/15",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-17h57m36s-udp____21102A1.ts",
+  "version": 1,
+  "size_bytes": 470346672
+ },
+ {
+  "id": "PSI-159/cfig-normal/150#main",
+  "record_id": "PSI-159/cfig-normal/150",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-20h16m39s-udp____21162F1.ts",
+  "version": 1,
+  "size_bytes": 238371968
+ },
+ {
+  "id": "PSI-159/cfig-normal/151#main",
+  "record_id": "PSI-159/cfig-normal/151",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-11-20h29m53s-udp____21162F2.ts",
+  "version": 1,
+  "size_bytes": 259118708
+ },
+ {
+  "id": "PSI-159/cfig-normal/152#main",
+  "record_id": "PSI-159/cfig-normal/152",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-13h52m14s-udp____21174A1.ts",
+  "version": 1,
+  "size_bytes": 310303212
+ },
+ {
+  "id": "PSI-159/cfig-normal/153#main",
+  "record_id": "PSI-159/cfig-normal/153",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-14h11m22s-udp____21174A2.ts",
+  "version": 1,
+  "size_bytes": 273485856
+ },
+ {
+  "id": "PSI-159/cfig-normal/154#main",
+  "record_id": "PSI-159/cfig-normal/154",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-14h37m34s-udp____21174A3.ts",
+  "version": 1,
+  "size_bytes": 306672932
+ },
+ {
+  "id": "PSI-159/cfig-normal/156#main",
+  "record_id": "PSI-159/cfig-normal/156",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-15h32m06s-udp____21174B1.ts",
+  "version": 1,
+  "size_bytes": 361549944
+ },
+ {
+  "id": "PSI-159/cfig-normal/157#main",
+  "record_id": "PSI-159/cfig-normal/157",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-17h19m34s-udp____21174C1.ts",
+  "version": 1,
+  "size_bytes": 214193100
+ },
+ {
+  "id": "PSI-159/cfig-normal/158#main",
+  "record_id": "PSI-159/cfig-normal/158",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-17h41m40s-udp____21174C2.ts",
+  "version": 1,
+  "size_bytes": 262797680
+ },
+ {
+  "id": "PSI-159/cfig-normal/159#main",
+  "record_id": "PSI-159/cfig-normal/159",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-18h06m46s-udp____21174C3.ts",
+  "version": 1,
+  "size_bytes": 304851588
+ },
+ {
+  "id": "PSI-159/cfig-normal/16#main",
+  "record_id": "PSI-159/cfig-normal/16",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-19h04m08s-udp____21102C1.ts",
+  "version": 1,
+  "size_bytes": 525939964
+ },
+ {
+  "id": "PSI-159/cfig-normal/160#main",
+  "record_id": "PSI-159/cfig-normal/160",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-18h22m39s-udp____21174C4.ts",
+  "version": 1,
+  "size_bytes": 382069392
+ },
+ {
+  "id": "PSI-159/cfig-normal/161#main",
+  "record_id": "PSI-159/cfig-normal/161",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-18h37m23s-udp____21174D1.ts",
+  "version": 1,
+  "size_bytes": 344500036
+ },
+ {
+  "id": "PSI-159/cfig-normal/162#main",
+  "record_id": "PSI-159/cfig-normal/162",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-19h36m36s-udp____21174F1.ts",
+  "version": 1,
+  "size_bytes": 226084664
+ },
+ {
+  "id": "PSI-159/cfig-normal/163#main",
+  "record_id": "PSI-159/cfig-normal/163",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-19h54m07s-udp____21174C5.ts",
+  "version": 1,
+  "size_bytes": 191071732
+ },
+ {
+  "id": "PSI-159/cfig-normal/164#main",
+  "record_id": "PSI-159/cfig-normal/164",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-20h07m43s-udp____21174C6.ts",
+  "version": 1,
+  "size_bytes": 548557868
+ },
+ {
+  "id": "PSI-159/cfig-normal/165#main",
+  "record_id": "PSI-159/cfig-normal/165",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-20h46m26s-udp____21174F2.ts",
+  "version": 1,
+  "size_bytes": 135852184
+ },
+ {
+  "id": "PSI-159/cfig-normal/166#main",
+  "record_id": "PSI-159/cfig-normal/166",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-21h01m21s-udp____21174F3.ts",
+  "version": 1,
+  "size_bytes": 135345900
+ },
+ {
+  "id": "PSI-159/cfig-normal/167#main",
+  "record_id": "PSI-159/cfig-normal/167",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-06-23-21h14m46s-udp____21174F4.ts",
+  "version": 1,
+  "size_bytes": 179034280
+ },
+ {
+  "id": "PSI-159/cfig-normal/168#main",
+  "record_id": "PSI-159/cfig-normal/168",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-18-17h51m58s-udp____21291A1.ts",
+  "version": 1,
+  "size_bytes": 553568068
+ },
+ {
+  "id": "PSI-159/cfig-normal/169#main",
+  "record_id": "PSI-159/cfig-normal/169",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-18-18h33m29s-udp____21291C1.ts",
+  "version": 1,
+  "size_bytes": 630951688
+ },
+ {
+  "id": "PSI-159/cfig-normal/17#main",
+  "record_id": "PSI-159/cfig-normal/17",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-19h41m39s-udp____21102B1.ts",
+  "version": 1,
+  "size_bytes": 196361112
+ },
+ {
+  "id": "PSI-159/cfig-normal/170#main",
+  "record_id": "PSI-159/cfig-normal/170",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-18-19h17m20s-udp____21291C2.ts",
+  "version": 1,
+  "size_bytes": 283418836
+ },
+ {
+  "id": "PSI-159/cfig-normal/171#main",
+  "record_id": "PSI-159/cfig-normal/171",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-18-20h20m43s-udp____21291B1.ts",
+  "version": 1,
+  "size_bytes": 189648196
+ },
+ {
+  "id": "PSI-159/cfig-normal/172#main",
+  "record_id": "PSI-159/cfig-normal/172",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-18-20h56m19s-udp____21291H1.ts",
+  "version": 1,
+  "size_bytes": 209728100
+ },
+ {
+  "id": "PSI-159/cfig-normal/173#main",
+  "record_id": "PSI-159/cfig-normal/173",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-18-21h19m12s-udp____21291H2.ts",
+  "version": 1,
+  "size_bytes": 411519404
+ },
+ {
+  "id": "PSI-159/cfig-normal/174#main",
+  "record_id": "PSI-159/cfig-normal/174",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-19-00h09m28s-udp____21291D1.ts",
+  "version": 1,
+  "size_bytes": 299264980
+ },
+ {
+  "id": "PSI-159/cfig-normal/175#main",
+  "record_id": "PSI-159/cfig-normal/175",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-19-00h21m55s-udp____21291G1.ts",
+  "version": 1,
+  "size_bytes": 428809576
+ },
+ {
+  "id": "PSI-159/cfig-normal/176#main",
+  "record_id": "PSI-159/cfig-normal/176",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-19-00h37m35s-udp____21291G2.ts",
+  "version": 1,
+  "size_bytes": 260040472
+ },
+ {
+  "id": "PSI-159/cfig-normal/177#main",
+  "record_id": "PSI-159/cfig-normal/177",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-19-01h15m10s-udp____21291J1.ts",
+  "version": 1,
+  "size_bytes": 275302500
+ },
+ {
+  "id": "PSI-159/cfig-normal/178#main",
+  "record_id": "PSI-159/cfig-normal/178",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-19-01h27m48s-udp____21291J2.ts",
+  "version": 1,
+  "size_bytes": 210657572
+ },
+ {
+  "id": "PSI-159/cfig-normal/179#main",
+  "record_id": "PSI-159/cfig-normal/179",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-10-19-01h41m03s-udp____21291J3.ts",
+  "version": 1,
+  "size_bytes": 313117196
+ },
+ {
+  "id": "PSI-159/cfig-normal/18#main",
+  "record_id": "PSI-159/cfig-normal/18",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-20h04m37s-udp____21102C2.ts",
+  "version": 1,
+  "size_bytes": 288998864
+ },
+ {
+  "id": "PSI-159/cfig-normal/19#main",
+  "record_id": "PSI-159/cfig-normal/19",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-20h37m00s-udp____21102C3.ts",
+  "version": 1,
+  "size_bytes": 368804300
+ },
+ {
+  "id": "PSI-159/cfig-normal/2#main",
+  "record_id": "PSI-159/cfig-normal/2",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-15h52m30s-udp____21088B1.ts",
+  "version": 1,
+  "size_bytes": 310911956
+ },
+ {
+  "id": "PSI-159/cfig-normal/20#main",
+  "record_id": "PSI-159/cfig-normal/20",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-21h12m00s-udp____21102C4.ts",
+  "version": 1,
+  "size_bytes": 217649480
+ },
+ {
+  "id": "PSI-159/cfig-normal/21#main",
+  "record_id": "PSI-159/cfig-normal/21",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-21h33m22s-udp____21102C5.ts",
+  "version": 1,
+  "size_bytes": 284331012
+ },
+ {
+  "id": "PSI-159/cfig-normal/22#main",
+  "record_id": "PSI-159/cfig-normal/22",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-21h55m03s-udp____21102C6.ts",
+  "version": 1,
+  "size_bytes": 248636768
+ },
+ {
+  "id": "PSI-159/cfig-normal/23#main",
+  "record_id": "PSI-159/cfig-normal/23",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-22h07m51s-udp____21102C7.ts",
+  "version": 1,
+  "size_bytes": 252306528
+ },
+ {
+  "id": "PSI-159/cfig-normal/24#main",
+  "record_id": "PSI-159/cfig-normal/24",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-22h19m06s-udp____21102C8.ts",
+  "version": 1,
+  "size_bytes": 229456256
+ },
+ {
+  "id": "PSI-159/cfig-normal/25#main",
+  "record_id": "PSI-159/cfig-normal/25",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-23h10m58s-udp____21102M1.ts",
+  "version": 1,
+  "size_bytes": 198079996
+ },
+ {
+  "id": "PSI-159/cfig-normal/26#main",
+  "record_id": "PSI-159/cfig-normal/26",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-23h24m57s-udp____21102M2.ts",
+  "version": 1,
+  "size_bytes": 218645880
+ },
+ {
+  "id": "PSI-159/cfig-normal/27#main",
+  "record_id": "PSI-159/cfig-normal/27",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-23h42m44s-udp____21102M3.ts",
+  "version": 1,
+  "size_bytes": 251457332
+ },
+ {
+  "id": "PSI-159/cfig-normal/28#main",
+  "record_id": "PSI-159/cfig-normal/28",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-12-23h54m21s-udp____21102M4.ts",
+  "version": 1,
+  "size_bytes": 233528524
+ },
+ {
+  "id": "PSI-159/cfig-normal/29#main",
+  "record_id": "PSI-159/cfig-normal/29",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-13-00h03m11s-udp____21102M5.ts",
+  "version": 1,
+  "size_bytes": 236062952
+ },
+ {
+  "id": "PSI-159/cfig-normal/3#main",
+  "record_id": "PSI-159/cfig-normal/3",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-16h24m39s-udp____21088C1.ts",
+  "version": 1,
+  "size_bytes": 274244812
+ },
+ {
+  "id": "PSI-159/cfig-normal/31#main",
+  "record_id": "PSI-159/cfig-normal/31",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-16-16h49m45s-udp____21106A4.ts",
+  "version": 1,
+  "size_bytes": 310997120
+ },
+ {
+  "id": "PSI-159/cfig-normal/33#main",
+  "record_id": "PSI-159/cfig-normal/33",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-16-17h57m27s-udp____21106C1.ts",
+  "version": 1,
+  "size_bytes": 290272000
+ },
+ {
+  "id": "PSI-159/cfig-normal/34#main",
+  "record_id": "PSI-159/cfig-normal/34",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-16-18h15m38s-udp____21106D1.ts",
+  "version": 1,
+  "size_bytes": 439530276
+ },
+ {
+  "id": "PSI-159/cfig-normal/35#main",
+  "record_id": "PSI-159/cfig-normal/35",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-16-19h19m26s-udp____21106F1.ts",
+  "version": 1,
+  "size_bytes": 323223888
+ },
+ {
+  "id": "PSI-159/cfig-normal/36#main",
+  "record_id": "PSI-159/cfig-normal/36",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-16-19h37m22s-udp____21106F2.ts",
+  "version": 1,
+  "size_bytes": 317097344
+ },
+ {
+  "id": "PSI-159/cfig-normal/37#main",
+  "record_id": "PSI-159/cfig-normal/37",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-16-19h56m20s-udp____21106F3.ts",
+  "version": 1,
+  "size_bytes": 249043788
+ },
+ {
+  "id": "PSI-159/cfig-normal/39#main",
+  "record_id": "PSI-159/cfig-normal/39",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-16-20h51m27s-udp____21106F5.ts",
+  "version": 1,
+  "size_bytes": 178367820
+ },
+ {
+  "id": "PSI-159/cfig-normal/4#main",
+  "record_id": "PSI-159/cfig-normal/4",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-17h34m31s-udp____21088D1.ts",
+  "version": 1,
+  "size_bytes": 265840836
+ },
+ {
+  "id": "PSI-159/cfig-normal/40#main",
+  "record_id": "PSI-159/cfig-normal/40",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-17-00h23m45s-udp____21106G6.ts",
+  "version": 1,
+  "size_bytes": 124735368
+ },
+ {
+  "id": "PSI-159/cfig-normal/41#main",
+  "record_id": "PSI-159/cfig-normal/41",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-17-00h40m10s-udp____21106G7.ts",
+  "version": 1,
+  "size_bytes": 127342364
+ },
+ {
+  "id": "PSI-159/cfig-normal/42#main",
+  "record_id": "PSI-159/cfig-normal/42",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-17-01h17m20s-udp____21106G9.ts",
+  "version": 1,
+  "size_bytes": 113088956
+ },
+ {
+  "id": "PSI-159/cfig-normal/43#main",
+  "record_id": "PSI-159/cfig-normal/43",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-17-01h42m42s-udp____21106H1.ts",
+  "version": 1,
+  "size_bytes": 84389440
+ },
+ {
+  "id": "PSI-159/cfig-normal/44#main",
+  "record_id": "PSI-159/cfig-normal/44",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-17-01h58m03s-udp____21106H2.ts",
+  "version": 1,
+  "size_bytes": 94370360
+ },
+ {
+  "id": "PSI-159/cfig-normal/45#main",
+  "record_id": "PSI-159/cfig-normal/45",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-13h40m05s-udp____21112A1.ts",
+  "version": 1,
+  "size_bytes": 269802560
+ },
+ {
+  "id": "PSI-159/cfig-normal/46#main",
+  "record_id": "PSI-159/cfig-normal/46",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-14h11m18s-udp____21112A2.ts",
+  "version": 1,
+  "size_bytes": 229561724
+ },
+ {
+  "id": "PSI-159/cfig-normal/47#main",
+  "record_id": "PSI-159/cfig-normal/47",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-14h27m51s-udp____21112A3.ts",
+  "version": 1,
+  "size_bytes": 356637316
+ },
+ {
+  "id": "PSI-159/cfig-normal/48#main",
+  "record_id": "PSI-159/cfig-normal/48",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-14h51m29s-udp____21112A4.ts",
+  "version": 1,
+  "size_bytes": 522325100
+ },
+ {
+  "id": "PSI-159/cfig-normal/49#main",
+  "record_id": "PSI-159/cfig-normal/49",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-15h11m10s-udp____21112A5.ts",
+  "version": 1,
+  "size_bytes": 237813984
+ },
+ {
+  "id": "PSI-159/cfig-normal/5#main",
+  "record_id": "PSI-159/cfig-normal/5",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-17h46m55s-udp____21088F1.ts",
+  "version": 1,
+  "size_bytes": 251795356
+ },
+ {
+  "id": "PSI-159/cfig-normal/50#main",
+  "record_id": "PSI-159/cfig-normal/50",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-15h31m52s-udp____21112C1.ts",
+  "version": 1,
+  "size_bytes": 252341684
+ },
+ {
+  "id": "PSI-159/cfig-normal/51#main",
+  "record_id": "PSI-159/cfig-normal/51",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-16h12m10s-udp____21112C2.ts",
+  "version": 1,
+  "size_bytes": 249829628
+ },
+ {
+  "id": "PSI-159/cfig-normal/52#main",
+  "record_id": "PSI-159/cfig-normal/52",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-16h31m52s-udp____21112A6.ts",
+  "version": 1,
+  "size_bytes": 486015532
+ },
+ {
+  "id": "PSI-159/cfig-normal/53#main",
+  "record_id": "PSI-159/cfig-normal/53",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-16h51m12s-udp____21112C3.ts",
+  "version": 1,
+  "size_bytes": 226744920
+ },
+ {
+  "id": "PSI-159/cfig-normal/54#main",
+  "record_id": "PSI-159/cfig-normal/54",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-17h18m28s-udp____21112C4.ts",
+  "version": 1,
+  "size_bytes": 226398812
+ },
+ {
+  "id": "PSI-159/cfig-normal/55#main",
+  "record_id": "PSI-159/cfig-normal/55",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-17h30m23s-udp____21112C5.ts",
+  "version": 1,
+  "size_bytes": 244491932
+ },
+ {
+  "id": "PSI-159/cfig-normal/56#main",
+  "record_id": "PSI-159/cfig-normal/56",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-17h42m10s-udp____21112C6.ts",
+  "version": 1,
+  "size_bytes": 225478740
+ },
+ {
+  "id": "PSI-159/cfig-normal/57#main",
+  "record_id": "PSI-159/cfig-normal/57",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-18h43m41s-udp____21112F1.ts",
+  "version": 1,
+  "size_bytes": 250050528
+ },
+ {
+  "id": "PSI-159/cfig-normal/58#main",
+  "record_id": "PSI-159/cfig-normal/58",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-19h33m06s-udp____21112F2.ts",
+  "version": 1,
+  "size_bytes": 106400668
+ },
+ {
+  "id": "PSI-159/cfig-normal/59#main",
+  "record_id": "PSI-159/cfig-normal/59",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-19h53m52s-udp____21112F3.ts",
+  "version": 1,
+  "size_bytes": 149252824
+ },
+ {
+  "id": "PSI-159/cfig-normal/6#main",
+  "record_id": "PSI-159/cfig-normal/6",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-18h07m55s-udp____21088G1.ts",
+  "version": 1,
+  "size_bytes": 247372656
+ },
+ {
+  "id": "PSI-159/cfig-normal/60#main",
+  "record_id": "PSI-159/cfig-normal/60",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-20h39m50s-udp____21112F4.ts",
+  "version": 1,
+  "size_bytes": 130888044
+ },
+ {
+  "id": "PSI-159/cfig-normal/61#main",
+  "record_id": "PSI-159/cfig-normal/61",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-22h21m02s-udp____21112F5.ts",
+  "version": 1,
+  "size_bytes": 92853012
+ },
+ {
+  "id": "PSI-159/cfig-normal/62#main",
+  "record_id": "PSI-159/cfig-normal/62",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_21112H1-vlc-record-2021-04-22-22h34m26s-udp____7300-.ts",
+  "version": 1,
+  "size_bytes": 115717572
+ },
+ {
+  "id": "PSI-159/cfig-normal/63#main",
+  "record_id": "PSI-159/cfig-normal/63",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-22h45m34s-udp____21112H2.ts",
+  "version": 1,
+  "size_bytes": 133730604
+ },
+ {
+  "id": "PSI-159/cfig-normal/64#main",
+  "record_id": "PSI-159/cfig-normal/64",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-04-22-22h56m04s-udp____21112H3.ts",
+  "version": 1,
+  "size_bytes": 122261476
+ },
+ {
+  "id": "PSI-159/cfig-normal/65#main",
+  "record_id": "PSI-159/cfig-normal/65",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-16h06m54s-udp____21125A1.ts",
+  "version": 1,
+  "size_bytes": 295759720
+ },
+ {
+  "id": "PSI-159/cfig-normal/67#main",
+  "record_id": "PSI-159/cfig-normal/67",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-16h43m38s-udp____21125A3.ts",
+  "version": 1,
+  "size_bytes": 254419460
+ },
+ {
+  "id": "PSI-159/cfig-normal/69#main",
+  "record_id": "PSI-159/cfig-normal/69",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-17h23m41s-udp____21125A5.ts",
+  "version": 1,
+  "size_bytes": 252883876
+ },
+ {
+  "id": "PSI-159/cfig-normal/7#main",
+  "record_id": "PSI-159/cfig-normal/7",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-18h27m43s-udp____21088H1.ts",
+  "version": 1,
+  "size_bytes": 286850024
+ },
+ {
+  "id": "PSI-159/cfig-normal/70#main",
+  "record_id": "PSI-159/cfig-normal/70",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-17h43m49s-udp____21125A6.ts",
+  "version": 1,
+  "size_bytes": 239333024
+ },
+ {
+  "id": "PSI-159/cfig-normal/71#main",
+  "record_id": "PSI-159/cfig-normal/71",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-18h35m05s-udp____21125A7.ts",
+  "version": 1,
+  "size_bytes": 217308260
+ },
+ {
+  "id": "PSI-159/cfig-normal/72#main",
+  "record_id": "PSI-159/cfig-normal/72",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-18h50m29s-udp____21125A8.ts",
+  "version": 1,
+  "size_bytes": 239224736
+ },
+ {
+  "id": "PSI-159/cfig-normal/73#main",
+  "record_id": "PSI-159/cfig-normal/73",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-19h11m43s-udp____21125A9.ts",
+  "version": 1,
+  "size_bytes": 225224376
+ },
+ {
+  "id": "PSI-159/cfig-normal/74#main",
+  "record_id": "PSI-159/cfig-normal/74",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-20h30m21s-udp____21125H1.ts",
+  "version": 1,
+  "size_bytes": 139601844
+ },
+ {
+  "id": "PSI-159/cfig-normal/75#main",
+  "record_id": "PSI-159/cfig-normal/75",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-20h55m52s-udp____21125H2.ts",
+  "version": 1,
+  "size_bytes": 128400052
+ },
+ {
+  "id": "PSI-159/cfig-normal/77#main",
+  "record_id": "PSI-159/cfig-normal/77",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-21h27m52s-udp____21125H4.ts",
+  "version": 1,
+  "size_bytes": 150110668
+ },
+ {
+  "id": "PSI-159/cfig-normal/78#main",
+  "record_id": "PSI-159/cfig-normal/78",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-21h59m41s-udp____21125J1.ts",
+  "version": 1,
+  "size_bytes": 121028948
+ },
+ {
+  "id": "PSI-159/cfig-normal/79#main",
+  "record_id": "PSI-159/cfig-normal/79",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-22h17m38s-udp____21125H5.ts",
+  "version": 1,
+  "size_bytes": 130952904
+ },
+ {
+  "id": "PSI-159/cfig-normal/8#main",
+  "record_id": "PSI-159/cfig-normal/8",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-19h00m02s-udp____21088J1.ts",
+  "version": 1,
+  "size_bytes": 293998724
+ },
+ {
+  "id": "PSI-159/cfig-normal/80#main",
+  "record_id": "PSI-159/cfig-normal/80",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-22h36m02s-udp____21125K1.ts",
+  "version": 1,
+  "size_bytes": 186804508
+ },
+ {
+  "id": "PSI-159/cfig-normal/81#main",
+  "record_id": "PSI-159/cfig-normal/81",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-22h51m34s-udp____21125K2.ts",
+  "version": 1,
+  "size_bytes": 175778120
+ },
+ {
+  "id": "PSI-159/cfig-normal/82#main",
+  "record_id": "PSI-159/cfig-normal/82",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-23h01m40s-udp____21125K3.ts",
+  "version": 1,
+  "size_bytes": 325041284
+ },
+ {
+  "id": "PSI-159/cfig-normal/83#main",
+  "record_id": "PSI-159/cfig-normal/83",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-05-23h52m58s-udp____21125D1.ts",
+  "version": 1,
+  "size_bytes": 117873556
+ },
+ {
+  "id": "PSI-159/cfig-normal/84#main",
+  "record_id": "PSI-159/cfig-normal/84",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-06-00h08m44s-udp____21125D2.ts",
+  "version": 1,
+  "size_bytes": 134297800
+ },
+ {
+  "id": "PSI-159/cfig-normal/85#main",
+  "record_id": "PSI-159/cfig-normal/85",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-06-00h21m19s-udp____21125D3.ts",
+  "version": 1,
+  "size_bytes": 126806000
+ },
+ {
+  "id": "PSI-159/cfig-normal/86#main",
+  "record_id": "PSI-159/cfig-normal/86",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-06-00h32m27s-udp____21125D4.ts",
+  "version": 1,
+  "size_bytes": 141199092
+ },
+ {
+  "id": "PSI-159/cfig-normal/87#main",
+  "record_id": "PSI-159/cfig-normal/87",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-06-00h42m24s-udp____21125D5.ts",
+  "version": 1,
+  "size_bytes": 126977832
+ },
+ {
+  "id": "PSI-159/cfig-normal/88#main",
+  "record_id": "PSI-159/cfig-normal/88",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-06-01h01m55s-udp____21125D6.ts",
+  "version": 1,
+  "size_bytes": 126884208
+ },
+ {
+  "id": "PSI-159/cfig-normal/89#main",
+  "record_id": "PSI-159/cfig-normal/89",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-15h05m51s-udp____21130A1.ts",
+  "version": 1,
+  "size_bytes": 242815724
+ },
+ {
+  "id": "PSI-159/cfig-normal/9#main",
+  "record_id": "PSI-159/cfig-normal/9",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-03-29-19h22m53s-udp____21088K1.ts",
+  "version": 1,
+  "size_bytes": 348459504
+ },
+ {
+  "id": "PSI-159/cfig-normal/90#main",
+  "record_id": "PSI-159/cfig-normal/90",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-15h22m32s-udp____21130A2.ts",
+  "version": 1,
+  "size_bytes": 255387284
+ },
+ {
+  "id": "PSI-159/cfig-normal/91#main",
+  "record_id": "PSI-159/cfig-normal/91",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-16h17m46s-udp____21130A3.ts",
+  "version": 1,
+  "size_bytes": 231757000
+ },
+ {
+  "id": "PSI-159/cfig-normal/92#main",
+  "record_id": "PSI-159/cfig-normal/92",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-17h20m41s-udp____21130A4.ts",
+  "version": 1,
+  "size_bytes": 212928236
+ },
+ {
+  "id": "PSI-159/cfig-normal/93#main",
+  "record_id": "PSI-159/cfig-normal/93",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-18h03m38s-udp____21130A5.ts",
+  "version": 1,
+  "size_bytes": 257148280
+ },
+ {
+  "id": "PSI-159/cfig-normal/94#main",
+  "record_id": "PSI-159/cfig-normal/94",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-18h24m49s-udp____21130A6.ts",
+  "version": 1,
+  "size_bytes": 309370168
+ },
+ {
+  "id": "PSI-159/cfig-normal/95#main",
+  "record_id": "PSI-159/cfig-normal/95",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-18h38m40s-udp____21130A7.ts",
+  "version": 1,
+  "size_bytes": 247701468
+ },
+ {
+  "id": "PSI-159/cfig-normal/96#main",
+  "record_id": "PSI-159/cfig-normal/96",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-18h54m22s-udp____21130A8.ts",
+  "version": 1,
+  "size_bytes": 265780300
+ },
+ {
+  "id": "PSI-159/cfig-normal/98#main",
+  "record_id": "PSI-159/cfig-normal/98",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-19h41m36s-udp____21130M1.ts",
+  "version": 1,
+  "size_bytes": 70972444
+ },
+ {
+  "id": "PSI-159/cfig-normal/99#main",
+  "record_id": "PSI-159/cfig-normal/99",
+  "accession": "PSI-159",
+  "view": "main",
+  "file_name": "PSI-159_Raw Data_vlc-record-2021-05-10-19h57m55s-udp____21130M2.ts",
+  "version": 1,
+  "size_bytes": 111092396
+ },
+ {
+  "id": "PSI-39/cfi/31#main",
+  "record_id": "PSI-39/cfi/31",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_FLEX-1290_20176-06-26-13h34m29s_F177D01.mp4",
+  "version": 2,
+  "size_bytes": 201704624
+ },
+ {
+  "id": "PSI-39/cfi/33#main",
+  "record_id": "PSI-39/cfi/33",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-06-26-14h23m38s-udp_F177D03.mp4",
+  "version": 2,
+  "size_bytes": 157619518
+ },
+ {
+  "id": "PSI-39/cfi/34#main",
+  "record_id": "PSI-39/cfi/34",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-06-26-14h37m20s-udp_F177D04.mp4",
+  "version": 2,
+  "size_bytes": 150950164
+ },
+ {
+  "id": "PSI-39/cfi/35#main",
+  "record_id": "PSI-39/cfi/35",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-06-26-15h04m21s-udp_F177D05.mp4",
+  "version": 2,
+  "size_bytes": 137094674
+ },
+ {
+  "id": "PSI-39/cfi/36#main",
+  "record_id": "PSI-39/cfi/36",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-06-29-14h35m31s-udp_F180D01.mp4",
+  "version": 2,
+  "size_bytes": 142653112
+ },
+ {
+  "id": "PSI-39/cfi/37#main",
+  "record_id": "PSI-39/cfi/37",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-06-29-14h59m25s-udp_F180D02.mp4",
+  "version": 2,
+  "size_bytes": 172747950
+ },
+ {
+  "id": "PSI-39/cfi/38#main",
+  "record_id": "PSI-39/cfi/38",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-05-13h25m30s-udp_F186D01.mp4",
+  "version": 2,
+  "size_bytes": 104086107
+ },
+ {
+  "id": "PSI-39/cfi/40#main",
+  "record_id": "PSI-39/cfi/40",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-05-14h31m45s-udp_F186D04.mp4",
+  "version": 2,
+  "size_bytes": 73139745
+ },
+ {
+  "id": "PSI-39/cfi/41#main",
+  "record_id": "PSI-39/cfi/41",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_FLEX-1313_2017-07-05-15h05m35s_F186D05.mp4",
+  "version": 2,
+  "size_bytes": 102237794
+ },
+ {
+  "id": "PSI-39/cfi/42#main",
+  "record_id": "PSI-39/cfi/42",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-05-15h23m14s-udp_F186D06.mp4",
+  "version": 2,
+  "size_bytes": 100194039
+ },
+ {
+  "id": "PSI-39/cfi/43#main",
+  "record_id": "PSI-39/cfi/43",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-10-14h39m46s-udp_F191D02.mp4",
+  "version": 2,
+  "size_bytes": 121925363
+ },
+ {
+  "id": "PSI-39/cfi/44#main",
+  "record_id": "PSI-39/cfi/44",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-10-15h30m11s-udp_F191D03.mp4",
+  "version": 2,
+  "size_bytes": 85153049
+ },
+ {
+  "id": "PSI-39/cfi/45#main",
+  "record_id": "PSI-39/cfi/45",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-10-16h00m16s-udp_F191D04.mp4",
+  "version": 2,
+  "size_bytes": 93296186
+ },
+ {
+  "id": "PSI-39/cfi/46#main",
+  "record_id": "PSI-39/cfi/46",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-10-16h15m31s-udp_F191D05.mp4",
+  "version": 2,
+  "size_bytes": 887942082
+ },
+ {
+  "id": "PSI-39/cfi/47#main",
+  "record_id": "PSI-39/cfi/47",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-14-14h16m14s-udp_F195D01.mp4",
+  "version": 2,
+  "size_bytes": 141844347
+ },
+ {
+  "id": "PSI-39/cfi/48#main",
+  "record_id": "PSI-39/cfi/48",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_FLEX-1329_2017-07-14-14h53m22s_F195D02.mp4",
+  "version": 2,
+  "size_bytes": 181499841
+ },
+ {
+  "id": "PSI-39/cfi/49#main",
+  "record_id": "PSI-39/cfi/49",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-14-16h50m43s-udp_F195D07.mp4",
+  "version": 2,
+  "size_bytes": 80513816
+ },
+ {
+  "id": "PSI-39/cfi/50#main",
+  "record_id": "PSI-39/cfi/50",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-14-17h40m43s-udp_F195D10.mp4",
+  "version": 2,
+  "size_bytes": 77835542
+ },
+ {
+  "id": "PSI-39/cfi/51#main",
+  "record_id": "PSI-39/cfi/51",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-14-18h19m27s-udp_F195D11.mp4",
+  "version": 2,
+  "size_bytes": 120449304
+ },
+ {
+  "id": "PSI-39/cfi/52#main",
+  "record_id": "PSI-39/cfi/52",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-19-12h57m44s-udp_F200D01.mp4",
+  "version": 2,
+  "size_bytes": 644189278
+ },
+ {
+  "id": "PSI-39/cfi/54#main",
+  "record_id": "PSI-39/cfi/54",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-19-15h23m18s-udp_F200D04.mp4",
+  "version": 2,
+  "size_bytes": 275007742
+ },
+ {
+  "id": "PSI-39/cfi/55#main",
+  "record_id": "PSI-39/cfi/55",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_FLEX-1338_2017-07-19-15h59m47s_F200D05.mp4",
+  "version": 2,
+  "size_bytes": 328046272
+ },
+ {
+  "id": "PSI-39/cfi/57#main",
+  "record_id": "PSI-39/cfi/57",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-24-13h58m54s-udp_F205D01.mp4",
+  "version": 2,
+  "size_bytes": 257952768
+ },
+ {
+  "id": "PSI-39/cfi/58#main",
+  "record_id": "PSI-39/cfi/58",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-24-15h01m44s-udp_F205D02.mp4",
+  "version": 2,
+  "size_bytes": 170578703
+ },
+ {
+  "id": "PSI-39/cfi/59#main",
+  "record_id": "PSI-39/cfi/59",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-27-13h58m14s-udp_F208D01.mp4",
+  "version": 2,
+  "size_bytes": 288570456
+ },
+ {
+  "id": "PSI-39/cfi/60#main",
+  "record_id": "PSI-39/cfi/60",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-27-14h59m42s-udp_F208D02.mp4",
+  "version": 2,
+  "size_bytes": 115091216
+ },
+ {
+  "id": "PSI-39/cfi/61#main",
+  "record_id": "PSI-39/cfi/61",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-27-15h28m13s-udp_F208D03.mp4",
+  "version": 2,
+  "size_bytes": 264581373
+ },
+ {
+  "id": "PSI-39/cfi/62#main",
+  "record_id": "PSI-39/cfi/62",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-07-27-15h54m34s-udp_F208D04.mp4",
+  "version": 2,
+  "size_bytes": 158506433
+ },
+ {
+  "id": "PSI-39/cfi/63#main",
+  "record_id": "PSI-39/cfi/63",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-08-01-13h25m38s-udp_F213D02.mp4",
+  "version": 2,
+  "size_bytes": 185077585
+ },
+ {
+  "id": "PSI-39/cfi/64#main",
+  "record_id": "PSI-39/cfi/64",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-08-01-14h06m34s-udp_F213D03.mp4",
+  "version": 2,
+  "size_bytes": 40753215
+ },
+ {
+  "id": "PSI-39/cfi/65#main",
+  "record_id": "PSI-39/cfi/65",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-08-01-14h32m55s-udp_F213D04.mp4",
+  "version": 2,
+  "size_bytes": 559741523
+ },
+ {
+  "id": "PSI-39/cfi/67#main",
+  "record_id": "PSI-39/cfi/67",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-08-10-15h00m17s-udp_F222D01.mp4",
+  "version": 2,
+  "size_bytes": 152213879
+ },
+ {
+  "id": "PSI-39/cfi/68#main",
+  "record_id": "PSI-39/cfi/68",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-08-10-15h15m09s-udp_F222D02.mp4",
+  "version": 2,
+  "size_bytes": 154728431
+ },
+ {
+  "id": "PSI-39/cfi/69#main",
+  "record_id": "PSI-39/cfi/69",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-08-10-15h47m02s-udp_F222D03.mp4",
+  "version": 2,
+  "size_bytes": 249922456
+ },
+ {
+  "id": "PSI-39/cfi/70#main",
+  "record_id": "PSI-39/cfi/70",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-08-10-16h25m47s-udp_F222D04.mp4",
+  "version": 2,
+  "size_bytes": 301867455
+ },
+ {
+  "id": "PSI-39/cfi/76#main",
+  "record_id": "PSI-39/cfi/76",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-08-21-15h11m10s-udp_F233D01.mp4",
+  "version": 2,
+  "size_bytes": 116173034
+ },
+ {
+  "id": "PSI-39/cfi/78#main",
+  "record_id": "PSI-39/cfi/78",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-08-21-16h23m58s-udp_F233D04.mp4",
+  "version": 2,
+  "size_bytes": 31760258
+ },
+ {
+  "id": "PSI-39/cfi/79#main",
+  "record_id": "PSI-39/cfi/79",
+  "accession": "PSI-39",
+  "view": "main",
+  "file_name": "PSI-39_Raw Data_vlc-record-2017-08-21-16h34m10s-udp_F233D05.mp4",
+  "version": 2,
+  "size_bytes": 258074617
+ },
+ {
+  "id": "PSI-69/flex/33#main",
+  "record_id": "PSI-69/flex/33",
+  "accession": "PSI-69",
+  "view": "main",
+  "file_name": "PSI-69_Raw Data__ISS_20091127_095908 177R002 Movie.mp4",
+  "version": 1,
+  "size_bytes": 20822654
+ },
+ {
+  "id": "PSI-69/flex/34#main",
+  "record_id": "PSI-69/flex/34",
+  "accession": "PSI-69",
+  "view": "main",
+  "file_name": "PSI-69_Raw Data__ISS_20091127_110735 177F001 Movie.mp4",
+  "version": 1,
+  "size_bytes": 44888304
+ },
+ {
+  "id": "PSI-69/flex/36#main",
+  "record_id": "PSI-69/flex/36",
+  "accession": "PSI-69",
+  "view": "main",
+  "file_name": "PSI-69_Raw Data__ISS_20091215_FLEX_190R002 Movie.mp4",
+  "version": 1,
+  "size_bytes": 80674413
+ }
+]

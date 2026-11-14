@@ -1,0 +1,3 @@
+variable_id,label,unit,kind,group,definition_quote,definition_source_id,definition_locator
+bass_fan_display,Fan display on the video (fan voltage x10),,number,measurement,"Fan display: instantaneous fan voltagex10 on the video display. Maximum was 122, or 12.2 volts.",S3,"ReadMe, paragraph ""Fan display"""
+bass_radiometer_display,"Radiometer on the video (uncalibrated, relative)",,number,measurement,"Radiometer gain: Uncalibrated radiometer gain, radiometer is displayed on the video. Adjusted to avoid saturation. Useful for relative flame intensity readings and flame dynamics (like pre-extinction oscillations). Video display data rate is 5 Hz.",S3,"ReadMe, paragraph ""Radiometer gain"""

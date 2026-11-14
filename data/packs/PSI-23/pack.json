@@ -1,0 +1,8 @@
+{
+  "accession": "PSI-23",
+  "pack_version": "1",
+  "created": "",
+  "created_by": "FlameLens data team, with an SI tool",
+  "si_use": "An SI tool (Claude) found NASA's ACME overview on NTRS and wrote a script, which cuts each finding word for word from the paper's text. The SI tool chose the sentences. No value was generated. No person has checked it yet.",
+  "summary": "s-Flame: 4 results NASA states in words in its overview of the six ACME gas-flame experiments. No per-test claims."
+}

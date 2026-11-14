@@ -1,0 +1,5 @@
+source_id,accession,file_name,psi_path,folder,bytes,sha256,source_kind,fetched_at
+S1,PSI-100,PSI-100_Experimental table_SAFFIRE-3.csv,/Home/psi-data/PSI-100/Experimental table/PSI-100_Experimental table_SAFFIRE-3.csv,Experimental table,239,4d3c717ec20dd0247db670b2784a9fd7d746788bc54a936f80693e48eb8cd117,experimental_table,
+ASGSR,PSI-100,NTRS-20180005168.pdf,https://ntrs.nasa.gov/api/citations/20180005168/downloads/20180005168.pdf,NTRS,9049169,9ae2e365c850cbd0e136ea4e17cc5ecf68e5ac89d248b3c0a7b7b4bde9e2f402,publication,
+R1,PSI-100,PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx,/Home/psi-data/PSI-100/Raw Data/PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx,Raw Data,22548166,5b5dae8a79c80b1fd77de7c3b198ea726ec087e1d9bd91d0f7ea3cc2d4595b9e,raw_log,
+R2,PSI-100,PSI-100_Raw Data_Saffire III Sample 2 Sensors.xlsx,/Home/psi-data/PSI-100/Raw Data/PSI-100_Raw Data_Saffire III Sample 2 Sensors.xlsx,Raw Data,5361279,edd23a42fd5009f20df09811fc1e1644a4172cdfa39cb1a6a1a23ef040b5a0ee,raw_log,

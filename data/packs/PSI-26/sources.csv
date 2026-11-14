@@ -1,0 +1,6 @@
+source_id,accession,file_name,psi_path,folder,bytes,sha256,source_kind,fetched_at
+S1,PSI-26,PSI-26_Experimental table_BASS.csv,/Home/psi-data/PSI-26/Experimental table/PSI-26_Experimental table_BASS.csv,Experimental table,4726,ccfc3c54d948b64a1c5d2596a63c7c8019e51df0c91a1d62f039f48fa28c300f,experimental_table,
+S2,PSI-26,PSI-26_Science Documents_As Run_Test Matrix.xlsx,/Home/psi-data/PSI-26/Science Documents/PSI-26_Science Documents_As Run_Test Matrix.xlsx,Science Documents,111886,850910541fc9c802d00aa9de14758205103642184249b419c09868df2fbea6e8,test_matrix_as_run,
+S3,PSI-26,PSI-26_Science Documents_Planned_Test Matrix.xlsx,/Home/psi-data/PSI-26/Science Documents/PSI-26_Science Documents_Planned_Test Matrix.xlsx,Science Documents,20976,e0a06f81c110efc83cb23841342734c2d0a7187e9d9cbf2c0100c78d66bab9f9,test_matrix_planned,
+S4,PSI-26,NTRS-20140011099.pdf,https://ntrs.nasa.gov/api/citations/20140011099/downloads/20140011099.pdf,NTRS,4591839,fd5e89467bddd426e40081311f0b36541aac6a29236b2d3fc3758a901bc8c072,publication,
+G1,PSI-26,PSI-20_Science Documents_ISS_Researchers_Guide_-_Combustion_In_Reduced_Gravity.pdf,/Home/psi-data/PSI-20/Science Documents/PSI-20_Science Documents_ISS_Researchers_Guide_-_Combustion_In_Reduced_Gravity.pdf,Science Documents,1532064,d85c92823f8917979df00e09e8e0ca40f42092a330ef30dcb8a8af34e7ee6bc0,publication,

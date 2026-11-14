@@ -1,0 +1,9 @@
+packages:
+  - web
+  - api
+  - shared
+
+ignoredBuiltDependencies:
+  - esbuild
+  - sharp
+  - unrs-resolver

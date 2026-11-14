@@ -1,0 +1,8 @@
+{
+  "accession": "PSI-10",
+  "pack_version": "3",
+  "created": "",
+  "created_by": "FlameLens data team, with an SI tool",
+  "si_use": "An SI tool (Claude) found NASA's ACME overview on NTRS and wrote a script, which cuts each finding word for word from the paper's text. The SI tool chose the sentences. No value was generated. No person has checked it yet. Versions 2 and 3 add curves and PMT gain settings: a script reads each test point's instrument log, thins it by a written rule and copies the photomultiplier values unchanged; the SI tool chose the channels from NASA's two documents.",
+  "summary": "Flame Design: 5 results NASA states in words in its overview of the six ACME gas-flame experiments. Version 3: 121886 curve points (photomultiplier OH* and CH* currents) and 614 PMT gain settings for 307 test points."
+}

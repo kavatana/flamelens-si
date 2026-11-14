@@ -1,0 +1,8 @@
+{
+  "accession": "PSI-25",
+  "pack_version": "9",
+  "created": "",
+  "created_by": "FlameLens data team, with an SI tool",
+  "si_use": "An SI tool (Claude) wrote and ran the scripts that downloaded NASA's files and copied each cell, table line and comment. The SI tool read each of NASA's 126 test observations and marked the phrase that states what happened; the marked phrases are in REPORT.md. A script checked that every marked phrase and quote is in NASA's file word for word. No value was generated: each is a cell, a table line or a phrase of a NASA file. No person has checked the readings yet.",
+  "summary": "What happened in 120 of the 129 BASS-II tests, from NASA's own remarks and test observations; the flow direction of 120 tests; spread rate and burn time of the slab tests. 522 claims from four NASA files. Version 9: NASA's on-screen air speed, fan and radiometer readings from the videos of 30 tests (15,344 curve points)."
+}

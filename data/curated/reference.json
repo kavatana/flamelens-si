@@ -1,0 +1,199 @@
+{
+ "psi_to_kpa": 6.894757,
+ "environments": [
+  {
+   "id": "cabin",
+   "name": "Sea-level cabin",
+   "detail": "Earth at sea level, and the International Space Station",
+   "o2_fraction": 0.21,
+   "pressure_psi": 14.7,
+   "kind": "point",
+   "source": "PSI-20",
+   "quote": "14.7 psia, 21 % oxygen",
+   "pressure_kpa": 101.353
+  },
+  {
+   "id": "airlock",
+   "name": "Reduced-pressure cabin",
+   "detail": "10.2 psia with 26.5% oxygen, one of the three atmospheres NASA lists for human missions",
+   "o2_fraction": 0.265,
+   "pressure_psi": 10.2,
+   "kind": "point",
+   "source": "PSI-20",
+   "quote": "10.2 psia, 26.5 %",
+   "pressure_kpa": 70.3265
+  },
+  {
+   "id": "exploration",
+   "name": "Exploration atmosphere",
+   "detail": "8.2 psia with 34% oxygen, the atmosphere planned to shorten spacewalk preparation",
+   "o2_fraction": 0.34,
+   "pressure_psi": 8.2,
+   "kind": "point",
+   "source": "PSI-20",
+   "quote": "8.2 psia, 34 % oxygen",
+   "pressure_kpa": 56.537
+  },
+  {
+   "id": "moon-base",
+   "name": "Moon Base range",
+   "detail": "Oxygen of 30% or more at 10.2 psi or less",
+   "o2_fraction_min": 0.3,
+   "pressure_psi_max": 10.2,
+   "pressure_psi_min": 4.3,
+   "kind": "region",
+   "source": "challenge",
+   "quote": "The intermediate oxygen concentration used on the Moon will likely be 30% or greater, with a corresponding pressure of 10.2 psi or less.",
+   "pressure_kpa_min": 29.6475,
+   "pressure_kpa_max": 70.3265
+  },
+  {
+   "id": "spacesuit",
+   "name": "Spacesuit",
+   "detail": "Pure oxygen at 4.3 psi",
+   "o2_fraction": 1.0,
+   "pressure_psi": 4.3,
+   "kind": "point",
+   "source": "challenge",
+   "quote": "spacesuits are filled with 100% oxygen to only 4.3 psi",
+   "pressure_kpa": 29.6475
+  }
+ ],
+ "scenarios": [
+  {
+   "id": "lunar-habitat",
+   "name": "Lunar surface habitat",
+   "summary": "Exploration atmosphere, with materials as the main concern.",
+   "environment": "exploration",
+   "fuel_focus": "solid",
+   "priority": "prevention"
+  },
+  {
+   "id": "pressurized-rover",
+   "name": "Pressurized rover",
+   "summary": "Reduced-pressure cabin, a small volume where detection and suppression matter as much as prevention.",
+   "environment": "airlock",
+   "fuel_focus": "solid",
+   "priority": "balanced"
+  },
+  {
+   "id": "station",
+   "name": "Space station cabin",
+   "summary": "Sea-level atmosphere in microgravity, the best-covered case.",
+   "environment": "cabin",
+   "fuel_focus": "any",
+   "priority": "balanced"
+  },
+  {
+   "id": "suit",
+   "name": "Spacesuit",
+   "summary": "Pure oxygen at low pressure, far outside what has been tested.",
+   "environment": "spacesuit",
+   "fuel_focus": "solid",
+   "priority": "prevention"
+  }
+ ],
+ "stated_gaps": [
+  {
+   "id": "partial-gravity",
+   "title": "No partial-gravity data",
+   "text": "PSI holds microgravity and normal-gravity results only. Nothing was measured at lunar or Martian gravity.",
+   "source": "challenge",
+   "quote": "there is currently no partial-gravity combustion data available in PSI"
+  },
+  {
+   "id": "bounding",
+   "title": "Lunar gravity can only be bracketed",
+   "text": "Until lunar-gravity experiments fly, the two ends of the gravity range are the only bounds.",
+   "source": "challenge",
+   "quote": "Microgravity and normal-gravity results could bound what occurs at intermediate gravity levels."
+  }
+ ],
+ "families": [
+  {
+   "id": "acme",
+   "name": "ACME burners",
+   "facility": "Combustion Integrated Rack",
+   "fuel": "Gas flames",
+   "text": "Six gas-flame experiments shared one modular set of burners and diagnostics.",
+   "source": "challenge",
+   "quote": "The six experiments in the ACME project featured flames of gaseous fuels and were all conducted with the same modular set of ACME hardware in the Combustion Integrated Rack (CIR)."
+  },
+  {
+   "id": "mdca",
+   "name": "Droplet apparatus (MDCA)",
+   "facility": "Combustion Integrated Rack",
+   "fuel": "Liquid droplets",
+   "text": "Three droplet experiments used the same apparatus inside the same rack as ACME.",
+   "source": "challenge",
+   "quote": "FLEX, FLEX-2, and the Cool Flames Investigation (CFI) each featured burning droplets of liquid fuel and were conducted with the Multi-user Droplet Combustion Apparatus (MDCA) in the CIR."
+  },
+  {
+   "id": "msg-duct",
+   "name": "SPICE flow duct",
+   "facility": "Microgravity Science Glovebox",
+   "fuel": "Solids and gas jets",
+   "text": "One small fan-driven wind tunnel, built for SPICE, was reused for solids and for jet flames.",
+   "source": "challenge",
+   "quote": "Each of these investigations was conducted within the Microgravity Science Glovebox (MSG) using the modular fan-driven flow duct built for SPICE."
+  },
+  {
+   "id": "smoke",
+   "name": "Smoke diagnostics",
+   "facility": "Microgravity Science Glovebox",
+   "fuel": "Heated solids (smoke)",
+   "text": "Particle counters and smoke detectors; one of the instruments was first proven in a dust test.",
+   "source": "challenge",
+   "quote": "One of the instruments used for smoke detection in the SAME and SAME-R studies was instead used to detect dust in the Dust and Aerosol Measurement Feasibility Test (DAFT and DAFT-2) studies."
+  },
+  {
+   "id": "saffire",
+   "name": "Saffire flow duct",
+   "facility": "Cygnus cargo vehicle",
+   "fuel": "Large solid samples",
+   "text": "A large flow duct flown in an uncrewed cargo ship after it left the station, so that a big fire could be lit safely.",
+   "source": "PSI-98",
+   "quote": "performed on the Orbital Science’s Cygnus resupply vehicle after it deberthed from the ISS"
+  },
+  {
+   "id": "ground",
+   "name": "Ground studies",
+   "facility": "Laboratories and simulation",
+   "fuel": "Re-analysis of flight data",
+   "text": "Later studies that took flight data from PSI and built models or follow-up experiments on it.",
+   "source": "PSI-117",
+   "quote": "use flight data obtained from PSI"
+  }
+ ],
+ "earth_context": {
+  "source": "challenge",
+  "quote": "Fine-water-mist extinguishers developed for use on the ISS have practical applications here on Earth, and NASA technology has similarly led to improvements in terrestrial smoke detection and firefighter gear, including protective clothing and air tanks."
+ },
+ "earth_themes": [
+  {
+   "id": "materials-standards",
+   "name": "Material flammability standards",
+   "text": "How materials are screened and ranked for fire risk."
+  },
+  {
+   "id": "smoke-detection",
+   "name": "Smoke detection",
+   "text": "What early smoke looks like to a detector, before there is a flame."
+  },
+  {
+   "id": "fire-modelling",
+   "name": "Fire models",
+   "text": "Simulation tools checked against clean microgravity flames, then applied to fires on Earth."
+  },
+  {
+   "id": "confined-spaces",
+   "name": "Sealed environments",
+   "text": "Submarines, aircraft and other places where a fire cannot be escaped."
+  },
+  {
+   "id": "clean-combustion",
+   "name": "Cleaner combustion",
+   "text": "Engines, burners and power plants that waste less fuel and emit less soot."
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+# NASA's own video of single tests.
+#
+# PSI lists every file of an investigation. Where NASA's file name carries the label of a
+# test, the video is tied to that test's row. Nothing is guessed: a file is used only when
+# its name matches one of the patterns below and the label it carries is a test in the
+# table. The video itself stays in NASA's archive; only its name, size and version are kept.
+#
+# Each pattern is a regular expression with a group named "label". Letter case is ignored,
+# and so are spaces and punctuation inside a label ("21088 B1" in the table is "21088B1" in
+# a file name). A view may list several patterns; the first that fits is used.
+#
+# A file ending in .mp4 plays as it is. A file ending in .ts is the recording of the rig's
+# video downlink; the site plays it in pieces, straight from NASA's archive.
+
+PSI-25:
+  note: "BASS-II names its test videos BASS_GMT<day>_SAMPLE_<n>_TEST_<label>.mp4, with _2ND_VIEW for the second camera."
+  views:
+    main: 'TEST[_-]?(?P<label>[A-Za-z]+\d+[a-z]?)\.mp4$'
+    second: 'TEST[_-]?(?P<label>[A-Za-z]+\d+[a-z]?)_2ND_VIEW\.mp4$'
+
+PSI-159:
+  note: "CFI-G's recordings of the video downlink carry the test's label: vlc-record-<date>-udp____<label>.ts, or <label>-vlc-record-<date>. A recording marked failed is left out."
+  views:
+    main:
+      - 'udp_+(?P<label>\d{5}[A-Z]\d{1,2})\.ts$'
+      - 'Raw Data_(?P<label>\d{5}[A-Z]\d{1,2})-vlc-record-[^/]*\.ts$'
+
+PSI-39:
+  note: "CFI's recordings end in the test's label: vlc-record-<date>-udp_<label>.mp4, or FLEX-<n>_<date>_<label>.mp4. One recording is kept for a test."
+  views:
+    main:
+      - 'vlc-record-[^/]*udp_+(?P<label>F\d{3}[A-Z]\d{2})\.mp4$'
+      - 'Raw Data_FLEX-\d+_[^/]*_(?P<label>F\d{3}[A-Z]\d{2})\.mp4$'
+
+PSI-69:
+  note: "FLEX filed a few short movies whose name carries the test's label (177R002 Movie). Most of FLEX's video is of later tests that are not rows in NASA's table, or sits in files with names shared across folders, and is not used."
+  views:
+    main: '[ _](?P<label>\d{3}[FR]\d{3}) Movie\.mp4$'

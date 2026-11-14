@@ -1,0 +1,6 @@
+finding_id,accession,quote,source_id,locator,subject,variable_id,value_num,unit,gravity,conditions,test_ids
+F1,PSI-22,"In contrast to normal-gravity tests, the microgravity flames exhibit a distinct peak ion current that corresponds to the most compact flame",S1,p. 6,"In microgravity the ion current peaks at the most compact flame, unlike in normal gravity",,,,0g,,
+F2,PSI-22,"Soot generation could be suppressed and more broadly there are clear correlations between the flame luminosity, combustion intensity, and ion current in the ISS data.",S1,p. 6,"An electric field can suppress soot; luminosity, combustion intensity and ion current go together",,,,0g,,
+F3,PSI-22,It was found that highly diluted flames can be stabilized with very weak electric fields.,S1,p. 6,Very weak electric fields can stabilise highly diluted flames,,,,0g,,
+F4,PSI-22,"But at high field strengths, the flames exhibited corona and arc discharges.",S1,p. 6,At high field strengths flames showed corona and arc discharges,,,,0g,Fields up to 10 kV (p. 1).,
+F5,PSI-22,"When ACME’s ISS testing ended in Feb. 2022, over 1,500 flames were ignited for its six experiments.",S1,p. 8,"Scope: over 1,500 flames were lit for the six ACME experiments, November 2017 to February 2022",,,,0g,,

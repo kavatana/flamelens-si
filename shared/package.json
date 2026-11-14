@@ -1,0 +1,17 @@
+{
+  "name": "@flamelens/shared",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The rules both the web and the API use: bands, scoring, filters, formats and their types.",
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "vitest": "^5.1.0"
+  }
+}

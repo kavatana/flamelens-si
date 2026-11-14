@@ -1,0 +1,2245 @@
+[
+ {
+  "accession": "PSI-10",
+  "categories": {
+   "Engineering Documents": {
+    "count": 1,
+    "bytes": 7496324
+   },
+   "Experimental table": {
+    "count": 2,
+    "bytes": 44247
+   },
+   "Raw Data": {
+    "count": 3792,
+    "bytes": 2180419708029
+   },
+   "Reports": {
+    "count": 3,
+    "bytes": 4534713
+   },
+   "Representative Image(s)": {
+    "count": 5,
+    "bytes": 871708
+   },
+   "Science Documents": {
+    "count": 3,
+    "bytes": 2632279
+   },
+   "metadata": {
+    "count": 1,
+    "bytes": 17047
+   }
+  },
+  "extensions": {
+   ".zip": 1184,
+   ".txt": 993,
+   ".csv": 636,
+   ".mdipsug": 490,
+   ".ts": 317,
+   ".pdf": 76,
+   ".asc": 66,
+   ".log": 35,
+   ".jpg": 5,
+   ".xlsx": 2,
+   ".png": 2,
+   ".errors": 1
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-10_Engineering Documents_ACME Engineering Implementation Rpt..pdf",
+    "bytes": 7496324
+   },
+   {
+    "category": "Experimental table",
+    "name": "PSI-10_Experimental table_Flame Design_Inverse Flame.csv",
+    "bytes": 17314
+   },
+   {
+    "category": "Experimental table",
+    "name": "PSI-10_Experimental table_Flame Design_Normal Flame.csv",
+    "bytes": 26933
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-10_Reports_FinalRpt_ACMEFlameDesign.pdf",
+    "bytes": 4152310
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-10_Reports_TaskbookPubsList_Feb2023.pdf",
+    "bytes": 97986
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-10_Reports_TaskbookRpts.pdf",
+    "bytes": 284417
+   },
+   {
+    "category": "Representative Image(s)",
+    "name": "PSI-10_Representative Image(s)_ACME Flame Design Hardware.jpg",
+    "bytes": 91764
+   },
+   {
+    "category": "Representative Image(s)",
+    "name": "PSI-10_Representative Image(s)_ACME logo.png",
+    "bytes": 127968
+   },
+   {
+    "category": "Representative Image(s)",
+    "name": "PSI-10_Representative Image(s)_CIR support on ISS.jpg",
+    "bytes": 48462
+   },
+   {
+    "category": "Representative Image(s)",
+    "name": "PSI-10_Representative Image(s)_Flame Design_Flame Stages.jpg",
+    "bytes": 222982
+   },
+   {
+    "category": "Representative Image(s)",
+    "name": "PSI-10_Representative Image(s)_Flame Design_In Space flame.jpg",
+    "bytes": 380532
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-10_Science Documents_ACME_ISRD.pdf",
+    "bytes": 1860945
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-10_Science Documents_ACME_SORD.pdf",
+    "bytes": 300262
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-10_Science Documents_SRD_ACMEFlameDesign.pdf",
+    "bytes": 471072
+   },
+   {
+    "category": "metadata",
+    "name": "PSI-10_metadata_PSI-10-ISA.zip",
+    "bytes": 17047
+   }
+  ]
+ },
+ {
+  "accession": "PSI-20",
+  "categories": {
+   "Experimental table": {
+    "count": 1,
+    "bytes": 1113
+   }
+  },
+  "extensions": {
+   ".csv": 1
+  },
+  "documents": [
+   {
+    "category": "Experimental table",
+    "name": "PSI-20_Experimental table_ACME BRE.csv",
+    "bytes": 1113
+   }
+  ]
+ },
+ {
+  "accession": "PSI-21",
+  "categories": {
+   "Experimental table": {
+    "count": 1,
+    "bytes": 2454
+   }
+  },
+  "extensions": {
+   ".csv": 1
+  },
+  "documents": [
+   {
+    "category": "Experimental table",
+    "name": "PSI-21_Experimental table_CLD Flame.csv",
+    "bytes": 2454
+   }
+  ]
+ },
+ {
+  "accession": "PSI-22",
+  "categories": {},
+  "extensions": {},
+  "documents": []
+ },
+ {
+  "accession": "PSI-23",
+  "categories": {
+   "Engineering Documents": {
+    "count": 29,
+    "bytes": 190421311
+   },
+   "Presentations": {
+    "count": 17,
+    "bytes": 50663477
+   },
+   "Raw Data": {
+    "count": 4058,
+    "bytes": 780797309850
+   },
+   "Reference Data": {
+    "count": 50,
+    "bytes": 1120419099
+   },
+   "Reports": {
+    "count": 2,
+    "bytes": 3483328
+   },
+   "Science Documents": {
+    "count": 7,
+    "bytes": 9806480
+   }
+  },
+  "extensions": {
+   ".zip": 2037,
+   ".txt": 963,
+   ".csv": 576,
+   ".mp4": 290,
+   ".asc": 170,
+   ".log": 68,
+   ".pdf": 38,
+   ".mdipsug": 16,
+   ".next": 2,
+   ".xlsx": 2,
+   ".sfk": 1
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME - Engineering Requirements Doc Rev K.pdf",
+    "bytes": 2104955
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME CDR_Presentation_Package.pdf",
+    "bytes": 13232481
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME Data interpretation.zip",
+    "bytes": 1981506
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME Drawings_QDs and hoses.zip",
+    "bytes": 2412072
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME Gas flow.zip",
+    "bytes": 2419266
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME Imaging.zip",
+    "bytes": 5892486
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME Instruments.zip",
+    "bytes": 5603806
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_analog_camera.zip",
+    "bytes": 3030445
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_avionics_package.zip",
+    "bytes": 30458752
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_burners.zip",
+    "bytes": 14650126
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_common_electrical.zip",
+    "bytes": 8208858
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_data_camera.zip",
+    "bytes": 17381053
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_diagnostic_system.zip",
+    "bytes": 9378042
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_e-field_system.zip",
+    "bytes": 8589689
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_expt_mounting_structure.zip",
+    "bytes": 2911357
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_gas_supply.zip",
+    "bytes": 17347535
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_ground_equipment.zip",
+    "bytes": 3736550
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_igniter.zip",
+    "bytes": 2943491
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_measurement_system.zip",
+    "bytes": 5383717
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_shipping_containers.zip",
+    "bytes": 5463710
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_drawings_trainer.zip",
+    "bytes": 1112713
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_ACME_engineering_20210328.pdf",
+    "bytes": 6843254
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_S1101MFB0001_-ACME_Drawing_Tree.pdf",
+    "bytes": 129741
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_S1101MFS0004_rev_A.pdf",
+    "bytes": 308670
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_s-Flame_RDR_201005.pdf",
+    "bytes": 1045448
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_s-Flame_data_interpretation_20210920.pdf",
+    "bytes": 721288
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_s-Flames_procedure_20210408.pdf",
+    "bytes": 862140
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_s1101mfa0100_C.pdf",
+    "bytes": 16100676
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-23_Engineering Documents_s1101mfa1800_B.pdf",
+    "bytes": 167484
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_20120015928.pdf",
+    "bytes": 3693275
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_ACME fact sheet 20180519.pdf",
+    "bytes": 437766
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_ACME fact sheet 20180820.pdf",
+    "bytes": 1132230
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_ACME pictorial overview slides 20170601.pdf",
+    "bytes": 1954184
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_ACME_ASGSR_20121127.pdf",
+    "bytes": 1997745
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_ACME_ASGSR_20131107.pdf",
+    "bytes": 2011222
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_ACME_CSSCI_2014.pdf",
+    "bytes": 767030
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_ACME_CSSCI_20140317.pdf",
+    "bytes": 2396444
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_AIAA presentation - ACME on the ISS Jan2012.pdf",
+    "bytes": 4459532
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_CIR Paper 59th IAC 2008.pdf",
+    "bytes": 2787935
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_ISS Researchers Guide - Combustion In Reduced Gravity.pdf",
+    "bytes": 1532064
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_PS-01374 ACME posterFinal.pdf",
+    "bytes": 6249084
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_PS-01548 ACME info sheet.pdf",
+    "bytes": 874049
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_PS-02788 ACME info sheet.pdf",
+    "bytes": 4839732
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_PS-03055 ACME info sheet.pdf",
+    "bytes": 3782346
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_PS-03403 ACME on the ISS.pdf",
+    "bytes": 9090639
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-23_Presentations_PS_00538 Unlocking Mysteries.pdf",
+    "bytes": 2658200
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_19254Fiber1_ACME.zip",
+    "bytes": 19708646
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_19254Fiber2_ACME.zip",
+    "bytes": 19671458
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_19256Fiber1.zip",
+    "bytes": 19718787
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_19256Fiber2.zip",
+    "bytes": 19692046
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_19304Fiber1_ACME.zip",
+    "bytes": 19727622
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_19304Fiber2_ACME.zip",
+    "bytes": 19699182
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_19308Fiber1_ACME.zip",
+    "bytes": 19723359
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_19308Fiber2_ACME.zip",
+    "bytes": 19696115
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_19352Fiber1_Images.zip",
+    "bytes": 10395546
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_19352Fiber2_Images.zip",
+    "bytes": 9858383
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20006Fiber1_Images.zip",
+    "bytes": 14262447
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20006Fiber2_Images.zip",
+    "bytes": 10164745
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20013Fiber1_ACME.zip",
+    "bytes": 19736447
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20013Fiber2_ACME.zip",
+    "bytes": 19699559
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20024Fiber1_ACME.zip",
+    "bytes": 19737554
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20024Fiber2_ACME.zip",
+    "bytes": 19711738
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20029Fiber1_ACME.zip",
+    "bytes": 19742019
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20029Fiber2_ACME.zip",
+    "bytes": 19706296
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20132Fiber1_ACME.zip",
+    "bytes": 19743298
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20132Fiber2_ACME.zip",
+    "bytes": 19718467
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_201356Fiber2_ACME.zip",
+    "bytes": 19712571
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20136Fiber1_ACME.zip",
+    "bytes": 19741300
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20142Fiber10_ACME.zip",
+    "bytes": 19720916
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20142Fiber1_ACME.zip",
+    "bytes": 19753179
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20142Fiber2_ACME.zip",
+    "bytes": 19721793
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20142Fiber3_ACME.zip",
+    "bytes": 19641150
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20142Fiber4_ACME.zip",
+    "bytes": 19638734
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20142Fiber5_ACME.zip",
+    "bytes": 19769150
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20142Fiber6_ACME.zip",
+    "bytes": 19730094
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20142Fiber7_ACME.zip",
+    "bytes": 19639520
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20142Fiber8_ACME.zip",
+    "bytes": 19640564
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20142Fiber9_ACME.zip",
+    "bytes": 19759221
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20155Fiber1_ACME.zip",
+    "bytes": 19746206
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20155Fiber2_ACME.zip",
+    "bytes": 19725587
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20160Fiber1_ACME.zip",
+    "bytes": 19755286
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20160Fiber2_ACME.zip",
+    "bytes": 19721144
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20164Fiber1_ACME.zip",
+    "bytes": 19753453
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20164Fiber2_ACME.zip",
+    "bytes": 19726766
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20170Fiber1_ACME.zip",
+    "bytes": 19761155
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20170Fiber2_ACME.zip",
+    "bytes": 19730053
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20176Fiber1_ACME.zip",
+    "bytes": 19777289
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20176Fiber2_ACME.zip",
+    "bytes": 19748215
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20190Fiber1_ACME.zip",
+    "bytes": 19785400
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_20190Fiber2_ACME.zip",
+    "bytes": 19759418
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_ACME-DOC-010_D Software Interface Design Description.pdf",
+    "bytes": 2151284
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_ACME-DOC-010_D.pdf",
+    "bytes": 2151284
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_WO662486_ACME_Stocker_WF.mp4",
+    "bytes": 124601567
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_wo662486_ACME_Urban_2_wf.mp4",
+    "bytes": 29328781
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_wo662486_ACME_Urban_wf.mp4",
+    "bytes": 93346462
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-23_Reference Data_wo662486_ACME_Urban_wf_3.mp4",
+    "bytes": 35267843
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-23_Reports_s-Flame 30-day report Inc 63 20201216.pdf",
+    "bytes": 301047
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-23_Reports_s_Flame_final_report_20210729.pdf",
+    "bytes": 3182281
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-23_Science Documents_ACME Integrated Science Requirements Definition Review 20100505.pdf",
+    "bytes": 3119886
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-23_Science Documents_ACME Science Operation Requirements revA 20111018.pdf",
+    "bytes": 300262
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-23_Science Documents_ACME non-imaging data file description.pdf",
+    "bytes": 377001
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-23_Science Documents_ACME s-Flame DoD.pdf",
+    "bytes": 801605
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-23_Science Documents_ACME_Integrated_Science_Requirements_RevB.pdf",
+    "bytes": 1878639
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-23_Science Documents_s-Flame SCR 200802.pdf",
+    "bytes": 2382728
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-23_Science Documents_s-Flame_SRD_20100125.pdf",
+    "bytes": 946359
+   }
+  ]
+ },
+ {
+  "accession": "PSI-25",
+  "categories": {
+   "Engineering Documents": {
+    "count": 2,
+    "bytes": 2235212
+   },
+   "Raw Data": {
+    "count": 685,
+    "bytes": 274578648152
+   },
+   "Reference Data": {
+    "count": 1,
+    "bytes": 23973
+   },
+   "Reports": {
+    "count": 1,
+    "bytes": 48972416
+   },
+   "Representative Image(s)": {
+    "count": 1,
+    "bytes": 37525
+   },
+   "Science Documents": {
+    "count": 3,
+    "bytes": 1158834
+   },
+   "metadata": {
+    "count": 1,
+    "bytes": 13439
+   }
+  },
+  "extensions": {
+   ".mp4": 296,
+   ".zip": 265,
+   ".pdf": 127,
+   ".xlsx": 2,
+   ".docx": 2,
+   ".pptx": 1,
+   ".jpg": 1
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-25_Engineering Documents_BASS-II_Engineering Requirements.pptx",
+    "bytes": 1123356
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-25_Engineering Documents_BASS-II_Ops.docx",
+    "bytes": 1111856
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-25_Reference Data_Fan calibration data.xlsx",
+    "bytes": 23973
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-25_Reports_BASS-II Summary Report.pdf",
+    "bytes": 48972416
+   },
+   {
+    "category": "Representative Image(s)",
+    "name": "PSI-25_Representative Image(s)_BASS-II_flame testing.jpg",
+    "bytes": 37525
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-25_Science Documents_BASS-II_ReadMe.docx",
+    "bytes": 21538
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-25_Science Documents_BASS-II_SRD.pdf",
+    "bytes": 1108340
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-25_Science Documents_BASS-II_Test.Matrices.xlsx",
+    "bytes": 28956
+   },
+   {
+    "category": "metadata",
+    "name": "PSI-25_metadata_PSI_metadata_PSI-101_BASS-II.zip",
+    "bytes": 13439
+   }
+  ]
+ },
+ {
+  "accession": "PSI-26",
+  "categories": {
+   "Engineering Documents": {
+    "count": 24,
+    "bytes": 13805316
+   },
+   "Presentations": {
+    "count": 6,
+    "bytes": 14968330
+   },
+   "Raw Data": {
+    "count": 173,
+    "bytes": 163511551209
+   },
+   "Reports": {
+    "count": 2,
+    "bytes": 1107386
+   },
+   "Science Documents": {
+    "count": 5,
+    "bytes": 9923798
+   },
+   "metadata": {
+    "count": 1,
+    "bytes": 11647
+   }
+  },
+  "extensions": {
+   ".mp4": 114,
+   ".zip": 60,
+   ".pdf": 32,
+   ".xlsx": 2,
+   ".pptx": 2,
+   ".docx": 1
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_60054MAFH000_C.pdf",
+    "bytes": 562119
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_BASS ERD.pptx",
+    "bytes": 2856973
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_BASS_SysAcceptanceReview.1.pdf",
+    "bytes": 2892502
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_BASS_SysAcceptanceReview.2.pdf",
+    "bytes": 1804490
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_Blk.PMMA.Rod.pdf",
+    "bytes": 78284
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_1cm.pdf",
+    "bytes": 586727
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_Flat.Sample.Frame_2cm.pdf",
+    "bytes": 586059
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_PMMA.Blk.Rod.Sample.pdf",
+    "bytes": 65282
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_PMMA.Flat.Fuel.Sample2mm.pdf",
+    "bytes": 52408
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_PMMA.Flat.Fuel.Sample_2cm.pdf",
+    "bytes": 129048
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_PMMA.Flat.Samples_2cm.pdf",
+    "bytes": 58392
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_PMMA.Flat_1cm.pdf",
+    "bytes": 1108850
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_PMMA.SampleAssembly.pdf",
+    "bytes": 65227
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_PMMA.Spherical.Section.pdf",
+    "bytes": 595300
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_SPICE Housing.pdf",
+    "bytes": 192768
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_SPICE_FanHousing.pdf",
+    "bytes": 133889
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_Sibal.Flat.Fuel.Sample_2cm.pdf",
+    "bytes": 55267
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_Sibal.Flat.Sample.pdf",
+    "bytes": 121535
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_Solid.Fuel.Sample_2cmSphere.pdf",
+    "bytes": 54006
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_SolidFuelFrame.pdf",
+    "bytes": 97640
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Drawing_Spherical.Sample_2cm.pdf",
+    "bytes": 78407
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_SLICE_SysReqDesignReview.pdf",
+    "bytes": 1429180
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_SPICE-front-window.pdf",
+    "bytes": 148197
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-26_Engineering Documents_Short Nozzle MFA10771.pdf",
+    "bytes": 52766
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-26_Presentations_BASS Overview.pptx",
+    "bytes": 1623251
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-26_Presentations_BASS_Overview of Recent ISS Results.pdf",
+    "bytes": 4640227
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-26_Presentations_Crew Training 2010.pdf",
+    "bytes": 1348519
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-26_Presentations_Crew Training 2011.pdf",
+    "bytes": 1339967
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-26_Presentations_Flammability Aspects of Fabric_USNationalCombustion2013.pdf",
+    "bytes": 2804257
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-26_Presentations_FlammabilityAspectsofCottonFiberglassFabric_ASGSR2012.pdf",
+    "bytes": 3212109
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-26_Reports_BASS_FinalReport.pdf",
+    "bytes": 553693
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-26_Reports_SPICE_FinalReport.pdf",
+    "bytes": 553693
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-26_Science Documents_As Run_Test Matrix.xlsx",
+    "bytes": 111886
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-26_Science Documents_DLD_BASS.pdf",
+    "bytes": 69653
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-26_Science Documents_FlammabilityAspectsofFabric_USNationalCombustion.2013.docx",
+    "bytes": 8837026
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-26_Science Documents_Planned_Test Matrix.xlsx",
+    "bytes": 20976
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-26_Science Documents_SRD_BASS.pdf",
+    "bytes": 884257
+   },
+   {
+    "category": "metadata",
+    "name": "PSI-26_metadata_PSI-102_BASS.zip",
+    "bytes": 11647
+   }
+  ]
+ },
+ {
+  "accession": "PSI-39",
+  "categories": {
+   "Analyzed Data": {
+    "count": 32,
+    "bytes": 13614684
+   },
+   "Engineering Documents": {
+    "count": 1,
+    "bytes": 115496
+   },
+   "Presentations": {
+    "count": 2,
+    "bytes": 5945283
+   },
+   "Raw Data": {
+    "count": 2791,
+    "bytes": 718852964195
+   },
+   "Reports": {
+    "count": 1,
+    "bytes": 811459
+   },
+   "Science Documents": {
+    "count": 3,
+    "bytes": 16099538
+   },
+   "metadata": {
+    "count": 1,
+    "bytes": 10237
+   }
+  },
+  "extensions": {
+   ".txt": 1793,
+   ".zip": 338,
+   ".meta": 236,
+   ".mp4": 126,
+   ".ts": 120,
+   ".metadata": 117,
+   ".pdf": 48,
+   ".pxp": 29,
+   ".rtf": 22,
+   ".pptx": 1,
+   ".xlsx": 1
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-39_Engineering Documents_CFI Operational Requirements and Protocols.pdf",
+    "bytes": 115496
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-39_Presentations_Aspects of Cool-Flame Supported Droplet Combustion in Microgravity_CFI.pdf",
+    "bytes": 1412488
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-39_Presentations_Cool Flames in Space, a Hot Prospect on Earth_CFI.pdf",
+    "bytes": 4532795
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-39_Reports_CFI Science Final Report.pdf",
+    "bytes": 811459
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-39_Science Documents_CFI_DataSummary_Spreadsheet_Jan2021.xlsx",
+    "bytes": 208743
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-39_Science Documents_CFI_SCR.pdf",
+    "bytes": 3630234
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-39_Science Documents_SRD_CFI.pdf",
+    "bytes": 12260561
+   },
+   {
+    "category": "metadata",
+    "name": "PSI-39_metadata_PSI-118_CFI.zip",
+    "bytes": 10237
+   }
+  ]
+ },
+ {
+  "accession": "PSI-47",
+  "categories": {
+   "Analyzed Data": {
+    "count": 12,
+    "bytes": 3454976
+   },
+   "Engineering Documents": {
+    "count": 6,
+    "bytes": 7955514
+   },
+   "Presentations": {
+    "count": 3,
+    "bytes": 15065420
+   },
+   "Raw Data": {
+    "count": 6,
+    "bytes": 18573
+   },
+   "Reports": {
+    "count": 3,
+    "bytes": 13949744
+   },
+   "Representative Image(s)": {
+    "count": 1,
+    "bytes": 1312134
+   },
+   "metadata": {
+    "count": 1,
+    "bytes": 8454
+   }
+  },
+  "extensions": {
+   ".xls": 12,
+   ".pdf": 7,
+   ".txt": 6,
+   ".ppt": 3,
+   ".doc": 2,
+   ".zip": 1,
+   ".jpg": 1
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-47_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+    "bytes": 162862
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-47_Engineering Documents_DAFT Images.ppt",
+    "bytes": 7632384
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-47_Engineering Documents_Procedure.DataTransfer.pdf",
+    "bytes": 46025
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-47_Engineering Documents_Procedure.Restow.pdf",
+    "bytes": 34552
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-47_Engineering Documents_Procedure.Sampling.pdf",
+    "bytes": 45776
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-47_Engineering Documents_Procedure.SetUp.pdf",
+    "bytes": 33915
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-47_Presentations_DAFT_Increment13SciSymposium_2006.ppt",
+    "bytes": 6043136
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-47_Presentations_Daft_FactSheet.pdf",
+    "bytes": 762700
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-47_Presentations_SmokeDetectionfromMicrogravityFires.ppt",
+    "bytes": 8259584
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-47_Reports_DAFT_1YearReport.doc",
+    "bytes": 4919296
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-47_Reports_DAFT_30Day.PostFlightReport.pdf",
+    "bytes": 185648
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-47_Reports_DAFT_FinalReport.doc",
+    "bytes": 8844800
+   },
+   {
+    "category": "Representative Image(s)",
+    "name": "PSI-47_Representative Image(s)_DAFT on ISS.jpg",
+    "bytes": 1312134
+   },
+   {
+    "category": "metadata",
+    "name": "PSI-47_metadata_PSI-126_DAFT_DAFT-2.zip",
+    "bytes": 8454
+   }
+  ]
+ },
+ {
+  "accession": "PSI-60",
+  "categories": {
+   "metadata": {
+    "count": 1,
+    "bytes": 7743
+   }
+  },
+  "extensions": {
+   ".zip": 1
+  },
+  "documents": [
+   {
+    "category": "metadata",
+    "name": "PSI-60_metadata_NEWID-5_Computational and Ex.zip",
+    "bytes": 7743
+   }
+  ]
+ },
+ {
+  "accession": "PSI-62",
+  "categories": {
+   "metadata": {
+    "count": 1,
+    "bytes": 9694
+   }
+  },
+  "extensions": {
+   ".zip": 1
+  },
+  "documents": [
+   {
+    "category": "metadata",
+    "name": "PSI-62_metadata_NEWID-7_Concurrent Flame Spr.zip",
+    "bytes": 9694
+   }
+  ]
+ },
+ {
+  "accession": "PSI-68",
+  "categories": {},
+  "extensions": {},
+  "documents": []
+ },
+ {
+  "accession": "PSI-69",
+  "categories": {},
+  "extensions": {},
+  "documents": []
+ },
+ {
+  "accession": "PSI-98",
+  "categories": {
+   "Engineering Documents": {
+    "count": 2,
+    "bytes": 1710886
+   },
+   "Raw Data": {
+    "count": 68,
+    "bytes": 12236039093
+   },
+   "Science Documents": {
+    "count": 4,
+    "bytes": 12839722
+   }
+  },
+  "extensions": {
+   ".zip": 61,
+   ".pdf": 6,
+   ".xlsx": 4,
+   ".docx": 3
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-98_Engineering Documents_SAFFIRE Offgassing Testing Strategy.pdf",
+    "bytes": 1696929
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-98_Engineering Documents_SAFFIRE-I Operations.pdf",
+    "bytes": 13957
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-98_Science Documents_SAFFIRE Objectives, Development and Status.pdf",
+    "bytes": 186259
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-98_Science Documents_SAFFIRE-1_MergeResult-jpeg_Update_Final_v2.xlsx",
+    "bytes": 12325177
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-98_Science Documents_SAFFIRE-I Image Directory Nomenclature.pdf",
+    "bytes": 262860
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-98_Science Documents_SAFFIRE-I and SAFFIRE-III Readme.docx",
+    "bytes": 65426
+   }
+  ]
+ },
+ {
+  "accession": "PSI-99",
+  "categories": {},
+  "extensions": {},
+  "documents": []
+ },
+ {
+  "accession": "PSI-100",
+  "categories": {
+   "Engineering Documents": {
+    "count": 2,
+    "bytes": 1737185
+   },
+   "Presentations": {
+    "count": 3,
+    "bytes": 10246234
+   },
+   "Raw Data": {
+    "count": 75,
+    "bytes": 35182666847
+   },
+   "Science Documents": {
+    "count": 5,
+    "bytes": 16106163
+   }
+  },
+  "extensions": {
+   ".zip": 67,
+   ".pdf": 7,
+   ".xlsx": 6,
+   ".docx": 3,
+   ".csv": 2
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-100_Engineering Documents_SAFFIRE Offgassing Testing Strategy.pdf",
+    "bytes": 1696929
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-100_Engineering Documents_SAFFIRE-III Operations.pdf",
+    "bytes": 40256
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-100_Presentations_SAFFIRE_45 I Con of Env Sys presentation.pdf",
+    "bytes": 2821941
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-100_Presentations_SAFFIRE_46th I Con of Env Sys presentation.pdf",
+    "bytes": 2199305
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-100_Presentations_SAFFIRE_47th I Con of Env Sys presentation.pdf",
+    "bytes": 5224988
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-100_Science Documents_SAFFIRE Objectives, Development and Status.pdf",
+    "bytes": 186259
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-100_Science Documents_SAFFIRE-I and SAFFIRE-III Readme.docx",
+    "bytes": 65426
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-100_Science Documents_SAFFIRE-III Image Directory Nomenclature_v3.0.pdf",
+    "bytes": 273485
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-100_Science Documents_SAFFIRE-III_MergeResult-jpeg_Final.xlsx",
+    "bytes": 7879404
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-100_Science Documents_SAFFIRE-III_MergeResult-raw_Final.xlsx",
+    "bytes": 7701589
+   }
+  ]
+ },
+ {
+  "accession": "PSI-101",
+  "categories": {
+   "Analyzed Data": {
+    "count": 86,
+    "bytes": 495127960
+   },
+   "Engineering Documents": {
+    "count": 24,
+    "bytes": 55122338
+   },
+   "Presentations": {
+    "count": 4,
+    "bytes": 33297074
+   },
+   "Raw Data": {
+    "count": 223,
+    "bytes": 5718363731
+   },
+   "Reference Data": {
+    "count": 2,
+    "bytes": 671373
+   },
+   "Reports": {
+    "count": 1,
+    "bytes": 4578437
+   },
+   "Science Documents": {
+    "count": 2,
+    "bytes": 947126
+   }
+  },
+  "extensions": {
+   ".zip": 79,
+   ".xls": 77,
+   ".pptx": 76,
+   ".csv": 44,
+   ".pdf": 36,
+   ".xlsx": 15,
+   ".mp4": 8,
+   ".tif": 3,
+   ".ppt": 2,
+   ".docx": 1,
+   ".doc": 1
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHA150-B Aging Chamber Assembly.pdf",
+    "bytes": 335105
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+    "bytes": 156530
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+    "bytes": 175857
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHA414-A Lampwick Sample Assembly.pdf",
+    "bytes": 151181
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHA415 Ignitor Wire Coil Assembly (for 0 .250 OD samples).pdf",
+    "bytes": 98185
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHA416-A Silicone Sample Assembly.pdf",
+    "bytes": 152496
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+    "bytes": 149738
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHA419 Silicone Ignitor Wire Coil Assembly.pdf",
+    "bytes": 161926
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHA432-A Kapton Ignitor Wire Coil Assembly.pdf",
+    "bytes": 169403
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHD126-B Smoke Generation Tube.pdf",
+    "bytes": 243826
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHD413 Teflon Sample Part.pdf",
+    "bytes": 150152
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+    "bytes": 162861
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_60089MFHP000-C SAME Fluids System Schematic.pdf",
+    "bytes": 258861
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic, right side-1.pdf",
+    "bytes": 1611750
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic.pdf",
+    "bytes": 333332
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_Drawing_SAME Aging Chamber.PDF",
+    "bytes": 212840
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_Fluids Control Unit, Schematic, left side-1.pdf",
+    "bytes": 1163957
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_S1171MFHA401 Pyrell Sample Assembly.pdf",
+    "bytes": 154569
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_SAME EIRD Rev 2.00 02-25-05 HIgh Q.pdf",
+    "bytes": 5378409
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_SAME VPRED Matrix PLN-005 Baseline.xls",
+    "bytes": 537600
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_SAME-R Flight Ops photos.zip",
+    "bytes": 41201731
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_SAME-R_ThermalPrecipitatorUsage.xlsx",
+    "bytes": 11054
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_SAME_Wire_Report.pdf",
+    "bytes": 1852991
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-101_Engineering Documents_SAME_Wire_Test.xls",
+    "bytes": 297984
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-101_Presentations_Detection of Smoke from Microgravity Fires.ppt",
+    "bytes": 8259584
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-101_Presentations_SAME-2_Comparison of Flight and Ground Test Results.pptx",
+    "bytes": 5634955
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-101_Presentations_SAME-R_Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2.pptx",
+    "bytes": 11483943
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-101_Presentations_SAME_Measurement of Smoke Particle Size under Low-Gravity Conditions.ppt",
+    "bytes": 7918592
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-101_Reference Data_SAME_Software Description Document_003 Rev A.pdf",
+    "bytes": 270540
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-101_Reference Data_SAME_Software Requirement Document_004 Rev D.pdf",
+    "bytes": 400833
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-101_Reports_SAME-R_Final Report.pdf",
+    "bytes": 4578437
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-101_Science Documents_SAME_Baseline Concept Description Document_001 Rev A.pdf",
+    "bytes": 247315
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-101_Science Documents_SAME_Operations Manual_007.pdf",
+    "bytes": 699811
+   }
+  ]
+ },
+ {
+  "accession": "PSI-102",
+  "categories": {
+   "Analyzed Data": {
+    "count": 63,
+    "bytes": 228109998
+   },
+   "Engineering Documents": {
+    "count": 28,
+    "bytes": 362007454
+   },
+   "Presentations": {
+    "count": 6,
+    "bytes": 61451442
+   },
+   "Reference Data": {
+    "count": 3,
+    "bytes": 1365855
+   },
+   "Reports": {
+    "count": 1,
+    "bytes": 3712845
+   },
+   "Science Documents": {
+    "count": 2,
+    "bytes": 947126
+   },
+   "metadata": {
+    "count": 1,
+    "bytes": 13127
+   }
+  },
+  "extensions": {
+   ".xls": 55,
+   ".pdf": 27,
+   ".xlsx": 6,
+   ".zip": 4,
+   ".xml": 4,
+   ".ppt": 3,
+   ".mp4": 2,
+   ".pptx": 2,
+   ".doc": 1
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHA150-B Aging Chamber Assembly.pdf",
+    "bytes": 335105
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHA151-B Same Aging Chamber.pdf",
+    "bytes": 212992
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHA410-A Teflon Sample Assembly.pdf",
+    "bytes": 156530
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHA411 Teflon Ignitor Wire Coil Assembly.pdf",
+    "bytes": 175861
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHA414-A Lampwick Sample Assembly.pdf",
+    "bytes": 151181
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHA415 Ignitor Wire Coil Assembly (for 0 .250 OD samples).pdf",
+    "bytes": 98186
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHA416-A Silicone Sample Assembly.pdf",
+    "bytes": 152496
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHA417-B Kapton Sample Assembly.pdf",
+    "bytes": 149738
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHA419 Silicone Ignitor Wire Coil Assembly.pdf",
+    "bytes": 161925
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHA432-A Kapton Ignitor Wire Coil Assembly.pdf",
+    "bytes": 169403
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHD126-B Smoke Generation Tube.pdf",
+    "bytes": 243826
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHD413 Teflon Sample Part.pdf",
+    "bytes": 150152
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHD509 P-Trak Condenser Tube Modification.pdf",
+    "bytes": 162848
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHP000-E SAME Fluids System Schematic, right side.pdf",
+    "bytes": 1611751
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_60089MFHP0001-C Same Fluids System Schematic.pdf",
+    "bytes": 258855
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_80089MFHP000-E SAME Fluids System Schematic.pdf",
+    "bytes": 333331
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_Fluids Control Unit, Schematic, left side.pdf",
+    "bytes": 1163952
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_Resistive Heater Coil-TN001.mp4",
+    "bytes": 7339333
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_Resistive Heater Coil-TN001.zip",
+    "bytes": 168520317
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_Resistive Heater Coil-TN002.mp4",
+    "bytes": 6866548
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_Resistive Heater Coil-TN002.zip",
+    "bytes": 139833351
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_S1171MFHA401 Pyrell Sample Assembly.pdf",
+    "bytes": 154568
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_SAME OPS images.zip",
+    "bytes": 25024013
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_SAME VPRED Matrix PLN-005 Baseline.xls",
+    "bytes": 537600
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_SAME Verification Plan and Engineering Requirements Document (VPRED)_January 2007.pdf",
+    "bytes": 514208
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_SAME_EIRD.pdf",
+    "bytes": 5378409
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_SAME_IgnitorWireCharacterizationReport.pdf",
+    "bytes": 1852991
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-102_Engineering Documents_SAME_Wire_Test.xls",
+    "bytes": 297984
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-102_Presentations_Detection of Smoke from Microgravity Fires.2005.ppt",
+    "bytes": 8259584
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-102_Presentations_Detection of Smoke from Microgravity Fires_paper.2005.doc",
+    "bytes": 1608192
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-102_Presentations_MeasurementofSmokeParticleSizeUnderLowGravityConditions.ppt",
+    "bytes": 7918592
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-102_Presentations_SAME-2_ParticleMorphology and Size Results.pptx",
+    "bytes": 11483943
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-102_Presentations_SAME2_FlightVSGroundTestResults.pptx",
+    "bytes": 5634955
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-102_Presentations_SAME_EarlyResults.ppt",
+    "bytes": 26546176
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-102_Reference Data_SAME_Crew Interface Description.pdf",
+    "bytes": 694482
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-102_Reference Data_SAME_Software Description Document.pdf",
+    "bytes": 270540
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-102_Reference Data_SAME_Software Req Document.pdf",
+    "bytes": 400833
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-102_Reports_SAME_Final Science Report.pdf",
+    "bytes": 3712845
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-102_Science Documents_SAME_Baseline Concept Description Doc.pdf",
+    "bytes": 247315
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-102_Science Documents_SAME_Operations Manual_007.pdf",
+    "bytes": 699811
+   },
+   {
+    "category": "metadata",
+    "name": "PSI-102_metadata_PSI-170_SAME.zip",
+    "bytes": 13127
+   }
+  ]
+ },
+ {
+  "accession": "PSI-106",
+  "categories": {
+   "Experimental table": {
+    "count": 1,
+    "bytes": 734
+   }
+  },
+  "extensions": {
+   ".csv": 1
+  },
+  "documents": [
+   {
+    "category": "Experimental table",
+    "name": "PSI-106_Experimental table_Slice.csv",
+    "bytes": 734
+   }
+  ]
+ },
+ {
+  "accession": "PSI-107",
+  "categories": {
+   "Engineering Documents": {
+    "count": 4,
+    "bytes": 5431916
+   },
+   "Presentations": {
+    "count": 5,
+    "bytes": 36912183
+   },
+   "Raw Data": {
+    "count": 172,
+    "bytes": 6899317356
+   },
+   "Reference Data": {
+    "count": 1,
+    "bytes": 1060135
+   },
+   "Reports": {
+    "count": 3,
+    "bytes": 2990401
+   },
+   "Science Documents": {
+    "count": 1,
+    "bytes": 1112064
+   }
+  },
+  "extensions": {
+   ".zip": 100,
+   ".xls": 27,
+   ".pdf": 18,
+   ".mp4": 18,
+   ".ppt": 9,
+   ".xlsx": 6,
+   ".pptx": 2,
+   ".txt": 2,
+   ".doc": 1,
+   ".docx": 1,
+   ".nef": 1,
+   ".avi": 1
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-107_Engineering Documents_60054MAFH000-C SPICE Experiment Assembly.pdf",
+    "bytes": 591060
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-107_Engineering Documents_SPICE-MEM-010.pdf",
+    "bytes": 113106
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-107_Engineering Documents_SPICE_Phase III Flight Safety Data Package.pdf",
+    "bytes": 4490750
+   },
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-107_Engineering Documents_SPICE_ScienceVerificationReport.pdf",
+    "bytes": 237000
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-107_Presentations_IP-C Crew training 2010.pdf",
+    "bytes": 1348519
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-107_Presentations_IP-D Crew training 2011.pdf",
+    "bytes": 1339967
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-107_Presentations_Laminar Smoke Points in Coflow Measured Aboard ISS.pdf",
+    "bytes": 1306705
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-107_Presentations_SPICE Overview.ppt",
+    "bytes": 28868608
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-107_Presentations_SPICE-1 Ops Overview and Smoke Point Cue Card.ppt",
+    "bytes": 4048384
+   },
+   {
+    "category": "Reference Data",
+    "name": "PSI-107_Reference Data_SPICE_VIDEO OVERLAY RESET.pdf",
+    "bytes": 1060135
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-107_Reports_SMOKE POINTS OF MICROGRAVITY AND NORMAL GRAVITY COFLOW DIFFUSION FLAMES_DotsonThesis.pdf",
+    "bytes": 2227738
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-107_Reports_SPICE_30-DayPostFlightReport.pdf",
+    "bytes": 160909
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-107_Reports_SPICE_FinalReport.pdf",
+    "bytes": 601754
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-107_Science Documents_SPICE_SRD.doc",
+    "bytes": 1112064
+   }
+  ]
+ },
+ {
+  "accession": "PSI-115",
+  "categories": {
+   "Analyzed Data": {
+    "count": 44,
+    "bytes": 253683467
+   },
+   "Reports": {
+    "count": 1,
+    "bytes": 10617514
+   },
+   "Science Documents": {
+    "count": 1,
+    "bytes": 96899
+   },
+   "metadata": {
+    "count": 1,
+    "bytes": 7021
+   }
+  },
+  "extensions": {
+   ".dat": 44,
+   ".pdf": 2,
+   ".zip": 1
+  },
+  "documents": [
+   {
+    "category": "Reports",
+    "name": "PSI-115_Reports_NNX17AF08A_FinalReport.pdf",
+    "bytes": 10617514
+   },
+   {
+    "category": "Science Documents",
+    "name": "PSI-115_Science Documents_DataOrganizationDocument.pdf",
+    "bytes": 96899
+   },
+   {
+    "category": "metadata",
+    "name": "PSI-115_metadata_PSI-185_Utilization of the S.zip",
+    "bytes": 7021
+   }
+  ]
+ },
+ {
+  "accession": "PSI-117",
+  "categories": {
+   "Analyzed Data": {
+    "count": 10,
+    "bytes": 281272
+   },
+   "Presentations": {
+    "count": 4,
+    "bytes": 62456587
+   },
+   "Reports": {
+    "count": 1,
+    "bytes": 8072629
+   }
+  },
+  "extensions": {
+   ".csv": 9,
+   ".pdf": 5,
+   ".xlsx": 1
+  },
+  "documents": [
+   {
+    "category": "Presentations",
+    "name": "PSI-117_Presentations_Extinction_Characteristics_TFarouk.pdf",
+    "bytes": 11802360
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-117_Presentations_Oscillatory_Cool Flame_TFarouk.pdf",
+    "bytes": 8994674
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-117_Presentations_PSI_Users_Group_Cool_Flames_in_Space_03302026.pdf",
+    "bytes": 10786102
+   },
+   {
+    "category": "Presentations",
+    "name": "PSI-117_Presentations_Three_Stage_Cool_Flame_TFarouk.pdf",
+    "bytes": 30873451
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-117_Reports_Dissertation_Combustion Behavior Of Sub-Millimeter Sized Oxygenated And N-Alka.pdf",
+    "bytes": 8072629
+   }
+  ]
+ },
+ {
+  "accession": "PSI-142",
+  "categories": {
+   "Analyzed Data": {
+    "count": 1,
+    "bytes": 735232
+   },
+   "Experimental table": {
+    "count": 1,
+    "bytes": 727
+   }
+  },
+  "extensions": {
+   ".xlsx": 1,
+   ".csv": 1
+  },
+  "documents": [
+   {
+    "category": "Experimental table",
+    "name": "PSI-142_Experimental table_Data Summary Table.csv",
+    "bytes": 727
+   }
+  ]
+ },
+ {
+  "accession": "PSI-159",
+  "categories": {
+   "Engineering Documents": {
+    "count": 1,
+    "bytes": 7496324
+   },
+   "Experimental table": {
+    "count": 2,
+    "bytes": 61588
+   },
+   "Raw Data": {
+    "count": 3749,
+    "bytes": 2085580830202
+   },
+   "Reports": {
+    "count": 1,
+    "bytes": 3894907
+   },
+   "Representative Image(s)": {
+    "count": 2,
+    "bytes": 137834
+   },
+   "metadata": {
+    "count": 1,
+    "bytes": 8404
+   }
+  },
+  "extensions": {
+   ".txt": 1022,
+   ".zip": 987,
+   ".csv": 680,
+   ".mdipsug": 610,
+   ".ts": 336,
+   ".pdf": 93,
+   ".log": 22,
+   ".xlsx": 1,
+   ".errors": 1,
+   ".mp4": 1,
+   ".next": 1,
+   ".png": 1,
+   ".jpg": 1
+  },
+  "documents": [
+   {
+    "category": "Engineering Documents",
+    "name": "PSI-159_Engineering Documents_ACME Engineering Implementation Rpt..pdf",
+    "bytes": 7496324
+   },
+   {
+    "category": "Experimental table",
+    "name": "PSI-159_Experimental table_CFI-G_Inverse Flames.csv",
+    "bytes": 39422
+   },
+   {
+    "category": "Experimental table",
+    "name": "PSI-159_Experimental table_CFI-G_Normal Flames.csv",
+    "bytes": 22166
+   },
+   {
+    "category": "Reports",
+    "name": "PSI-159_Reports_FinalRpt_ACME.CFI-G.pdf",
+    "bytes": 3894907
+   },
+   {
+    "category": "Representative Image(s)",
+    "name": "PSI-159_Representative Image(s)_ACME logo.png",
+    "bytes": 127968
+   },
+   {
+    "category": "Representative Image(s)",
+    "name": "PSI-159_Representative Image(s)_CFI-G_Observation of non-premixed quasi-steady spherical cool flames on porous burners.jpg",
+    "bytes": 9866
+   },
+   {
+    "category": "metadata",
+    "name": "PSI-159_metadata_PSI-159-ISA.zip",
+    "bytes": 8404
+   }
+  ]
+ }
+]

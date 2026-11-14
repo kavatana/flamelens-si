@@ -1,0 +1,735 @@
+{
+ "o2_fraction": {
+  "label": "Oxygen",
+  "unit": "fraction",
+  "kind": "number",
+  "group": "atmosphere",
+  "description": "Oxygen mole fraction of the oxidizer. For most tests this is the ambient atmosphere in the chamber; for inverse flames it is the oxidizer stream fed through the burner (see o2_basis).",
+  "plausible": [
+   0.05,
+   1.0
+  ]
+ },
+ "o2_basis": {
+  "label": "Oxygen refers to",
+  "kind": "category",
+  "group": "atmosphere",
+  "description": "\"ambient\" when oxygen describes the atmosphere surrounding the fuel; \"oxidizer stream\" when oxygen is injected into a fuel atmosphere (inverse flames)."
+ },
+ "pressure_kpa": {
+  "label": "Pressure",
+  "unit": "kPa",
+  "kind": "number",
+  "group": "atmosphere",
+  "description": "Total pressure of the test atmosphere.",
+  "plausible": [
+   10.0,
+   700.0
+  ]
+ },
+ "n2_fraction": {
+  "label": "Nitrogen",
+  "unit": "fraction",
+  "kind": "number",
+  "group": "atmosphere",
+  "description": "Nitrogen mole fraction of the ambient atmosphere."
+ },
+ "co2_fraction": {
+  "label": "Carbon dioxide",
+  "unit": "fraction",
+  "kind": "number",
+  "group": "atmosphere",
+  "description": "Carbon dioxide mole fraction of the ambient atmosphere (a suppressant in FLEX)."
+ },
+ "he_fraction": {
+  "label": "Helium",
+  "unit": "fraction",
+  "kind": "number",
+  "group": "atmosphere",
+  "description": "Helium mole fraction of the ambient atmosphere."
+ },
+ "diluent": {
+  "label": "Diluent",
+  "kind": "category",
+  "group": "atmosphere",
+  "description": "Inert gas or gases making up the balance of the atmosphere."
+ },
+ "flow_speed_cm_s": {
+  "label": "Flow speed",
+  "unit": "cm/s",
+  "kind": "number",
+  "group": "atmosphere",
+  "description": "Speed of the forced gas flow past the fuel.",
+  "plausible": [
+   0.0,
+   200.0
+  ]
+ },
+ "flow_direction": {
+  "label": "Flow direction",
+  "kind": "category",
+  "group": "atmosphere",
+  "description": "Direction of the forced flow relative to flame spread: concurrent or opposed."
+ },
+ "ambient_temperature_c": {
+  "label": "Ambient temperature",
+  "unit": "°C",
+  "kind": "number",
+  "group": "atmosphere",
+  "description": "Initial temperature of the test atmosphere."
+ },
+ "fuel": {
+  "label": "Fuel or material",
+  "kind": "category",
+  "group": "fuel",
+  "description": "Fuel species or solid material",
+  "under one naming scheme.": null
+ },
+ "fuel_phase": {
+  "label": "Fuel phase",
+  "kind": "category",
+  "group": "fuel",
+  "description": "gas, liquid or solid."
+ },
+ "fuel_fraction": {
+  "label": "Fuel fraction",
+  "unit": "fraction",
+  "kind": "number",
+  "group": "fuel",
+  "description": "Mole (volume) fraction of fuel in the fuel stream; the rest is inert diluent."
+ },
+ "fuel_diluent": {
+  "label": "Fuel diluent",
+  "kind": "category",
+  "group": "fuel",
+  "description": "Inert gas mixed into the fuel stream."
+ },
+ "fuel_flow_mg_s": {
+  "label": "Fuel flow rate",
+  "unit": "mg/s",
+  "kind": "number",
+  "group": "fuel",
+  "description": "Mass flow rate of fuel."
+ },
+ "oxidizer_flow_mg_s": {
+  "label": "Oxidizer flow rate",
+  "unit": "mg/s",
+  "kind": "number",
+  "group": "fuel",
+  "description": "Mass flow rate of oxygen through the burner (inverse flames)."
+ },
+ "geometry": {
+  "label": "Geometry",
+  "kind": "category",
+  "group": "fuel",
+  "description": "Shape of the fuel sample or burner."
+ },
+ "size_mm": {
+  "label": "Characteristic size",
+  "unit": "mm",
+  "kind": "number",
+  "group": "fuel",
+  "description": "Droplet, burner, nozzle, rod or sphere diameter."
+ },
+ "sample_thickness_mm": {
+  "label": "Sample thickness",
+  "unit": "mm",
+  "kind": "number",
+  "group": "fuel",
+  "description": "Thickness of a solid sample."
+ },
+ "sample_length_cm": {
+  "label": "Sample length",
+  "unit": "cm",
+  "kind": "number",
+  "group": "fuel",
+  "description": "Length of a solid sample."
+ },
+ "sample_width_cm": {
+  "label": "Sample width",
+  "unit": "cm",
+  "kind": "number",
+  "group": "fuel",
+  "description": "Width of a solid sample."
+ },
+ "igniter_power_w": {
+  "label": "Igniter power",
+  "unit": "W",
+  "kind": "number",
+  "group": "outcome",
+  "description": "Electrical power applied to the igniter."
+ },
+ "ignition_time_s": {
+  "label": "Ignition time",
+  "unit": "s",
+  "kind": "number",
+  "group": "outcome",
+  "description": "How long the igniter was powered."
+ },
+ "ignited": {
+  "label": "Ignited",
+  "kind": "boolean",
+  "group": "outcome",
+  "description": "Whether a hot flame was established."
+ },
+ "flames_ignited": {
+  "label": "Flames ignited",
+  "unit": "count",
+  "kind": "number",
+  "group": "outcome",
+  "description": "Number of flames ignited in a test session (session-level tables)."
+ },
+ "burn_time_s": {
+  "label": "Burn time",
+  "unit": "s",
+  "kind": "number",
+  "group": "outcome",
+  "description": "Duration of burning."
+ },
+ "end_mode": {
+  "label": "How the test ended",
+  "kind": "category",
+  "group": "outcome",
+  "description": "Self-extinguished, flow terminated, extinction, disruption or burned to completion."
+ },
+ "burning_rate_mm2_s": {
+  "label": "Burning-rate constant",
+  "unit": "mm²/s",
+  "kind": "number",
+  "group": "outcome",
+  "description": "Droplet burning-rate constant. The PSI column header reads \"Burning rate; mm\"; droplet burning-rate constants are conventionally reported in mm²/s and the values are in that range."
+ },
+ "extinction_diameter_mm": {
+  "label": "Extinction diameter",
+  "unit": "mm",
+  "kind": "number",
+  "group": "outcome",
+  "description": "Droplet diameter at which the visible flame went out."
+ },
+ "spread_rate_mm_s": {
+  "label": "Flame spread rate",
+  "unit": "mm/s",
+  "kind": "number",
+  "group": "outcome",
+  "description": "Speed at which the flame moved along a solid sample in microgravity."
+ },
+ "burn_length_cm": {
+  "label": "Burn length",
+  "unit": "cm",
+  "kind": "number",
+  "group": "outcome",
+  "description": "Length of a solid sample consumed in microgravity."
+ },
+ "spread_rate_1g_mm_s": {
+  "label": "Flame spread rate at 1 g",
+  "unit": "mm/s",
+  "kind": "number",
+  "group": "outcome",
+  "description": "Spread rate of the same material in the normal-gravity comparison test."
+ },
+ "burn_length_1g_cm": {
+  "label": "Burn length at 1 g",
+  "unit": "cm",
+  "kind": "number",
+  "group": "outcome",
+  "description": "Burn length of the same material in the normal-gravity comparison test."
+ },
+ "cool_flame": {
+  "label": "Cool flame observed",
+  "kind": "boolean",
+  "group": "outcome",
+  "description": "Whether a low-temperature \"cool\" flame was observed."
+ },
+ "flame_color": {
+  "label": "Flame colour",
+  "kind": "category",
+  "group": "outcome",
+  "description": "Visible colour of the flame as logged by the science team."
+ },
+ "o2_fraction_final": {
+  "label": "Oxygen at end of test",
+  "unit": "fraction",
+  "kind": "number",
+  "group": "measurement",
+  "description": "Oxygen mole fraction measured after the test.",
+  "plausible": [
+   0.05,
+   1.0
+  ]
+ },
+ "co2_fraction_final": {
+  "label": "Carbon dioxide at end of test",
+  "unit": "fraction",
+  "kind": "number",
+  "group": "measurement",
+  "description": "Carbon dioxide mole fraction measured after the test."
+ },
+ "co_ppm_final": {
+  "label": "Carbon monoxide at end of test",
+  "unit": "ppm",
+  "kind": "number",
+  "group": "measurement",
+  "description": "Carbon monoxide concentration measured after the test."
+ },
+ "adiabatic_flame_temp_k": {
+  "label": "Adiabatic flame temperature",
+  "unit": "K",
+  "kind": "number",
+  "group": "measurement",
+  "description": "Calculated adiabatic flame temperature for the test's reactants."
+ },
+ "stoich_mixture_fraction": {
+  "label": "Stoichiometric mixture fraction",
+  "unit": "ratio",
+  "kind": "number",
+  "group": "measurement",
+  "description": "Zst - where the flame sits between the fuel and oxidizer sides."
+ },
+ "peak_burner_temp_c": {
+  "label": "Peak burner temperature",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "Highest burner surface temperature reached."
+ },
+ "heater_ratio": {
+  "label": "Heater resistance ratio",
+  "unit": "ratio",
+  "kind": "number",
+  "group": "measurement",
+  "description": "Rt/R0, the heater wire's resistance relative to room temperature - a proxy for sample heating temperature in the smoke experiments."
+ },
+ "heating_time_s": {
+  "label": "Heating time",
+  "unit": "s",
+  "kind": "number",
+  "group": "measurement",
+  "description": "How long the sample was heated to generate smoke."
+ },
+ "aging_time_s": {
+  "label": "Smoke aging time",
+  "unit": "s",
+  "kind": "number",
+  "group": "measurement",
+  "description": "Time the smoke was held before measurement."
+ },
+ "mass_loss_rate_mg_min": {
+  "label": "Mass loss rate",
+  "unit": "mg/min",
+  "kind": "number",
+  "group": "measurement",
+  "description": "Rate at which the heated sample lost mass."
+ },
+ "flame_type": {
+  "label": "Flame type",
+  "kind": "category",
+  "group": "context",
+  "description": "normal (fuel flows into oxidizer) or inverse (oxidizer flows into fuel)."
+ },
+ "field_polarity": {
+  "label": "Electric-field polarity",
+  "kind": "category",
+  "group": "context",
+  "description": "Polarity of the high-voltage mesh electrode relative to the burner."
+ },
+ "test_date": {
+  "label": "Test date",
+  "kind": "text",
+  "group": "context",
+  "description": "Date of the test or session (ISO format)."
+ },
+ "investigator": {
+  "label": "Investigator",
+  "kind": "text",
+  "group": "context",
+  "description": "Principal investigator whose test matrix the run belongs to."
+ },
+ "description": {
+  "label": "Description",
+  "kind": "text",
+  "group": "context",
+  "description": "Free-text description from the PSI table."
+ },
+ "notes": {
+  "label": "Notes",
+  "kind": "text",
+  "group": "context",
+  "description": "Operator comments from the PSI table."
+ },
+ "acme_pmt1_gain": {
+  "label": "Photomultiplier tube 1 gain setting",
+  "unit": "",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"PMT1_GAIN PMT1 Gain 4.63 to 10 V For recommended device control voltage of 0.5 to 1.1 V. Gain range is 5x103 to 3.5x106. Gain=2x106 * (Output voltage/9.2645)^8.643856. Or Output voltage = 10^(0.115689 * log(Gain) + 0.23786213). Device is Hamamatsu H10722-10-MOD2.\" (PSI-20_Science Documents_ACME_non-imaging_data_file_description.pdf).",
+  "pack": "PSI-10"
+ },
+ "acme_pmt3_gain": {
+  "label": "Photomultiplier tube 3 gain setting",
+  "unit": "",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"PMT3_GAIN PMT3 Gain 4.63 to 10 For recommended device control voltage of 0.5 to 1.1 V. Gain range is 5x103 to 3.5x106. Gain=2x106 * (Output voltage/9.2645)^8.643856. Or Output voltage = 10^(0.115689 * log(Gain) + 0.23786213). Device is Hamamatsu H10722-10-MOD2.\" (PSI-20_Science Documents_ACME_non-imaging_data_file_description.pdf).",
+  "pack": "PSI-10"
+ },
+ "acme_pmt_oh_ua": {
+  "label": "Photomultiplier tube current, OH* (310 nm band)",
+  "unit": "µA",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"[S2, p. 5] 0 to 4 µA. Current (µA) = Voltage * 1. Depends on PMT1_GAIN, Table 3. Device is Hamamatsu H10722-10- MOD2. Looks through a 310 nm bandpass interference filter [S3, p. 11] but one will have a 310-nm bandpass filter and another will have a 430-nm bandpass filter (where both are with a 10-nm FWHM). The pair of detectors will enable measurement of OH* and CH* emission, respectively.\" (PSI-20_Science Documents_ACME_non-imaging_data_file_description.pdf).",
+  "pack": "PSI-10"
+ },
+ "acme_pmt_ch_ua": {
+  "label": "Photomultiplier tube current, CH* (430 nm band)",
+  "unit": "µA",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"[S2, p. 6] 0 to 4 µA. Current (µA) = Voltage * 1. Depends on PMT3_GAIN, Table 3. Device is Hamamatsu H10722-10- MOD2. Looks through a 430 nm bandpass interference filter [S3, p. 11] but one will have a 310-nm bandpass filter and another will have a 430-nm bandpass filter (where both are with a 10-nm FWHM). The pair of detectors will enable measurement of OH* and CH* emission, respectively.\" (PSI-20_Science Documents_ACME_non-imaging_data_file_description.pdf).",
+  "pack": "PSI-10"
+ },
+ "saffire_anemometer_1_cm_s": {
+  "label": "Saffire anemometer 1",
+  "unit": "cm/s",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Anemometer 1; cm/sec\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_anemometer_2_cm_s": {
+  "label": "Saffire anemometer 2",
+  "unit": "cm/s",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Anemometer 2; cm/sec\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_radiometer_1_mw_cm2": {
+  "label": "Saffire radiometer 1",
+  "unit": "mW/cm²",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Radiometer 1; mw/cm^2\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_radiometer_2_mw_cm2": {
+  "label": "Saffire radiometer 2",
+  "unit": "mW/cm²",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Radiometer 2; mw/cm^2\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_radiometer_3_mw_cm2": {
+  "label": "Saffire radiometer 3",
+  "unit": "mW/cm²",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Radiometer 3; mw/cm^2\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_radiometer_4_mw_cm2": {
+  "label": "Saffire radiometer 4",
+  "unit": "mW/cm²",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Radiometer 4; mw/cm^2\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_humidity_pct": {
+  "label": "Saffire humidity",
+  "unit": "%",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Humidity; %\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_inlet_temp_c": {
+  "label": "Saffire test section inlet temperature",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Test Section Inlet Temp; Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_plume_temp_tc1_c": {
+  "label": "Saffire plume temperature, thermocouple TC1",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Plume Temp 1 (TC1); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_plume_temp_tc2_c": {
+  "label": "Saffire plume temperature, thermocouple TC2",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Plume Temp 2 (TC2); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_plume_temp_tc3_c": {
+  "label": "Saffire plume temperature, thermocouple TC3",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Plume Temp 3 (TC3); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_plume_temp_tc4_c": {
+  "label": "Saffire plume temperature, thermocouple TC4",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Plume Temp 4 (TC4); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_plume_temp_tc5_c": {
+  "label": "Saffire plume temperature, thermocouple TC5",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Plume Temp 5 (TC5); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_plume_temp_tc6_c": {
+  "label": "Saffire plume temperature, thermocouple TC6",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Plume Temp 6 (TC6); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_sample_temp_tc7_c": {
+  "label": "Saffire sample temperature, thermocouple TC7",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Sample Temp 1 (TC7); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_sample_temp_tc8_c": {
+  "label": "Saffire sample temperature, thermocouple TC8",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Sample Temp 2 (TC8); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_sample_temp_tc9_c": {
+  "label": "Saffire sample temperature, thermocouple TC9",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Sample Temp 3 (TC9); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_sample_temp_tc10_c": {
+  "label": "Saffire sample temperature, thermocouple TC10",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Sample Temp 4 (TC10); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_sample_temp_tc11_c": {
+  "label": "Saffire sample temperature, thermocouple TC11",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Sample Temp 5 (TC11); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "saffire_sample_temp_tc12_c": {
+  "label": "Saffire sample temperature, thermocouple TC12",
+  "unit": "°C",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Sample Temp 6 (TC12); Degrees C\" (PSI-100_Raw Data_Saffire III Sample 1 Sensors.xlsx).",
+  "pack": "PSI-100"
+ },
+ "smoke_count_mean_diameter_um": {
+  "label": "Smoke count mean diameter",
+  "unit": "µm",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Count Mean Diameter (M1/M0) (µm)\" (PSI-101_Reports_SAME-R_Final Report.pdf).",
+  "pack": "PSI-101"
+ },
+ "smoke_diameter_average_mass_um": {
+  "label": "Smoke diameter of average mass",
+  "unit": "µm",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Diameter of Average Mass (M3/M0)1/3 (µm)\" (PSI-101_Reports_SAME-R_Final Report.pdf).",
+  "pack": "PSI-101"
+ },
+ "ptrak_count_thousand_per_cm3": {
+  "label": "P-Trak particle count reading, thousands per cm3 (as logged, before NASA's dilution and calibration)",
+  "unit": "thousand particles/cm3",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"PTrakMeasurement(PtPerCC)/1000 (Right Axis)\" (PSI-101_Analyzed Data_2010_197_13_silicon_run48.xls).",
+  "pack": "PSI-101"
+ },
+ "dusttrak_b_mass_mg_per_m3": {
+  "label": "DustTrak B smoke mass concentration reading (as logged, before NASA's dilution and calibration)",
+  "unit": "mg/m3",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"DustTrakBMeasurement(MgPerM3) (Right Axis)\" (PSI-101_Analyzed Data_2010_197_13_silicon_run48.xls).",
+  "pack": "PSI-101"
+ },
+ "iss_detector_scatter_volts": {
+  "label": "ISS smoke detector scatter reading",
+  "unit": "V",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"ISSDetectorScatterMeasurement(Volts)\" (PSI-101_Analyzed Data_2010_197_13_silicon_run48.xls).",
+  "pack": "PSI-101"
+ },
+ "smoke_point_length_mm": {
+  "label": "Smoke point length",
+  "unit": "mm",
+  "kind": "number",
+  "group": "outcome",
+  "description": "NASA's definition: \"The smoke point lengths, LSP, (and the flow conditions) were obtained from the video record and are the measured distance from the burner to the tip of the luminous flame on the flame axis.\" (PSI-107_Reports_SPICE_FinalReport.pdf).",
+  "pack": "PSI-107"
+ },
+ "flame_length_mm": {
+  "label": "Flame length (Data II column Length)",
+  "unit": "mm",
+  "kind": "number",
+  "group": "outcome",
+  "description": "NASA's files give no definition for this reading. It is kept as logged.",
+  "pack": "PSI-107"
+ },
+ "flame_width_max_mm": {
+  "label": "Maximum flame width",
+  "unit": "mm",
+  "kind": "number",
+  "group": "outcome",
+  "description": "NASA's files give no definition for this reading. It is kept as logged.",
+  "pack": "PSI-107"
+ },
+ "flame_height_nikon_mm": {
+  "label": "Flame height from the Nikon still",
+  "unit": "mm",
+  "kind": "number",
+  "group": "outcome",
+  "description": "NASA's files give no definition for this reading. It is kept as logged.",
+  "pack": "PSI-107"
+ },
+ "bass_fan_display": {
+  "label": "Fan display on the video (fan voltage x10)",
+  "unit": "",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Fan display: instantaneous fan voltagex10 on the video display. Maximum was 122, or 12.2 volts.\" (PSI-25_Science Documents_BASS-II_ReadMe.docx).",
+  "pack": "PSI-25"
+ },
+ "bass_radiometer_display": {
+  "label": "Radiometer on the video (uncalibrated, relative)",
+  "unit": "",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Radiometer gain: Uncalibrated radiometer gain, radiometer is displayed on the video. Adjusted to avoid saturation. Useful for relative flame intensity readings and flame dynamics (like pre-extinction oscillations). Video display data rate is 5 Hz.\" (PSI-25_Science Documents_BASS-II_ReadMe.docx).",
+  "pack": "PSI-25"
+ },
+ "burning_rate_cool_mm2_s": {
+  "label": "Cool-flame burning-rate constant",
+  "unit": "mm²/s",
+  "kind": "number",
+  "group": "outcome",
+  "description": "NASA's files give no definition for this reading. It is kept as logged.",
+  "pack": "PSI-39"
+ },
+ "extinction_diameter_cool_mm": {
+  "label": "Cool-flame extinction diameter",
+  "unit": "mm",
+  "kind": "number",
+  "group": "outcome",
+  "description": "NASA's files give no definition for this reading. It is kept as logged.",
+  "pack": "PSI-39"
+ },
+ "droplet_diameter_mm": {
+  "label": "Droplet diameter",
+  "unit": "mm",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"DropletDiameter_mm\" (PSI-39_Raw Data_FLEX-1206_DropletData.txt).",
+  "pack": "PSI-39"
+ },
+ "flame_diameter_visible_mm": {
+  "label": "Flame diameter, colour camera",
+  "unit": "mm",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"ColorCamFlameDiameter_mm\" (PSI-39_Raw Data_FLEX-1206_ColorCamData.txt).",
+  "pack": "PSI-39"
+ },
+ "cool_flame_diameter_mm": {
+  "label": "Cool-flame diameter (FWHM)",
+  "unit": "mm",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"CoolFlameDiameterFWHM_mm\" (PSI-39_Raw Data_FLEX-1213_CoolFlameData.txt).",
+  "pack": "PSI-39"
+ },
+ "fiber_supported": {
+  "label": "Droplet on a support fiber",
+  "unit": "",
+  "kind": "boolean",
+  "group": "context",
+  "description": "NASA's definition: \"Fiber:\" (PSI-39_Raw Data_FLEX-1206_TestSheet.txt).",
+  "pack": "PSI-39"
+ },
+ "particle_number_conc_cm3": {
+  "label": "Particle number concentration (P-Trak)",
+  "unit": "particles/cm³",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"The P-Trak gives a number count of the particles in an aerosol, in readings of particles/cm3.\" (PSI-47_Reports_DAFT_FinalReport.doc).",
+  "pack": "PSI-47"
+ },
+ "particle_mass_conc_mg_m3": {
+  "label": "Particle mass concentration (DustTrak)",
+  "unit": "mg/m³",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"DustTrak gives measurements of the total mass, in mg/m3.\" (PSI-47_Reports_DAFT_FinalReport.doc).",
+  "pack": "PSI-47"
+ },
+ "mass_per_particle_g": {
+  "label": "Mass per particle (DustTrak mass over P-Trak count)",
+  "unit": "g",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Mass Per Particle (gram)\" (PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls).",
+  "pack": "PSI-47"
+ },
+ "particle_diameter_mass_um": {
+  "label": "Particle diameter from the mass per particle (assumed density)",
+  "unit": "µm",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"Particle Diameter (micon)\" (PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls).",
+  "pack": "PSI-47"
+ },
+ "dust_fill_toggles": {
+  "label": "Fill-valve toggles used to put dust into the sample bag",
+  "unit": "count",
+  "kind": "number",
+  "group": "context",
+  "description": "NASA's definition: \"Six toggles were used to introduce dust into Sample Bag #2.\" (PSI-47_Reports_DAFT_FinalReport.doc).",
+  "pack": "PSI-47"
+ },
+ "flame_diameter_oh_mm": {
+  "label": "Flame diameter, OH camera (LLUV)",
+  "unit": "mm",
+  "kind": "number",
+  "group": "measurement",
+  "description": "NASA's definition: \"LLUV flame size as a function of time\" (NTRS-20150023456.pdf).",
+  "pack": "PSI-69"
+ }
+}

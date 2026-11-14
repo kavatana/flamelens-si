@@ -1,0 +1,3 @@
+source_id,accession,file_name,psi_path,folder,bytes,sha256,source_kind,fetched_at
+S1,PSI-21,NTRS-20220005205.pdf,https://ntrs.nasa.gov/api/citations/20220005205/downloads/ACME%20CSSCI%20paper%2020220402.pdf,NTRS,741399,dc6c88a0dde80265e4fd6defa2895aea86f8967e19c1b3c0ae46986c5d775743,publication,
+G1,PSI-21,PSI-20_Science Documents_ISS_Researchers_Guide_-_Combustion_In_Reduced_Gravity.pdf,/Home/psi-data/PSI-20/Science Documents/PSI-20_Science Documents_ISS_Researchers_Guide_-_Combustion_In_Reduced_Gravity.pdf,Science Documents,1532064,d85c92823f8917979df00e09e8e0ca40f42092a330ef30dcb8a8af34e7ee6bc0,publication,

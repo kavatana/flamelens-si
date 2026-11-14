@@ -1,0 +1,8 @@
+{
+  "accession": "PSI-101",
+  "pack_version": "6",
+  "created": "",
+  "created_by": "FlameLens data team, with an SI tool",
+  "si_use": "An SI tool (Claude) wrote and ran the scripts that downloaded NASA's SAME-R final report and results workbook, cut each finding from the report's page text, and copied each test's diameters from the workbook. Scripts check every quote against the report and every claim against the workbook. The SI tool chose which sentences to include. No value was generated. No person has checked it yet. For the Guide findings the SI tool chose the sentences, and a script cuts each one word for word from the PDF's text and stops if it is not found.",
+  "summary": "Instrument curves (P-Trak, DustTrak B, ISS detector) for 13 tests, and smoke particle diameters for 105 SAME-R tests from NASA's results workbook, and 46 results NASA states in the final report and in the published SAME-2 paper (NTRS): diameters by material, which the two documents print differently, and what they mean for smoke detectors. Version 6: 2 findings in NASA's words from NASA's ISS Researcher's Guide: Combustion Science (2015), one of the challenge's listed resources."
+}

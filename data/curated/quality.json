@@ -1,0 +1,720 @@
+{
+ "findings": [
+  {
+   "accession": "PSI-20",
+   "table": "PSI-20_Experimental table_ACME BRE.csv",
+   "kind": "typo",
+   "message": "Column 'Oxygen Conc (percent)': '3400%' read as '34' in 1 row(s). A percent format was applied to the number 34 in the PSI table; the column is already in percent.",
+   "rows": [
+    5
+   ]
+  },
+  {
+   "accession": "PSI-20",
+   "table": "PSI-20_Experimental table_ACME BRE.csv",
+   "kind": "typo",
+   "message": "Column 'Oxygen Conc (percent)': '2100%' read as '21' in 1 row(s). A percent format was applied to the number 21 in the PSI table; the column is already in percent.",
+   "rows": [
+    8
+   ]
+  },
+  {
+   "accession": "PSI-21",
+   "table": "PSI-21_Experimental table_CLD Flame.csv",
+   "kind": "autofill-repair",
+   "message": "Column 'Fuel Bottle': 26 cell(s) were damaged by spreadsheet drag-fill (for example 40% CH5, 40% CH6, 40% CH7, 40% CH8, 40% CH9) and were restored to the first value of each run.",
+   "count": 26
+  },
+  {
+   "accession": "PSI-22",
+   "table": "PSI-22_Experimental table_ACME E-FIELD Flames.csv",
+   "kind": "merged-rows",
+   "message": "11 continuation row(s) were folded into the test day they belong to (they list further values of Fuel Conc)."
+  },
+  {
+   "accession": "PSI-23",
+   "table": "",
+   "kind": "partial-record",
+   "message": "PSI's server cut this record off before the end. Every field up to the cut is used; later fields were filled from PSI's search index."
+  },
+  {
+   "accession": "PSI-23",
+   "table": "PSI-23_Experimental table_ACME s-Flame.csv",
+   "kind": "autofill-repair",
+   "message": "Column 'Atmosphere*': 6 cell(s) were damaged by spreadsheet drag-fill (for example ~21% O2 with N3, ~21% O2 with N4, ~21% O2 with N5, ~21% O2 with N6) and were restored to the first value of each run.",
+   "count": 6
+  },
+  {
+   "accession": "PSI-23",
+   "table": "PSI-23_Experimental table_ACME s-Flame.csv",
+   "kind": "autofill-repair",
+   "message": "Column 'Fuel Bottle': 2 cell(s) were damaged by spreadsheet drag-fill (for example 50% C2H4 with N3, 45% CH4 with N3) and were restored to the first value of each run.",
+   "count": 2
+  },
+  {
+   "accession": "PSI-25",
+   "table": "PSI-25_Experimental table_BASS-II.csv",
+   "kind": "implausible-value",
+   "message": "Oxygen at end of test: 3 value(s) fall outside the expected range 0.05 to 1 fraction (1.6, 0.6, 0.9). They are kept exactly as published, flagged, and left out of charts.",
+   "rows": [
+    2,
+    96,
+    127
+   ]
+  },
+  {
+   "accession": "PSI-25",
+   "table": "PSI-25_Experimental table_BASS-II.csv",
+   "kind": "inconsistent-value",
+   "message": "Oxygen at end of test: 2 value(s) are more than 2 points above the oxygen at the start of the same test. Burning uses oxygen up, so this cannot be a reading of the same air. They are kept exactly as published, flagged, and left out of charts.",
+   "rows": [
+    97,
+    128
+   ]
+  },
+  {
+   "accession": "PSI-25",
+   "table": "PSI-25_Experimental table_BASS-II.csv",
+   "kind": "sources-disagree",
+   "message": "M17, How the test ended: NASA's file PSI-25_Reports_BASS-II Summary Report.pdf gives \"flow terminated\"; NASA's file PSI-25_Experimental table_BASS-II.csv gives \"extinction\" (row 43, column Air display). The first is the one used.",
+   "rows": [
+    43
+   ]
+  },
+  {
+   "accession": "PSI-25",
+   "table": "PSI-25_Experimental table_BASS-II.csv",
+   "kind": "sources-disagree",
+   "message": "M17, How the test ended: NASA's file PSI-25_Reports_BASS-II Summary Report.pdf gives \"flow terminated\"; NASA's file PSI-25_Science Documents_BASS-II_Test.Matrices.xlsx gives \"extinction\" (Miller!H18). The first is the one used.",
+   "rows": [
+    43
+   ]
+  },
+  {
+   "accession": "PSI-25",
+   "table": "PSI-25_Experimental table_BASS-II.csv",
+   "kind": "sources-disagree",
+   "message": "P5, How the test ended: NASA's file PSI-25_Reports_BASS-II Summary Report.pdf gives \"flow terminated\"; NASA's file PSI-25_Experimental table_BASS-II.csv gives \"extinction\" (row 79, column Air display). The first is the one used.",
+   "rows": [
+    79
+   ]
+  },
+  {
+   "accession": "PSI-25",
+   "table": "PSI-25_Experimental table_BASS-II.csv",
+   "kind": "sources-disagree",
+   "message": "P5, How the test ended: NASA's file PSI-25_Reports_BASS-II Summary Report.pdf gives \"flow terminated\"; NASA's file PSI-25_Science Documents_BASS-II_Test.Matrices.xlsx gives \"extinction\" (Fernandez-Pello!H7). The first is the one used.",
+   "rows": [
+    79
+   ]
+  },
+  {
+   "accession": "PSI-25",
+   "table": "PSI-25_Experimental table_BASS-II.csv",
+   "kind": "sources-disagree",
+   "message": "P13a, How the test ended: NASA's file PSI-25_Reports_BASS-II Summary Report.pdf gives \"flow terminated\"; NASA's file PSI-25_Experimental table_BASS-II.csv gives \"extinction\" (row 85, column Air display). The first is the one used.",
+   "rows": [
+    85
+   ]
+  },
+  {
+   "accession": "PSI-25",
+   "table": "PSI-25_Experimental table_BASS-II.csv",
+   "kind": "sources-disagree",
+   "message": "P13a, How the test ended: NASA's file PSI-25_Reports_BASS-II Summary Report.pdf gives \"flow terminated\"; NASA's file PSI-25_Science Documents_BASS-II_Test.Matrices.xlsx gives \"extinction\" (Fernandez-Pello!H13). The first is the one used.",
+   "rows": [
+    85
+   ]
+  },
+  {
+   "accession": "PSI-26",
+   "table": "PSI-26_Experimental table_BASS.csv",
+   "kind": "excluded-rows",
+   "message": "1 row(s) are not tests and were left out: A cleaning step",
+   "rows": [
+    66
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #1 (GMT 233, 2006), Particle number concentration (P-Trak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 17236.3 particles/cm³; NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 17314.3 particles/cm³ (Voice Down Data Summary!B21). The first is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #1 (GMT 233, 2006), Particle number concentration (P-Trak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 17236.3 particles/cm³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls gives 17314.3 particles/cm³ (Data!C23). The first is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #1 (GMT 233, 2006), Particle number concentration (P-Trak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 17236.3 particles/cm³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls gives 17314.3 particles/cm³ (Data!B21). The first is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #2 (GMT 233, 2006), Particle number concentration (P-Trak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 16589.4 particles/cm³; NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 17256.2 particles/cm³ (Voice Down Data Summary!E21). The first is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #2 (GMT 233, 2006), Particle number concentration (P-Trak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 16589.4 particles/cm³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls gives 17256.2 particles/cm³ (Data!G23). The first is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #2 (GMT 233, 2006), Particle number concentration (P-Trak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 16589.4 particles/cm³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls gives 17256.2 particles/cm³ (Data!E21). The first is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #3 (GMT 233, 2006), Particle number concentration (P-Trak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 26578 particles/cm³; NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 24350 particles/cm³ (Voice Down Data Summary!H21). The first is the one used.",
+   "rows": [
+    3
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #3 (GMT 233, 2006), Particle number concentration (P-Trak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 26578 particles/cm³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls gives 24350 particles/cm³ (Data!K23). The first is the one used.",
+   "rows": [
+    3
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #3 (GMT 233, 2006), Particle number concentration (P-Trak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 26578 particles/cm³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls gives 24522.2 particles/cm³ (Data!H21). The first is the one used.",
+   "rows": [
+    3
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #1 (GMT 233, 2006), Particle mass concentration (DustTrak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 45.6343 mg/m³; NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 43.15 mg/m³ (Voice Down Data Summary!C21). The first is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #1 (GMT 233, 2006), Particle mass concentration (DustTrak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 45.6343 mg/m³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls gives 43.15 mg/m³ (Data!D23). The first is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #1 (GMT 233, 2006), Particle mass concentration (DustTrak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 45.6343 mg/m³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls gives 43.15 mg/m³ (Data!C21). The first is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #2 (GMT 233, 2006), Particle mass concentration (DustTrak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 33.8377 mg/m³; NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 34.0875 mg/m³ (Voice Down Data Summary!F21). The first is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #2 (GMT 233, 2006), Particle mass concentration (DustTrak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 33.8377 mg/m³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls gives 34.0875 mg/m³ (Data!H23). The first is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #2 (GMT 233, 2006), Particle mass concentration (DustTrak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 33.8377 mg/m³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls gives 34.0875 mg/m³ (Data!F21). The first is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #3 (GMT 233, 2006), Particle mass concentration (DustTrak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 62.6509 mg/m³; NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 63.1833 mg/m³ (Voice Down Data Summary!I21). The first is the one used.",
+   "rows": [
+    3
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #3 (GMT 233, 2006), Particle mass concentration (DustTrak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 62.6509 mg/m³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls gives 63.1833 mg/m³ (Data!L23). The first is the one used.",
+   "rows": [
+    3
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #3 (GMT 233, 2006), Particle mass concentration (DustTrak): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 62.6509 mg/m³; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls gives 63.2889 mg/m³ (Data!I21). The first is the one used.",
+   "rows": [
+    3
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #1 (GMT 233, 2006), Particle diameter from the mass per particle (assumed density): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.71639 µm; NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.68213 µm (Voice Down Data Summary!B25). The first is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #1 (GMT 233, 2006), Particle diameter from the mass per particle (assumed density): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.71639 µm; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls gives 1.68213 µm (Data!C27). The first is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #1 (GMT 233, 2006), Particle diameter from the mass per particle (assumed density): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.71639 µm; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls gives 1.68213 µm (Data!B25). The first is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #2 (GMT 233, 2006), Particle diameter from the mass per particle (assumed density): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.57347 µm; NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.55674 µm (Voice Down Data Summary!E25). The first is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #2 (GMT 233, 2006), Particle diameter from the mass per particle (assumed density): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.57347 µm; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls gives 1.55674 µm (Data!G27). The first is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #2 (GMT 233, 2006), Particle diameter from the mass per particle (assumed density): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.57347 µm; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls gives 1.55674 µm (Data!E25). The first is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #3 (GMT 233, 2006), Particle diameter from the mass per particle (assumed density): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.65121 µm; NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.70491 µm (Voice Down Data Summary!H25). The first is the one used.",
+   "rows": [
+    3
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #3 (GMT 233, 2006), Particle diameter from the mass per particle (assumed density): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.65121 µm; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_0611zgy time hist.xls gives 1.70491 µm (Data!K27). The first is the one used.",
+   "rows": [
+    3
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Evidence pack_PSI-47",
+   "kind": "sources-disagree",
+   "message": "DAFT-3 Sample Bag #3 (GMT 233, 2006), Particle diameter from the mass per particle (assumed density): NASA's file PSI-47_Analyzed Data_DAFT Retrieved Data Summary.xls gives 1.65121 µm; NASA's file PSI-47_Analyzed Data_ISS_Daft_Aug21_06 urban.xls gives 1.70186 µm (Data!H25). The first is the one used.",
+   "rows": [
+    3
+   ]
+  },
+  {
+   "accession": "PSI-47",
+   "table": "PSI-47_Experimental table_DAFT.csv",
+   "kind": "sources-disagree",
+   "message": "Session D1, Particle number concentration (P-Trak): NASA's file PSI-47_Analyzed Data_DAFT Flight Data GMT053.xls gives 1.43189 particles/cm³; NASA's file PSI-47_Reports_DAFT_FinalReport.doc gives 2 to 5 particles/cm³ (section II.D.1 (DAFT-1 & DAFT -2, Session 1, GMT 54, 2005)). The first is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-69",
+   "table": "PSI-69_Experimental table_FLEX.csv",
+   "kind": "header",
+   "message": "Subscripts were lost in the PSI file: the columns \"O\", \"N\" and \"CO initial ambient composition\" are O2, N2 and CO2 (carbon dioxide is one of the suppressants FLEX tested)."
+  },
+  {
+   "accession": "PSI-69",
+   "table": "PSI-69_Experimental table_FLEX.csv",
+   "kind": "implausible-value",
+   "message": "Pressure: 1 value(s) fall outside the expected range 10 to 700 kPa (0). They are kept exactly as published, flagged, and left out of charts.",
+   "rows": [
+    114
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "excluded-rows",
+   "message": "2 row(s) are not tests and were left out: Pre-test flow visualization video",
+   "rows": [
+    3,
+    4
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S1, Sample width: the experimental table gives 94 cm; NASA's file NTRS-20170008805.pdf gives 40.6 cm (p. 29, Table I, row 1-1, column Width). The table's value is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S1, Sample width: the experimental table gives 94 cm; NASA's file NTRS-20180005168.pdf gives 40.6 cm (p. 30, Table 1, row I-1, column Width). The table's value is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S1, Sample thickness: the experimental table gives 3.7 mm; NASA's file NTRS-20170008805.pdf gives 0.37 mm (p. 29, Table I, row 1-1, column Thickness). The table's value is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S1, Sample thickness: the experimental table gives 3.7 mm; NASA's file NTRS-20180005168.pdf gives 0.37 mm (p. 30, Table 1, row I-1, column Thickness). The table's value is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S1, Sample length: the experimental table gives 40.6 cm; NASA's file NTRS-20170008805.pdf gives 94 cm (p. 29, Table I, row 1-1, column Length). The table's value is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S1, Sample length: the experimental table gives 40.6 cm; NASA's file NTRS-20180005168.pdf gives 94 cm (p. 30, Table 1, row I-1, column Length). The table's value is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S2, Sample width: the experimental table gives 94 cm; NASA's file NTRS-20170008805.pdf gives 40.6 cm (p. 29, Table I, row 1-2, column Width). The table's value is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S2, Sample width: the experimental table gives 94 cm; NASA's file NTRS-20180005168.pdf gives 40.6 cm (p. 30, Table 1, row I-2, column Width). The table's value is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S2, Sample thickness: the experimental table gives 3.7 mm; NASA's file NTRS-20170008805.pdf gives 0.37 mm (p. 29, Table I, row 1-2, column Thickness). The table's value is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S2, Sample thickness: the experimental table gives 3.7 mm; NASA's file NTRS-20180005168.pdf gives 0.37 mm (p. 30, Table 1, row I-2, column Thickness). The table's value is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S2, Sample length: the experimental table gives 40.6 cm; NASA's file NTRS-20170008805.pdf gives 10 cm (p. 29, Table I, row 1-2, column Length). The table's value is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-98",
+   "table": "PSI-98_Experimental table_SAFFIRE-1.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S2, Sample length: the experimental table gives 40.6 cm; NASA's file NTRS-20180005168.pdf gives 10 cm (p. 30, Table 1, row I-2, column Length). The table's value is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-99",
+   "table": "PSI-99_Experimental table_SAFFIRE-2.csv",
+   "kind": "excluded-rows",
+   "message": "2 row(s) are not tests and were left out: Pre-test flow visualization video",
+   "rows": [
+    10,
+    11
+   ]
+  },
+  {
+   "accession": "PSI-99",
+   "table": "PSI-99_Experimental table_SAFFIRE-2.csv",
+   "kind": "filled-down",
+   "message": "Column 'Material': 2 blank cell(s) filled from the row above.",
+   "rows": [
+    6,
+    9
+   ]
+  },
+  {
+   "accession": "PSI-99",
+   "table": "PSI-99_Experimental table_SAFFIRE-2.csv",
+   "kind": "header",
+   "message": "The micro sign was lost in the PSI file: the columns \"?-g Burn Length\" and \"?-g Spread Length\" are the microgravity results."
+  },
+  {
+   "accession": "PSI-99",
+   "table": "PSI-99_Experimental table_SAFFIRE-2.csv",
+   "kind": "header",
+   "message": "The column \"?-g Spread Length\" holds spread rates in mm/s, so it is mapped to flame spread rate."
+  },
+  {
+   "accession": "PSI-99",
+   "table": "PSI-99_Experimental table_SAFFIRE-2.csv",
+   "kind": "sources-disagree",
+   "message": "Sample 2-1, Oxygen: the experimental table gives 0.215 fraction; NASA's file NTRS-20170008805.pdf gives 0.221 fraction (p. 29, Table I, row 2-1, column Δ %O2). The table's value is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-99",
+   "table": "PSI-99_Experimental table_SAFFIRE-2.csv",
+   "kind": "sources-disagree",
+   "message": "Sample 2-1, Oxygen: the experimental table gives 0.215 fraction; NASA's file NTRS-20180005168.pdf gives 0.221 fraction (p. 30, Table 1, row II-1, column Δ %O2). The table's value is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-99",
+   "table": "PSI-99_Experimental table_SAFFIRE-2.csv",
+   "kind": "sources-disagree",
+   "message": "Sample 2-6, Flow speed: the experimental table gives 20 cm/s; NASA's file NTRS-20170008805.pdf gives 25 cm/s (p. 29, Table I, row 2-6, column Flow). The table's value is the one used.",
+   "rows": [
+    6
+   ]
+  },
+  {
+   "accession": "PSI-99",
+   "table": "PSI-99_Experimental table_SAFFIRE-2.csv",
+   "kind": "sources-disagree",
+   "message": "Sample 2-6, Flow speed: the experimental table gives 20 cm/s; NASA's file NTRS-20180005168.pdf gives 25 cm/s (p. 30, Table 1, row II-6, column Flow). The table's value is the one used.",
+   "rows": [
+    6
+   ]
+  },
+  {
+   "accession": "PSI-99",
+   "table": "PSI-99_Experimental table_SAFFIRE-2.csv",
+   "kind": "typo",
+   "message": "Column 'Samle Thickness': '037 mm' read as '0.37 mm' in 3 row(s). Decimal point missing in the PSI table (the other samples are 0.27 to 1.03 mm).",
+   "rows": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "accession": "PSI-100",
+   "table": "PSI-100_Experimental table_SAFFIRE-3.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S1, Sample thickness: the experimental table gives 3.3 mm; NASA's file NTRS-20180005168.pdf gives 0.37 mm (p. 30, Table 1, row III-1, column Thickness). The table's value is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-100",
+   "table": "PSI-100_Experimental table_SAFFIRE-3.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S1, Flow speed: the experimental table gives 30 cm/s; NASA's file NTRS-20180005168.pdf gives 25 cm/s (p. 30, Table 1, row III-1, column Flow). The table's value is the one used.",
+   "rows": [
+    1
+   ]
+  },
+  {
+   "accession": "PSI-100",
+   "table": "PSI-100_Experimental table_SAFFIRE-3.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S2, Sample thickness: the experimental table gives 3.3 mm; NASA's file NTRS-20180005168.pdf gives 0.37 mm (p. 30, Table 1, row III-2, column Thickness). The table's value is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-100",
+   "table": "PSI-100_Experimental table_SAFFIRE-3.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S2, Sample length: the experimental table gives 94 cm; NASA's file NTRS-20180005168.pdf gives 10 cm (p. 30, Table 1, row III-2, column Length). The table's value is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-100",
+   "table": "PSI-100_Experimental table_SAFFIRE-3.csv",
+   "kind": "sources-disagree",
+   "message": "Sample S2, Flow speed: the experimental table gives 30 cm/s; NASA's file NTRS-20180005168.pdf gives 25 cm/s (p. 30, Table 1, row III-2, column Flow). The table's value is the one used.",
+   "rows": [
+    2
+   ]
+  },
+  {
+   "accession": "PSI-102",
+   "table": "PSI-102_Experimental table_SAME.csv",
+   "kind": "inherited-conditions",
+   "message": "4 row(s) say 'same conditions as' other rows; they are kept as envelopes listing those conditions.",
+   "rows": [
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "accession": "PSI-107",
+   "table": "PSI-107_Experimental table_Spice.csv",
+   "kind": "implausible-value",
+   "message": "Flow speed: 8 value(s) fall outside the expected range 0 to 200 cm/s (-0.28, -5.92). They are kept exactly as published, flagged, and left out of charts.",
+   "rows": [
+    295,
+    297,
+    298,
+    299,
+    300,
+    336,
+    337,
+    338
+   ]
+  },
+  {
+   "accession": "PSI-107",
+   "table": "PSI-107_Experimental table_Spice.csv",
+   "kind": "sources-disagree",
+   "message": "Day 45 17:27:48, Flow speed: the experimental table gives 17.59 cm/s; NASA's file PSI-107_Raw Data_SmokePointReview-0g-3.xlsx gives 17.587 cm/s (Smoke Point Datasheet (2)!AP10). The table's value is the one used.",
+   "rows": [
+    22
+   ]
+  },
+  {
+   "accession": "PSI-107",
+   "table": "PSI-107_Experimental table_Spice.csv",
+   "kind": "sources-disagree",
+   "message": "Day 173 12:39:29, Flow speed: the experimental table gives 38.27 cm/s; NASA's file PSI-107_Raw Data_SmokePointReview-0g-3.xlsx gives 38.2718 cm/s (Smoke Point Datasheet (2)!AP30). The table's value is the one used.",
+   "rows": [
+    400
+   ]
+  },
+  {
+   "accession": "PSI-107",
+   "table": "PSI-107_Experimental table_Spice.csv",
+   "kind": "sources-disagree",
+   "message": "Day 174 11:04:43, Flow speed: the experimental table gives 29.81 cm/s; NASA's file PSI-107_Raw Data_SmokePointReview-0g-3.xlsx gives 29.8098 cm/s (Smoke Point Datasheet (2)!AP44). The table's value is the one used.",
+   "rows": [
+    412
+   ]
+  },
+  {
+   "accession": "PSI-107",
+   "table": "PSI-107_Experimental table_Spice.csv",
+   "kind": "sources-disagree",
+   "message": "Day 174 12:46:17, Flow speed: the experimental table gives 31.69 cm/s; NASA's file PSI-107_Raw Data_SmokePointReview-0g-3.xlsx gives 31.6902 cm/s (Smoke Point Datasheet (2)!AP54). The table's value is the one used.",
+   "rows": [
+    468
+   ]
+  }
+ ],
+ "value_quality": {
+  "assumed": 579,
+  "context": 6422,
+  "corrected": 52,
+  "derived": 361,
+  "reported": 20902
+ },
+ "quotes_verified": true
+}

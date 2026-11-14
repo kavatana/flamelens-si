@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# build output
+.next/
+out/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# local settings and secrets
+.env
+.env.*
+!.env.example
+.vercel/
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# scratch
+*.log
+.playwright-mcp/
+
+# written by the framework's dev server
+AGENTS.md

@@ -1,0 +1,583 @@
+# How each PSI experimental table maps onto the variable dictionary.
+#
+# One entry per table file. Columns that are not listed are not dropped: every original
+# cell is kept with its record and shown in the interface as "original row".
+#
+# record_kind
+#   test      one row is one burn
+#   session   one row is a test day on which several flames were lit
+#   envelope  one row lists the range of conditions covered, not individual burns
+#   dataset   one row points to a published dataset (ground investigations)
+#
+# constants  values that apply to every row but are not a column of the table.
+#   quality: context  - stated in PSI's own description; `evidence` is a verbatim quote
+#                       and the pipeline fails if the quote is not found in the source.
+#   quality: assumed  - not stated anywhere in PSI; `note` says what was assumed and why.
+#                       Assumed values are drawn differently in the interface.
+#
+# evidence_source: psi (default) | challenge | table
+
+# ======================================================================================
+# ACME - gaseous flames in the Combustion Integrated Rack
+# ======================================================================================
+
+- file: "PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+  accession: PSI-10
+  code: fd-normal
+  title: Flame Design - normal flames
+  record_kind: test
+  label: "{Test}"
+  constants:
+    fuel_phase: {value: gas, quality: context, evidence: "Flames of Gaseous Fuels"}
+    geometry: {value: spherical burner, quality: context, evidence: "spherical diffusion flames"}
+    o2_basis: {value: ambient, quality: context, evidence: "normal and inverse convection directions"}
+  columns:
+    "Flame Type": {var: flame_type, map: {"normal": normal, "inverse": inverse}}
+    "Fuel": {parse: fuel}
+    "Xfuel": {var: fuel_fraction, unit: fraction}
+    "mfuel (mg/s)": {var: fuel_flow_mg_s, unit: mg/s}
+    "XO2 (init)": {var: o2_fraction, unit: fraction}
+    "XO2 (final)": {var: o2_fraction_final, unit: fraction}
+    "pinit (atm)": {var: pressure_kpa, unit: atm}
+    "mean Zst": {var: stoich_mixture_fraction, unit: ratio}
+    "Tad (K)": {var: adiabatic_flame_temp_k, unit: K}
+
+- file: "PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+  accession: PSI-10
+  code: fd-inverse
+  title: Flame Design - inverse flames
+  record_kind: test
+  label: "{Test}"
+  constants:
+    fuel_phase: {value: gas, quality: context, evidence: "Flames of Gaseous Fuels"}
+    geometry: {value: spherical burner, quality: context, evidence: "spherical diffusion flames"}
+    fuel: {value: ethylene, quality: context, evidence_source: table, evidence: "XC2H4 initial"}
+    o2_basis:
+      value: oxidizer stream
+      quality: context
+      evidence: "normal and inverse convection directions"
+      note: In an inverse flame the oxidizer flows from the burner into a fuel atmosphere, so this oxygen value is not a cabin-like ambient.
+  columns:
+    "Flame Type": {var: flame_type, map: {"normal": normal, "inverse": inverse}}
+    "XO2": {var: o2_fraction, unit: fraction}
+    "mO2 (mg/s)": {var: oxidizer_flow_mg_s, unit: mg/s}
+    "XC2H4 initial": {var: fuel_fraction, unit: fraction}
+    "pinit (atm)": {var: pressure_kpa, unit: atm}
+    "mean Zst": {var: stoich_mixture_fraction, unit: ratio}
+    "Tad (K)": {var: adiabatic_flame_temp_k, unit: K}
+
+- file: "PSI-20_Experimental table_ACME BRE.csv"
+  accession: PSI-20
+  code: bre
+  title: Burning Rate Emulator - test days
+  record_kind: session
+  label: "{Year} {Month} {Date}"
+  date_parts: {year: Year, month: Month, day: Date}
+  rows:
+    notes_column: Notes
+  corrections:
+    - column: "Oxygen Conc (percent)"
+      raw: "3400%"
+      value: "34"
+      reason: A percent format was applied to the number 34 in the PSI table; the column is already in percent.
+    - column: "Oxygen Conc (percent)"
+      raw: "2100%"
+      value: "21"
+      reason: A percent format was applied to the number 21 in the PSI table; the column is already in percent.
+  record_note: >-
+    Session summary: PSI lists the oxygen levels of the flames that ignited each day, not
+    individual burns. The table's own note says chamber pressures were also varied but are
+    not identified, so no pressure is assigned.
+  constants:
+    fuel_phase: {value: gas, quality: context, evidence: "porous circular burners of 25 and 50 mm diameter"}
+    geometry: {value: flat porous burner, quality: context, evidence: "porous circular burners of 25 and 50 mm diameter"}
+    o2_basis: {value: ambient, quality: context, evidence: "Consider O2/N2 ambients"}
+    diluent: {value: N2, quality: context, evidence: "Consider O2/N2 ambients"}
+  columns:
+    "Burner Size (mm)": {var: size_mm, unit: mm}
+    "Fuel Bottle": {parse: fuel}
+    "Oxygen Conc (percent)": {var: o2_fraction, unit: percent}
+    "Flames Ignited": {var: flames_ignited, unit: count}
+
+- file: "PSI-21_Experimental table_CLD Flame.csv"
+  accession: PSI-21
+  code: cld
+  title: Coflow Laminar Diffusion Flame - test days
+  record_kind: session
+  label: "Day {Test Day}"
+  rows:
+    notes_column: Notes
+  repair_autofill: ["Fuel Bottle"]
+  record_note: Session summary - one row per test day. Oxygen and pressure are not listed in the PSI table.
+  constants:
+    fuel_phase: {value: gas, quality: context, evidence: "weak coflow diffusion flames of methane and ethylene"}
+    geometry: {value: coflow jet, quality: context, evidence: "weak coflow diffusion flames of methane and ethylene"}
+    fuel_diluent: {value: N2, quality: context, evidence_source: table, evidence: "as diluted with nitrogen on a volume basis"}
+  columns:
+    "Test Type": {var: description}
+    "Test Day": {var: test_date, parse: yyddd}
+    "Fuel Bottle": {parse: fuel, fraction: false}
+    "Fuel conc. Range": {var: fuel_fraction, unit: percent}
+    "Flames ignited": {var: flames_ignited, unit: count}
+
+- file: "PSI-22_Experimental table_ACME E-FIELD Flames.csv"
+  accession: PSI-22
+  code: efield
+  title: E-FIELD Flames - test days
+  record_kind: session
+  label: "Day {Test Day}"
+  rows:
+    notes_column: Notes
+    continuation: {key_column: "Test Day", merge: ["Fuel Conc"]}
+  record_note: Session summary - one row per test day. Oxygen and pressure are not listed in the PSI table.
+  constants:
+    fuel_phase: {value: gas, quality: context, evidence: "The experiment is conducted with gas-fueled flames"}
+    fuel_diluent: {value: N2, quality: context, evidence_source: table, evidence: "diluted with nitrogen on a volume basis"}
+  columns:
+    "Test Type": {var: geometry, map: {"coflow": coflow jet, "gas-jet": gas jet}}
+    "Test Day": {var: test_date, parse: yyddd}
+    "Mesh Polarity": {var: field_polarity}
+    "Fuel Bottle": {parse: fuel, fraction: false}
+    "Fuel Conc": {var: fuel_fraction, unit: percent}
+    "Flames Ignited": {var: flames_ignited, unit: count}
+
+- file: "PSI-23_Experimental table_ACME s-Flame.csv"
+  accession: PSI-23
+  code: sflame
+  title: s-Flame - test days
+  record_kind: session
+  label: "Day {Test Day*}"
+  rows:
+    notes_column: Notes
+  repair_autofill: ["Atmosphere*", "Fuel Bottle"]
+  record_note: Session summary - one row per test day, listing the atmospheres used that day.
+  constants:
+    fuel_phase: {value: gas, quality: context, evidence: "issued into an oxidizing environment through a spherical porous burner"}
+    geometry: {value: spherical burner, quality: context, evidence: "issued into an oxidizing environment through a spherical porous burner"}
+    o2_basis: {value: ambient, quality: context, evidence: "issued into an oxidizing environment through a spherical porous burner"}
+    pressure_kpa:
+      value: 101.325
+      approx: true
+      quality: context
+      evidence_source: table
+      evidence: "Atmosphere is ~1 atm but pressure increases and O2% drops with vitiation"
+  columns:
+    "Test Type": {var: description}
+    "Test Day*": {var: test_date, parse: yyddd}
+    "Atmosphere*": {parse: atmosphere}
+    "Fuel Bottle": {parse: fuel}
+    "Flames Ignited*": {var: flames_ignited, unit: count}
+
+- file: "PSI-159_Experimental table_CFI-G_Normal Flames.csv"
+  accession: PSI-159
+  code: cfig-normal
+  title: CFI-G - normal flames
+  record_kind: test
+  label: "{Test}"
+  constants:
+    fuel_phase: {value: gas, quality: context, evidence: "Flames of Gaseous Fuels"}
+    geometry: {value: spherical burner, quality: context, evidence: "Perform spherical diffusion flame tests aboard the International Space Station"}
+    o2_basis: {value: ambient, quality: context, evidence: "normal and inverse convection directions"}
+  columns:
+    "Flame Type": {var: flame_type, map: {"normal": normal, "inverse": inverse}}
+    "Fuel": {parse: fuel, fraction: false}
+    "Cool flame?": {var: cool_flame, parse: bool}
+    "XO2 before test": {var: o2_fraction, unit: fraction}
+    "XO2 after test": {var: o2_fraction_final, unit: fraction}
+    "approx p (bar)": {var: pressure_kpa, unit: bar}
+    "Xf": {var: fuel_fraction, unit: fraction}
+    "mHC (mg/s)": {var: fuel_flow_mg_s, unit: mg/s}
+    "Tad (K)": {var: adiabatic_flame_temp_k, unit: K}
+    "Zst": {var: stoich_mixture_fraction, unit: ratio}
+    "Hot ignition": {var: ignited, parse: bool}
+    "burn time (sec)": {var: burn_time_s, unit: s}
+    "Self-ext or flow term": {var: end_mode, map: {"^se$": self-extinguished, "^ft$": flow terminated}}
+    "Peak burner T (C )": {var: peak_burner_temp_c, unit: c}
+    "Comments": {var: notes}
+
+- file: "PSI-159_Experimental table_CFI-G_Inverse Flames.csv"
+  accession: PSI-159
+  code: cfig-inverse
+  title: CFI-G - inverse flames
+  record_kind: test
+  label: "{Test}"
+  constants:
+    fuel_phase: {value: gas, quality: context, evidence: "Flames of Gaseous Fuels"}
+    geometry: {value: spherical burner, quality: context, evidence: "Perform spherical diffusion flame tests aboard the International Space Station"}
+    o2_basis:
+      value: oxidizer stream
+      quality: context
+      evidence_source: challenge
+      evidence: "an oxygen-nitrogen mixture of up to 85% oxygen flowed from the spherical burner creating an inside-out flame"
+      note: The oxygen value is the stream fed through the burner into a fuel atmosphere, not a cabin-like ambient.
+  columns:
+    "Flame Type": {var: flame_type, map: {"normal": normal, "inverse": inverse}}
+    "Fuel": {parse: fuel, fraction: false}
+    "Xf before test": {var: fuel_fraction, unit: fraction}
+    "approx p (bar)": {var: pressure_kpa, unit: bar}
+    "XO2": {var: o2_fraction, unit: fraction}
+    "HC burnrate (mg/s)": {var: fuel_flow_mg_s, unit: mg/s}
+    "O2 flow rate (mg/s)": {var: oxidizer_flow_mg_s, unit: mg/s}
+    "Tad (K)": {var: adiabatic_flame_temp_k, unit: K}
+    "Zst": {var: stoich_mixture_fraction, unit: ratio}
+    "Hot ignition": {var: ignited, parse: bool}
+    "burn time (sec)": {var: burn_time_s, unit: s}
+    "Self -ext or flow term": {var: end_mode, map: {"^se$": self-extinguished, "^ft$": flow terminated}}
+    "Peak burner Temp (C)": {var: peak_burner_temp_c, unit: c}
+    "Color": {var: flame_color, map: {"yellow then blue": yellow then blue, "yellow-blue": yellow-blue, "^blue$": blue, "^yellow$": yellow, "limit": at limit}}
+    "Comments": {var: notes}
+
+# ======================================================================================
+# Droplets in the Multi-user Droplet Combustion Apparatus
+# ======================================================================================
+
+- file: "PSI-69_Experimental table_FLEX.csv"
+  accession: PSI-69
+  code: flex
+  title: FLEX - droplet burns
+  record_kind: test
+  label: "{FLEX Identifier}"
+  header_notes:
+    - >-
+      Subscripts were lost in the PSI file: the columns "O", "N" and "CO initial ambient
+      composition" are O2, N2 and CO2 (carbon dioxide is one of the suppressants FLEX tested).
+  constants:
+    fuel_phase: {value: liquid, quality: context, evidence: "igniting and observing the burning behavior of relatively large droplets"}
+    geometry: {value: droplet, quality: context, evidence: "igniting and observing the burning behavior of relatively large droplets"}
+    o2_basis: {value: ambient, quality: context, evidence_source: table, evidence: "initial ambient composition"}
+  columns:
+    "Test Date": {var: test_date, parse: date}
+    "Fuel": {parse: fuel}
+    "Ambient pressure; mmHg": {var: pressure_kpa, unit: mmHg}
+    "O initial ambient composition; mole fraction": {var: o2_fraction, unit: fraction}
+    "N initial ambient composition; mole fraction": {var: n2_fraction, unit: fraction}
+    "CO initial ambient composition; mole fraction": {var: co2_fraction, unit: fraction}
+    "He initial ambient composition; mole fraction": {var: he_fraction, unit: fraction}
+    "Droplet initial diameter; mm": {var: size_mm, unit: mm}
+    "Visible flame extinction diameter; mm": {var: extinction_diameter_mm, unit: mm}
+    "Burning rate; mm": {var: burning_rate_mm2_s, unit: mm}
+    "Burn time; s": {var: burn_time_s, unit: s}
+    "Test end": {var: end_mode, map: {"extinction": extinction, "disruption": disruption, "completion": burned to completion}}
+
+- file: "PSI-68_Experimental table_Flex2.csv"
+  accession: PSI-68
+  code: flex2
+  title: FLEX-2 - test envelope by fuel
+  record_kind: envelope
+  label: "{Sample (Fuel Type)}"
+  record_note: >-
+    Envelope: PSI lists, for each fuel, the levels of oxygen and pressure that were used,
+    not the individual droplet burns.
+  constants:
+    fuel_phase: {value: liquid, quality: context, evidence: "bi-component droplet combustion"}
+    geometry: {value: droplet, quality: context, evidence: "bi-component droplet combustion"}
+    o2_basis: {value: ambient, quality: context, evidence: "The chamber was filled with the appropriate atmosphere"}
+  columns:
+    "Sample (Fuel Type)": {parse: fuel}
+    "Initial Droplet Diameter (mm)": {var: size_mm, unit: mm}
+    "Ambient Gas Mixture": {var: diluent, map: {"o2/n2 or o2/he": N2 or He}}
+    "Oxygen Mole Fraction": {var: o2_fraction, unit: fraction}
+    "Ambient Pressure (atm)": {var: pressure_kpa, unit: atm}
+    "Ambient Temperature (C)": {var: ambient_temperature_c, unit: c}
+    "Flow Velocity (cm/s)": {var: flow_speed_cm_s, unit: cm/s}
+
+- file: "PSI-39_Experimental table_CFI.csv"
+  accession: PSI-39
+  code: cfi
+  title: Cool Flames Investigation - droplet burns
+  record_kind: test
+  label: "{CIR}"
+  constants:
+    fuel_phase: {value: liquid, quality: context, evidence: "controlled combustion of fuel droplets"}
+    geometry: {value: droplet, quality: context, evidence: "controlled combustion of fuel droplets"}
+    o2_basis: {value: ambient, quality: context, evidence: "delivers the desired gas mixture to the combustion chamber"}
+  columns:
+    "Test Date": {var: test_date, parse: date}
+    "Pressure": {var: pressure_kpa, unit: atm}
+    "Oxygen": {var: o2_fraction, unit: fraction}
+    "Nitrogen": {var: n2_fraction, unit: fraction}
+    "Helium": {var: he_fraction, unit: fraction}
+    "Fuel": {parse: fuel}
+
+# ======================================================================================
+# Solids and jets in the Microgravity Science Glovebox
+# ======================================================================================
+
+- file: "PSI-25_Experimental table_BASS-II.csv"
+  accession: PSI-25
+  code: bass2
+  title: BASS-II - solid-fuel burns
+  record_kind: test
+  label: "{Test #}"
+  record_note: >-
+    The air speed of each test is read from the Air display column, which NASA's ReadMe for
+    this experiment defines as the flow speed measured in the duct, in cm/s. In many tests the
+    crew changed the flow while the sample burned, often lowering it until the flame went
+    out, so one test can list several speeds. Fan display and flow restrictor settings are
+    kept as originally logged.
+  constants:
+    fuel_phase: {value: solid, quality: context, evidence: "solid fuels burning in low-velocity forced flows in microgravity"}
+    o2_basis: {value: ambient, quality: context, evidence: "Ambient oxygen concentration (via working volume nitrogen vitiation)"}
+    diluent: {value: N2, quality: context, evidence: "oxygen varied below 21% by adding nitrogen"}
+    pressure_kpa:
+      value: 101.325
+      approx: true
+      quality: assumed
+      note: Not listed in the PSI table. Taken as ISS cabin pressure, because the experiment ran inside the Microgravity Science Glovebox.
+  columns:
+    "PI": {var: investigator}
+    "Date": {var: test_date, parse: date}
+    "Fuel Sample Material": {parse: sample, default_material: PMMA}
+    "Calibrated initial O2 % by vol": {var: o2_fraction, unit: percent}
+    "Calibrated final O2 % by vol": {var: o2_fraction_final, unit: percent}
+    "Final CO2 % by vol": {var: co2_fraction_final, unit: percent}
+    "Final CO (ppm)": {var: co_ppm_final, unit: ppm}
+    # The cell lists the speeds in the order they were tried, with remarks ("5  3  2  1  low").
+    # See parse_flow_steps for exactly which numbers are read. 59 cm/s is the largest air
+    # speed in NASA's fan calibration sheet for this duct (documents.yaml).
+    "Air display":
+      var: flow_speed_cm_s
+      parse: flow_steps
+      unit: cm/s
+      max: 59
+      evidence: "Air display:  flow speed measured in the duct in cm/s on the video display."
+      evidence_source: doc:bass2-readme
+      note: >-
+        Read from the duct's air-speed display. NASA notes that this display responds
+        slowly, in about a minute, so a reading is only steady after a long time at one
+        setting.
+
+- file: "PSI-26_Experimental table_BASS.csv"
+  accession: PSI-26
+  code: bass
+  title: BASS - solid-fuel burns
+  record_kind: test
+  label: "Test {Test #}"
+  rows:
+    exclude:
+      - {column: "Fuel Sample Material", pattern: "^soot cleaning$", reason: A cleaning step, not a burn.}
+  record_note: The PSI table lists the sample for each burn but not its oxygen, pressure or flow speed.
+  constants:
+    fuel_phase: {value: solid, quality: context, evidence: "Custom-made fabric samples consisting of 75% cotton and 25% fiberglass"}
+  columns:
+    "Date": {var: test_date, parse: date}
+    "Fuel Sample Material": {parse: sample, default_material: PMMA}
+
+- file: "PSI-107_Experimental table_Spice.csv"
+  accession: PSI-107
+  code: spice
+  title: SPICE - jet flames
+  record_kind: test
+  label: "Day {GMT date} {GMT ignition}"
+  constants:
+    fuel_phase: {value: gas, quality: context, evidence: "non-buoyant jet diffusion flames under various co-flow conditions"}
+    geometry: {value: coflow jet, quality: context, evidence: "non-buoyant jet diffusion flames under various co-flow conditions"}
+    o2_basis: {value: ambient, quality: context, evidence: "ignited in a controlled co-flow air environment"}
+    o2_fraction:
+      value: 0.21
+      approx: true
+      quality: context
+      evidence: "ignited in a controlled co-flow air environment"
+      note: The co-flow is air; oxygen is not listed per test, so 21% is used.
+    pressure_kpa:
+      value: 101.325
+      approx: true
+      quality: assumed
+      note: Not listed in the PSI table. Taken as ISS cabin pressure, because the experiment ran inside the Microgravity Science Glovebox.
+  columns:
+    "Fuel": {parse: fuel}
+    "Nozzle (mm)": {var: size_mm, unit: mm}
+    "Fuel Rate (mg/s)": {var: fuel_flow_mg_s, unit: mg/s}
+    "Air Rate (cm/s)": {var: flow_speed_cm_s, unit: cm/s}
+
+- file: "PSI-106_Experimental table_Slice.csv"
+  accession: PSI-106
+  code: slice
+  title: SLICE - test days
+  record_kind: session
+  label: "{Test Date}"
+  record_note: Session summary - one row per test day, listing the fuel bottle used.
+  constants:
+    fuel_phase: {value: gas, quality: context, evidence: "observed under controlled coflow air conditions"}
+    geometry: {value: coflow jet, quality: context, evidence: "observed under controlled coflow air conditions"}
+    o2_basis: {value: ambient, quality: context, evidence: "observed under controlled coflow air conditions"}
+    o2_fraction:
+      value: 0.21
+      approx: true
+      quality: context
+      evidence: "observed under controlled coflow air conditions"
+      note: The co-flow is air; oxygen is not listed per test, so 21% is used.
+    pressure_kpa:
+      value: 101.325
+      approx: true
+      quality: assumed
+      note: Not listed in the PSI table. Taken as ISS cabin pressure, because the experiment ran inside the Microgravity Science Glovebox flow duct built for SPICE.
+  columns:
+    "Test Date": {var: test_date, parse: date}
+    "Fuel Type": {parse: fuel}
+
+# ======================================================================================
+# Saffire - large-scale fires aboard Cygnus
+# ======================================================================================
+
+- file: "PSI-98_Experimental table_SAFFIRE-1.csv"
+  accession: PSI-98
+  code: saffire1
+  title: Saffire-I - samples
+  record_kind: test
+  label: "Sample {Sample Number}"
+  rows:
+    exclude:
+      - {column: "Sample Number", pattern: "^F\\dC\\d", reason: Pre-test flow visualization video, not a burn.}
+  constants:
+    fuel_phase: {value: solid, quality: context, evidence: "composite fabric called Sibal consisting of cotton on a fiberglass substrate"}
+    o2_basis: {value: ambient, quality: context, evidence: "Air is drawn through the flow duct by fans"}
+    pressure_kpa:
+      value: 101.325
+      approx: true
+      quality: assumed
+      note: Not listed in the PSI table. Taken as the cabin pressure of the Cygnus cargo vehicle.
+  columns:
+    "Material": {parse: sample}
+    "Sample Thickness (cm)": {var: sample_thickness_mm, unit: cm}
+    "Sample Length (cm)": {var: sample_length_cm, unit: cm}
+    "Sample Width (cm)": {var: sample_width_cm, unit: cm}
+    "Air Flow (cm/s)": {var: flow_speed_cm_s, unit: cm/s}
+    "Percent O2": {var: o2_fraction, unit: percent}
+    "Ignition Power (W)": {var: igniter_power_w, unit: W}
+    "Ignition Time (s)": {var: ignition_time_s, unit: s}
+    "Burn Time (s)": {var: burn_time_s, unit: s}
+    "Flow Direction": {var: flow_direction, map: {"concurrent": concurrent, "opposed": opposed}}
+
+- file: "PSI-99_Experimental table_SAFFIRE-2.csv"
+  accession: PSI-99
+  code: saffire2
+  title: Saffire-II - samples
+  record_kind: test
+  label: "Sample {Sample Number}"
+  header_notes:
+    - 'The micro sign was lost in the PSI file: the columns "?-g Burn Length" and "?-g Spread Length" are the microgravity results.'
+    - 'The column "?-g Spread Length" holds spread rates in mm/s, so it is mapped to flame spread rate.'
+  rows:
+    exclude:
+      - {column: "Sample Number", pattern: "^F\\dC\\d", reason: Pre-test flow visualization video, not a burn.}
+    footnotes: {column: "Sample Number", pattern: "^Note \\d"}
+    fill_down: ["Material"]
+  corrections:
+    - column: "Samle Thickness"
+      raw: "037 mm"
+      value: "0.37 mm"
+      reason: Decimal point missing in the PSI table (the other samples are 0.27 to 1.03 mm).
+  constants:
+    fuel_phase: {value: solid, quality: context, evidence: "SIBAL, silicone, structure PMMA, flat PMMA, and PMMA with Nomex"}
+    o2_basis: {value: ambient, quality: context, evidence: "Air is drawn through the flow duct by fans"}
+    pressure_kpa:
+      value: 101.325
+      approx: true
+      quality: assumed
+      note: Not listed in the PSI table. Taken as the cabin pressure of the Cygnus cargo vehicle.
+  columns:
+    "Material": {parse: sample}
+    "Samle Thickness": {var: sample_thickness_mm, unit: mm}
+    "Sample Length": {var: sample_length_cm, unit: cm}
+    "Sample Width (cm)": {var: sample_width_cm, unit: cm}
+    "Air Flow (cm/s)": {var: flow_speed_cm_s, unit: cm/s}
+    "Percent O2 (Note 1)": {var: o2_fraction, unit: percent}
+    "Ignition Power (W)": {var: igniter_power_w, unit: W}
+    "Ignition Time (s)": {var: ignition_time_s, unit: s}
+    "Burn Time (s)": {var: burn_time_s, unit: s}
+    "Flow Direction": {var: flow_direction, map: {"concurrent": concurrent, "opposed": opposed}}
+    "?-g Burn Length": {var: burn_length_cm, unit: cm}
+    "?-g Spread Length": {var: spread_rate_mm_s, unit: mm/s}
+    "1-g Burn Length": {var: burn_length_1g_cm, unit: cm}
+    "1-g Spread Rate": {var: spread_rate_1g_mm_s, unit: mm/s}
+
+- file: "PSI-100_Experimental table_SAFFIRE-3.csv"
+  accession: PSI-100
+  code: saffire3
+  title: Saffire-III - samples
+  record_kind: test
+  label: "Sample {Sample Number}"
+  record_note: The PSI table does not list oxygen for Saffire-III, so these samples are not placed on the oxygen-pressure map.
+  constants:
+    fuel_phase: {value: solid, quality: context, evidence: "also used SIBAL as the sample material"}
+  columns:
+    "Material": {parse: sample}
+    "Sample Thickness": {var: sample_thickness_mm, unit: cm}
+    "Sample Length": {var: sample_length_cm, unit: cm}
+    "Sample Width": {var: sample_width_cm, unit: cm}
+    "Air Flow": {var: flow_speed_cm_s, unit: cm/s}
+    "Direction": {var: flow_direction, map: {"concurrent": concurrent, "opposed": opposed}}
+
+# ======================================================================================
+# Smoke and detection
+# ======================================================================================
+
+- file: "PSI-101_Experimental table_SAME-R.csv"
+  accession: PSI-101
+  code: samer
+  title: SAME-R - smoke tests
+  record_kind: test
+  label: "Test {SAME Test #}"
+  record_note: Smoke-generation tests - samples are heated to produce smoke; there is no flame, so oxygen and pressure are not test variables.
+  constants:
+    fuel_phase: {value: solid, quality: context, evidence: "smoke particle growth from a pyrolyzing/smoldering source"}
+    geometry: {value: heated sample (smoke source), quality: context, evidence: "smoke particle growth from a pyrolyzing/smoldering source"}
+  columns:
+    "Sample Type": {parse: sample}
+    "Description": {var: description}
+    "Inlet velocity (cm/s)": {var: flow_speed_cm_s, unit: cm/s}
+    "Rt/R0": {var: heater_ratio, unit: ratio}
+    "Duration (sec)": {var: heating_time_s, unit: s}
+    "Net aging time (sec)": {var: aging_time_s, unit: s}
+
+- file: "PSI-102_Experimental table_SAME.csv"
+  accession: PSI-102
+  code: same
+  title: SAME - smoke tests
+  record_kind: test
+  label: "Sample {Sample #}"
+  rows:
+    inherit:
+      column: "Sample Material"
+      pattern: ":\\s*same conditions as 1-4"
+      source_rows: [1, 2, 3, 4]
+      columns: ["Air Flow (cm/s)", "Weight loss rate (mg/min)", "Aging Duration (minutes)"]
+  record_note: Smoke-generation tests - samples are heated to produce smoke; there is no flame, so oxygen and pressure are not test variables.
+  constants:
+    fuel_phase: {value: solid, quality: context, evidence: "smoke particle growth from a pyrolyzing/smoldering source"}
+    geometry: {value: heated sample (smoke source), quality: context, evidence: "smoke particle growth from a pyrolyzing/smoldering source"}
+  columns:
+    "Sample Material": {parse: sample}
+    "Air Flow (cm/s)": {var: flow_speed_cm_s, unit: cm/s}
+    "Weight loss rate (mg/min)": {var: mass_loss_rate_mg_min, unit: mg/min}
+    "Aging Duration (minutes)": {var: aging_time_s, unit: min}
+
+- file: "PSI-47_Experimental table_DAFT.csv"
+  accession: PSI-47
+  code: daft
+  title: DAFT - instrument sessions
+  record_kind: session
+  label: "Session {Session Name}"
+  record_note: Instrument checkout with a dust aerosol standard. No combustion took place.
+  constants:
+    geometry: {value: dust aerosol (no flame), quality: context, evidence: "Arizona Red Dust (ARD) was chosen as an aerosol standard"}
+  columns:
+    "Hardware Description": {var: description}
+    "Sampled Location": {var: notes}
+
+# ======================================================================================
+# Ground investigations
+# ======================================================================================
+
+- file: "PSI-142_Experimental table_Data Summary Table.csv"
+  accession: PSI-142
+  code: coolflame-ground
+  title: Counterflow cool flames - published datasets
+  record_kind: dataset
+  label: "Dataset {Data ID}"
+  record_note: Each row points to a figure in a publication; the measurements themselves are in the paper.
+  constants: {}
+  columns:
+    "Data Description": {var: description}
+    "Reference Publication Link": {var: notes}
