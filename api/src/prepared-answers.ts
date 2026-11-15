@@ -28,7 +28,7 @@ export const PREPARED: PreparedAnswer[] = [
     short: "Start with BRE for the air, and BASS-II for the fabric. No experiment gives you both.",
     answer:
       "No test in the archive burned a solid near 34% oxygen at 56.5 kPa, so the ranking has to trade the right air against the right material.\n\nBRE [PSI-20] ranks first, with a score of 69. It used a gas burner built to imitate burning solids, and NASA's record says it examined the 34% oxygen atmosphere at 8.2 psia.\n\nFLEX [PSI-69] and CFI-G [PSI-159] rank next because their tests sit closest to this air, but they burned liquid droplets and gas. CFI-G has the only 10 tests that are close.\n\nFor the fabric itself, read BASS-II [PSI-25] and BASS [PSI-26], which burned a cotton and fiberglass fabric. BASS-II lowered the oxygen below normal air and never raised it.",
-    unknown: "How a fabric seat burns in this air. The closest solid test, from BASS-II, is 4.8 steps away, and nothing here was measured at the Moon's gravity.",
+    unknown: "How a fabric seat burns in this air. The closest solid test, from BASS, is 4.6 steps away, and nothing here was measured at the Moon's gravity.",
   },
   {
     question: "Which experiments burned fabric, and at what airflow?",

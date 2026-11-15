@@ -142,7 +142,8 @@ async function main() {
         excluded: t.excluded,
         sourceUrl: t.source_url,
         sha256: t.sha256,
-        fetchedAt: t.fetched_at,
+        // When a file was downloaded is not kept: its checksum says which file it is.
+        fetchedAt: "",
       })),
     );
 
@@ -228,7 +229,7 @@ async function main() {
     await tx.insert(s.reference).values([
       ...Object.entries(reference).map(([key, data]) => ({ key, data })),
       { key: "value_quality", data: quality.value_quality },
-      { key: "built_at", data: new Date().toISOString() },
+      { key: "built_at", data: "" },
     ]);
 
     // Searchable passages of NASA text.

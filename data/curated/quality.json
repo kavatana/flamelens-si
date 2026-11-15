@@ -136,6 +136,15 @@
    ]
   },
   {
+   "accession": "PSI-26",
+   "table": "PSI-26_Experimental table_BASS.csv",
+   "kind": "typo",
+   "message": "Column 'Date': '5/15/2103' read as '5/15/2013' in 1 row(s). Two digits of the year are swapped in the PSI table; the tests before and after it in the same session are dated 5/15/2013.",
+   "rows": [
+    110
+   ]
+  },
+  {
    "accession": "PSI-47",
    "table": "PSI-47_Evidence pack_PSI-47",
    "kind": "sources-disagree",
@@ -712,9 +721,9 @@
  "value_quality": {
   "assumed": 579,
   "context": 6422,
-  "corrected": 52,
+  "corrected": 53,
   "derived": 361,
-  "reported": 20902
+  "reported": 20901
  },
  "quotes_verified": true
 }

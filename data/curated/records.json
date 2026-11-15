@@ -223579,10 +223579,11 @@
    },
    {
     "var": "test_date",
-    "text": "2103-05-15",
-    "raw": "5/15/2103",
+    "text": "2013-05-15",
+    "raw": "5/15/2013",
     "column": "Date",
-    "quality": "reported"
+    "quality": "corrected",
+    "note": "The PSI table reads '5/15/2103'. Two digits of the year are swapped in the PSI table; the tests before and after it in the same session are dated 5/15/2013."
    }
   ],
   "original": {

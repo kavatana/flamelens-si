@@ -357,6 +357,11 @@
     exclude:
       - {column: "Fuel Sample Material", pattern: "^soot cleaning$", reason: A cleaning step, not a burn.}
   record_note: The PSI table lists the sample for each burn but not its oxygen, pressure or flow speed.
+  corrections:
+    - column: "Date"
+      raw: "5/15/2103"
+      value: "5/15/2013"
+      reason: Two digits of the year are swapped in the PSI table; the tests before and after it in the same session are dated 5/15/2013.
   constants:
     fuel_phase: {value: solid, quality: context, evidence: "Custom-made fabric samples consisting of 75% cotton and 25% fiberglass"}
   columns:

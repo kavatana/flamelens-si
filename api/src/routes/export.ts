@@ -58,8 +58,7 @@ export async function GET(request: Request) {
   const used = new Set(values.map((v) => v.variableId));
   const columns = variables.filter((v) => used.has(v.id));
   const scope = describeFilters(filters, names);
-  const stamp = new Date().toISOString().slice(0, 10);
-  const name = `flamelens-${filters.inv || "all"}-${format}-${stamp}`;
+  const name = `flamelens-${filters.inv || "all"}-${format}`;
 
   if (format === "json") {
     const body = {
@@ -67,7 +66,6 @@ export async function GET(request: Request) {
         title: "FlameLens SI export of NASA PSI combustion test records",
         scope,
         records: rows.length,
-        generated: new Date().toISOString(),
         source: "NASA Physical Sciences Informatics (PSI), https://psi.nasa.gov, experimental tables. PSI data is released under CC0-1.0.",
         si_use: "The cleaning code that produced this file was written with an SI coding tool (Claude, Anthropic). No value was produced or estimated by a model: each comes from a PSI table cell or NASA text, as its quality label says.",
         note: "Values are harmonized to one vocabulary and one set of units. Each value keeps the raw PSI cell and a quality label. Missing means not reported in PSI.",
