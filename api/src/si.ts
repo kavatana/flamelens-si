@@ -501,11 +501,31 @@ ${catalogue}`;
 
 /**
  * A prepared answer: the wording was written ahead of time by the SI, but the lookups run
- * for real on every request, and the number check is applied to what they return.
+ * for real, and the number check is applied to what they return.
+ *
+ * One run serves everyone who asks within a few minutes. A room of people pressing the same
+ * suggested question in the same second would otherwise each run the same lookups, and the
+ * database would be asked the same thing hundreds of times at once.
  */
-export async function prepared(question: string): Promise<AskResult | null> {
+const PREPARED_MS = 5 * 60_000;
+const preparedRuns = new Map<string, { at: number; run: Promise<AskResult | null> }>();
+
+export function prepared(question: string): Promise<AskResult | null> {
   const entry = findPrepared(question);
-  if (!entry) return null;
+  if (!entry) return Promise.resolve(null);
+  const key = `${entry.question}|${sameQuestion(entry.question, question)}`;
+  const seen = preparedRuns.get(key);
+  if (seen && Date.now() - seen.at < PREPARED_MS) return seen.run;
+  const run = runPrepared(entry, question).catch((error) => {
+    // A run that failed is not kept: the next request tries again.
+    preparedRuns.delete(key);
+    throw error;
+  });
+  preparedRuns.set(key, { at: Date.now(), run });
+  return run;
+}
+
+async function runPrepared(entry: NonNullable<ReturnType<typeof findPrepared>>, question: string): Promise<AskResult> {
   const receipts: Receipt[] = [];
   const cards: Card[] = [];
   const retrieved: string[] = [question];

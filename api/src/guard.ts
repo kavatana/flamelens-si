@@ -81,3 +81,14 @@ export async function readJson(request: Request, limit = BODY_LIMIT): Promise<un
 /** What a route answers when a body is too large or is not JSON. */
 export const unreadable = (error: unknown, hint: string): Response =>
   error instanceof TooLarge ? Response.json({ error: "That request is too large." }, { status: 413 }) : Response.json({ error: hint }, { status: 400 });
+
+/**
+ * The hourly limits for a route: the usual ones, or three numbers from a setting, written
+ * "visitor,address,minute". A site shown to a room of people on one connection raises the
+ * second, since they all arrive from one address.
+ */
+export function capsFor<R extends string>(route: R, usual: [number, number, number], setting: string | undefined) {
+  const given = (setting ?? "").split(",").map((part) => Number(part.trim()));
+  const [perVisitor, perAddress, perMinute] = given.length === 3 && given.every((n) => Number.isInteger(n) && n > 0) ? given : usual;
+  return { route, perVisitor, perAddress, perMinute };
+}

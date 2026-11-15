@@ -1,12 +1,12 @@
 import { and, eq, gte, sql } from "drizzle-orm";
 import { db, schema } from "../db/client";
-import { readJson, unreadable } from "../guard";
-import { release, reserve, type Caps } from "../limits";
+import { capsFor, readJson, unreadable } from "../guard";
+import { release, reserve } from "../limits";
 import { VOICE_LIMIT, readingOf, speak, voiceConfigured } from "../voice";
 
 const { usage } = schema;
-/** Readings: 20 an hour for one visitor, 80 for one address, and 40 a minute for everyone together. */
-const CAPS: Caps = { route: "speak", perVisitor: 20, perAddress: 80, perMinute: 40 };
+/** Readings: 20 an hour for one visitor, 80 for one address, and 40 a minute for everyone together, unless SPEAK_LIMITS says otherwise. */
+const CAPS = capsFor("speak", [20, 80, 40], process.env.SPEAK_LIMITS);
 /** The most characters read aloud in one day, across all visitors. */
 const DAILY_CHARACTERS = Number(process.env.VOICE_DAILY_CHARACTERS ?? 30000);
 

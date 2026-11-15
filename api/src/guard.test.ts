@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { TooLarge, addressOf, cabinSchema, cabinSentence, readJson, visitorId } from "./guard";
+import { TooLarge, addressOf, cabinSchema, cabinSentence, capsFor, readJson, visitorId } from "./guard";
 
 const cabin = { o2: 0.34, p: 56.5, gravity: "moon", focus: "solid", material: "fabric" };
 
@@ -66,5 +66,21 @@ describe("readJson", () => {
 
   it("says a body that is not JSON is not JSON", async () => {
     await expect(readJson(post("not json"))).rejects.toBeInstanceOf(SyntaxError);
+  });
+});
+
+describe("capsFor", () => {
+  it("keeps the usual limits when no setting is given", () => {
+    expect(capsFor("ask", [12, 60, 30], undefined)).toEqual({ route: "ask", perVisitor: 12, perAddress: 60, perMinute: 30 });
+  });
+
+  it("takes three whole numbers from the setting", () => {
+    expect(capsFor("ask", [12, 60, 30], "20, 600,90")).toEqual({ route: "ask", perVisitor: 20, perAddress: 600, perMinute: 90 });
+  });
+
+  it("ignores a setting that is not three positive whole numbers", () => {
+    for (const bad of ["", "600", "12,60", "12,0,30", "12,-1,30", "a,b,c", "1.5,60,30"]) {
+      expect(capsFor("speak", [20, 80, 40], bad)).toEqual({ route: "speak", perVisitor: 20, perAddress: 80, perMinute: 40 });
+    }
   });
 });

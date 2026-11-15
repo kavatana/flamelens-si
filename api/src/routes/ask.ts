@@ -1,13 +1,13 @@
 import { gte, sql } from "drizzle-orm";
 import { db, schema } from "../db/client";
-import { cabinSchema, readJson, unreadable, type Cabin } from "../guard";
-import { release, reserve, settle, type Caps } from "../limits";
+import { cabinSchema, capsFor, readJson, unreadable, type Cabin } from "../guard";
+import { release, reserve, settle } from "../limits";
 import { PREPARED } from "../prepared-answers";
 import { SI_MODEL, SI_PROVIDER, ask, brief, failureOf, prepared, readyAnswer, searchText, siLive, siOnHold, type AskResult } from "../si";
 
 const { usage } = schema;
-/** Live questions: 12 an hour for one visitor, 60 for one address, and 30 a minute for everyone together. */
-const CAPS: Caps = { route: "ask", perVisitor: 12, perAddress: 60, perMinute: 30 };
+/** Live questions: 12 an hour for one visitor, 60 for one address, and 30 a minute for everyone together, unless ASK_LIMITS says otherwise. */
+const CAPS = capsFor("ask", [12, 60, 30], process.env.ASK_LIMITS);
 const DAILY_BUDGET_USD = Number(process.env.SI_DAILY_BUDGET_USD ?? 2);
 /** Seconds the host lets one question run: a little over the SI's own deadline. */
 export const maxDuration = 120;
@@ -38,7 +38,8 @@ export async function POST(request: Request) {
     return Response.json(result);
   };
   // A listed question, or one already answered for this cabin, costs nothing and counts against no limit.
-  const ready = await readyAnswer(question, cabin);
+  // Tried once more if the lookups fail: under a sudden crowd a first try can lose its place at the database.
+  const ready = await readyAnswer(question, cabin).catch(() => readyAnswer(question, cabin));
   if (ready) return Response.json(ready);
   if (!siLive()) return Response.json(await ask(question, cabin));
 
