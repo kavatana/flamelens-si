@@ -243,7 +243,7 @@ export function SpaceHero({ tests, solidTop, solidAtMoon, moonHref }: Props) {
               <span key={front} className="word-in inline-block" style={{ color: "var(--ink-flame)" }}>{world.place}</span>
             </h1>
             <p className="mx-auto mt-[clamp(6px,1.4vh,14px)] max-w-[36ch] text-[15.5px] leading-snug text-ink-2 sm:max-w-none sm:text-[17px]">
-              Every fire test NASA ran in orbit, and what was never tested.
+              Every fire test in NASA&apos;s open archive, and what was never tested.
             </p>
             <div className="mt-[clamp(10px,2.2vh,20px)] flex flex-wrap items-center justify-center gap-2.5">
               <Link href="/explore" className="btn btn-solid btn-lg">Open the dashboard <ArrowRight size={17} /></Link>

@@ -8,6 +8,17 @@ FlameLens SI reads every itemized combustion test in NASA's Physical Sciences In
 
 Built for the NASA Space Apps Challenge 2026, "Flame in Freefall". It is an independent project, not affiliated with or endorsed by NASA.
 
+**30-second demo: [flamelens.si/demo](https://flamelens.si/demo)**
+
+## What is different about it
+
+- **It plays NASA's own recording of the test.** 479 tests have a NASA video, streamed straight from NASA's storage, next to the curves NASA measured while the test burned (448,551 points) and 1,819 NASA photographs.
+- **It reads NASA's reports as well as NASA's tables.** From the tables alone, 11 solid-fuel tests have oxygen, air speed and an outcome together. With NASA's reports and test sheets, 212 do, and each added value quotes NASA's own sentence.
+- **It keeps NASA's original cell beside every value.** The highest oxygen for a solid in the archive, 22.7%, comes from a cell in NASA's BASS spreadsheet written as a formula: `=171.81/756.14`, oxygen pressure over total pressure.
+- **It does not predict and it does not grade.** Where NASA has no test it says "not known" and names the nearest real test, instead of estimating a flame or scoring a cabin as safe.
+- **The SI is boxed in.** It can only run four lookups over the table, and every number it writes is checked against what they returned.
+- **Every check can be run again.** `pnpm check` runs the types, the lint and the tests of all three packages, and `uv run pytest` runs the pipeline's.
+
 ## What is in the product
 
 Three features, each with its own job, and the SI inside every one of them.
