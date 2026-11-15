@@ -3,7 +3,7 @@ import { db, schema } from "../db/client";
 import { cabinSchema, readJson, unreadable, type Cabin } from "../guard";
 import { release, reserve, settle, type Caps } from "../limits";
 import { PREPARED } from "../prepared-answers";
-import { SI_MODEL, SI_PROVIDER, ask, brief, failureOf, prepared, readyAnswer, searchText, siConfigured, type AskResult } from "../si";
+import { SI_MODEL, SI_PROVIDER, ask, brief, failureOf, prepared, readyAnswer, searchText, siLive, siOnHold, type AskResult } from "../si";
 
 const { usage } = schema;
 /** Live questions: 12 an hour for one visitor, 60 for one address, and 30 a minute for everyone together. */
@@ -15,7 +15,7 @@ export const maxDuration = 120;
 /** Whether live answers are available on this deployment. */
 export async function GET(request: Request) {
   void request.url; // read at request time, so a key added after the build is picked up
-  return Response.json({ live: siConfigured(), model: siConfigured() ? SI_MODEL : null, prepared: PREPARED.map((p) => p.question) });
+  return Response.json({ live: siLive(), model: siLive() ? SI_MODEL : null, prepared: PREPARED.map((p) => p.question) });
 }
 
 export async function POST(request: Request) {
@@ -40,7 +40,7 @@ export async function POST(request: Request) {
   // A listed question, or one already answered for this cabin, costs nothing and counts against no limit.
   const ready = await readyAnswer(question, cabin);
   if (ready) return Response.json(ready);
-  if (!siConfigured()) return Response.json(await ask(question, cabin));
+  if (!siLive()) return Response.json(await ask(question, cabin));
 
   const dayStart = new Date(new Date().toISOString().slice(0, 10));
   const [today] = await db.select({ cost: sql<number>`coalesce(sum(${usage.costUsd}), 0)::float8` }).from(usage).where(gte(usage.createdAt, dayStart));
@@ -65,10 +65,10 @@ export async function POST(request: Request) {
     const WHY = {
       timeout: "The live SI took too long to answer",
       unreachable: "The live SI could not be reached",
-      auth: "The live SI is not authorized on this deployment",
+      auth: "The live SI is switched off right now",
       busy: "The live SI is busy right now",
       error: `The live SI (${SI_MODEL}) returned an error`,
     };
-    return offline(`${WHY[failure.kind]}, so here is what NASA's own text says.`);
+    return offline(`${siOnHold() ? WHY.auth : WHY[failure.kind]}, so here is what NASA's own text says.`);
   }
 }

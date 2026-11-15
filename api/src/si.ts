@@ -117,6 +117,21 @@ export function siConfigured(): boolean {
   return Boolean(bedrock() || process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN);
 }
 
+/**
+ * When the model service last refused the account itself (a wrong key, or access taken
+ * away), as opposed to one request. For a while after that the SI does not call it: every
+ * call would fail the same way, and the visitor would wait for nothing. Then it is tried again,
+ * so the SI comes back by itself when access does.
+ */
+let heldAt = -Infinity;
+const HOLD_MS = Number(process.env.SI_HOLD_SECONDS ?? 600) * 1000;
+const ACCOUNT_REFUSED = /not allowed for this account|not available for this account|account (is|has been) (suspended|disabled|restricted)/i;
+
+export const siOnHold = (): boolean => Date.now() - heldAt < HOLD_MS;
+/** Whether a question would reach the model right now. */
+export const siLive = (): boolean => siConfigured() && !siOnHold();
+const SWITCHED_OFF = "The live SI is switched off right now, so here is what NASA's own text says.";
+
 export type Receipt = { tool: string; label: string; count: number };
 export type Passage = { title: string; accession: string | null; kind: string; snippet: string; url: string };
 
@@ -497,10 +512,10 @@ export function splitAnswer(text: string): { short?: string; answer: string; unk
  * only as the question.
  */
 export async function ask(question: string, cabin?: Cabin): Promise<AskResult> {
-  if (!siConfigured()) {
+  if (!siLive()) {
     const ready = (await prepared(question)) ?? (await brief(question));
     if (ready) return ready;
-    return { mode: "offline", reason: "The live SI is switched off on this deployment, so here is what NASA's own text says.", passages: await searchText(question) };
+    return { mode: "offline", reason: siConfigured() ? SWITCHED_OFF : "The live SI is switched off on this deployment, so here is what NASA's own text says.", passages: await searchText(question) };
   }
   const system = await systemPrompt();
   const context = cabin ? `${cabinSentence(cabin)} Answer for that cabin unless the question names another. Use evidence_near_cabin with its oxygen and pressure when the question is about what was tested near it.` : "";
@@ -518,7 +533,10 @@ export async function ask(question: string, cabin?: Cabin): Promise<AskResult> {
     } catch (error) {
       // No access to this model on this account, or it is not offered in this region: go to the next one, and remember.
       const failure = failureOf(error);
-      if (!failure || (failure.status !== 403 && failure.status !== 404) || i === order.length - 1) throw error;
+      const last = i === order.length - 1;
+      // The account itself is refused, not this one request: stop asking for a while.
+      if (failure && (ACCOUNT_REFUSED.test(failure.message) || (last && failure.kind === "auth"))) heldAt = Date.now();
+      if (!failure || siOnHold() || (failure.status !== 403 && failure.status !== 404) || last) throw error;
       console.error(`[si] no access to ${model} on ${SI_PROVIDER} (${failure.status}); using ${order[i + 1]}`);
       refused.add(model);
     }
