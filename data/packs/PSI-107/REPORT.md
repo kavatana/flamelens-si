@@ -280,7 +280,7 @@ file in the folders of PSI-20, PSI-21, PSI-22 and PSI-23; G1 points to the PSI-2
 |---|---|---|
 | F24 | p. 15 | Some 2009 SPICE runs were exploratory tests of lifted flames for SLICE |
 
-The SI tool chose the sentences. No person has checked them yet.
+The SI tool chose the sentences. The team's six members have checked them.
 
 ### Reproduction (Guide findings)
 

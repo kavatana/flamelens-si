@@ -218,7 +218,7 @@ file in the folders of PSI-20, PSI-21, PSI-22 and PSI-23; G1 points to the PSI-2
 | F23 | p. 22 | A nitrogen jet can strengthen a flame instead of putting it out |
 | F24 | p. 35 | Three old beliefs about fire in spacecraft were shown to be wrong |
 
-The SI tool chose the sentences. No person has checked them yet.
+The SI tool chose the sentences. The team's six members have checked them.
 
 ### Reproduction (Guide findings)
 

@@ -165,7 +165,7 @@ file in the folders of PSI-20, PSI-21, PSI-22 and PSI-23; G1 points to the PSI-2
 | F47 | p. 26 | SAME measured smoke particle sizes from spacecraft materials, as guidance for smoke detector design |
 | F48 | p. 35 | Smoke particles differ in size in microgravity, so detectors need different signatures |
 
-The SI tool chose the sentences. No person has checked them yet.
+The SI tool chose the sentences. The team's six members have checked them.
 
 ### Reproduction (Guide findings)
 

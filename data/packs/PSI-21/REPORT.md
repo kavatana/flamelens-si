@@ -34,7 +34,7 @@ file in the folders of PSI-20, PSI-21, PSI-22 and PSI-23; G1 points to the PSI-2
 |---|---|---|
 | F5 | p. 16 | Earlier research showed models predict poorly for very sooty flames and flames near extinction |
 
-The SI tool chose the sentences. No person has checked them yet.
+The SI tool chose the sentences. The team's six members have checked them.
 
 ### Reproduction (Guide findings)
 

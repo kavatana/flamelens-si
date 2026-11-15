@@ -194,7 +194,7 @@ file in the folders of PSI-20, PSI-21, PSI-22 and PSI-23; G1 points to the PSI-2
 |---|---|---|
 | F23 | p. 26 | Why DAFT flew: fire detection in a spacecraft, and the ISS's background dust |
 
-The SI tool chose the sentences. No person has checked them yet.
+The SI tool chose the sentences. The team's six members have checked them.
 
 ### Reproduction (Guide findings)
 

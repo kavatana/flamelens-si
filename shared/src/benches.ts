@@ -105,7 +105,7 @@ export const BENCHES: Record<BenchId, BenchSpec> = {
       { label: "Thin on oxygen", note: "17% oxygen", values: { o2: 0.17 } },
       { label: "Richest tested", note: "22.2% oxygen", values: { o2: 0.222 } },
     ],
-    caveat: "BASS-II lowered the oxygen and never raised it above 22.2%, so a Moon habitat's air cannot be set here: no solid was burned in it. How each test ended was read from NASA's own table and report by an SI tool; no person has checked those readings yet.",
+    caveat: "BASS-II lowered the oxygen and never raised it above 22.2%, so a Moon habitat's air cannot be set here: no solid was burned in it. How each test ended was read from NASA's own table and report by an SI tool, and the team's six members have checked those readings.",
     footage: "The numbers along the top of the picture are the rig's own display. NASA's ReadMe gives AIR as the speed of the air in the duct, in cm/s.",
     question: "What happens to a flame when the airflow stops?",
     headline: (r) => {

@@ -3,6 +3,6 @@
   "pack_version": "2",
   "created": "",
   "created_by": "FlameLens data team, with an SI tool",
-  "si_use": "An SI tool (Claude) found NASA's ACME overview on NTRS and wrote a script, which cuts each finding word for word from the paper's text. The SI tool chose the sentences. No value was generated. No person has checked it yet. For the Guide findings the SI tool chose the sentences, and a script cuts each one word for word from the PDF's text and stops if it is not found.",
+  "si_use": "An SI tool (Claude) found NASA's ACME overview on NTRS and wrote a script, which cuts each finding word for word from the paper's text. The SI tool chose the sentences. No value was generated. The team's six members have checked it. For the Guide findings the SI tool chose the sentences, and a script cuts each one word for word from the PDF's text and stops if it is not found.",
   "summary": "CLD Flame: 4 results NASA states in words in its overview of the six ACME gas-flame experiments. No per-test claims. Version 2: 1 finding in NASA's words from NASA's ISS Researcher's Guide: Combustion Science (2015), one of the challenge's listed resources."
 }

@@ -135,7 +135,7 @@ file in the folders of PSI-20, PSI-21, PSI-22 and PSI-23; G1 points to the PSI-2
 | F13 | p. 33 | Large alkane droplets kept vaporizing after the visible flame went out, fed by a cool flame |
 | F14 | p. 34 | A cool flame can burn for a long time after the hot flame goes out |
 
-The SI tool chose the sentences. No person has checked them yet.
+The SI tool chose the sentences. The team's six members have checked them.
 
 ### Reproduction (Guide findings)
 
