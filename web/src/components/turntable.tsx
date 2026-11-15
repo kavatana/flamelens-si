@@ -1,25 +1,28 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useNear } from "@/lib/use-near";
 import { SiMark } from "./art";
 
 /**
  * A concept model the visitor can turn. The clip is one full orbit at constant speed, and a
  * sideways drag (or the arrow keys) moves through it, so the object seems to turn in the hand.
- * It turns slowly by itself until it is first touched.
+ * It turns slowly by itself until it is first touched. The clip is fetched when the visitor
+ * scrolls near it; until then a still of its first frame stands in.
  */
 export function Turntable({ src, label, className = "" }: { src: string; label: string; className?: string }) {
   const video = useRef<HTMLVideoElement>(null);
   const drag = useRef<{ x: number; t: number; width: number } | null>(null);
   const [touched, setTouched] = useState(false);
+  const near = useNear(video);
 
   useEffect(() => {
     const el = video.current;
-    if (!el) return;
+    if (!near || !el) return;
     el.playbackRate = 0.5;
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) el.pause();
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) el.load();
     else el.play().catch(() => {});
-  }, []);
+  }, [near]);
 
   function seek(t: number) {
     const el = video.current;
@@ -63,7 +66,7 @@ export function Turntable({ src, label, className = "" }: { src: string; label: 
         seek(el.currentTime + (e.key === "ArrowRight" ? 1 : -1) * (el.duration / 24));
       }}
     >
-      <video ref={video} src={src} muted loop playsInline preload="auto" className="pointer-events-none block aspect-[4/3] w-full object-cover" />
+      <video ref={video} src={src} poster={src.replace(/\.(mp4|webm)$/, ".jpg")} muted loop playsInline preload="none" className="pointer-events-none block aspect-[4/3] w-full object-cover" />
       <SiMark className="!bottom-auto top-2" />
       <p className="pointer-events-none absolute bottom-2 left-2 rounded-xs bg-ink/80 px-2 py-1 text-[11.5px] text-white">{touched ? "Drag to turn" : "Drag to turn it yourself"}</p>
     </div>

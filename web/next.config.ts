@@ -34,7 +34,12 @@ const SECURITY_HEADERS = [
 const nextConfig: NextConfig = {
   cacheComponents: true,
   async headers() {
-    return [{ source: "/:path*", headers: SECURITY_HEADERS }];
+    // The models, clips and drawings keep their names between releases, so a browser may keep them for an hour.
+    const kept = [{ key: "Cache-Control", value: "public, max-age=3600" }];
+    return [
+      { source: "/:path*", headers: SECURITY_HEADERS },
+      ...["hero", "video", "illustrations"].map((folder) => ({ source: `/${folder}/:file*`, headers: kept })),
+    ];
   },
   partialPrefetching: true,
   turbopack: {

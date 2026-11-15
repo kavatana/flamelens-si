@@ -503,11 +503,12 @@ ${catalogue}`;
  * A prepared answer: the wording was written ahead of time by the SI, but the lookups run
  * for real, and the number check is applied to what they return.
  *
- * One run serves everyone who asks within a few minutes. A room of people pressing the same
- * suggested question in the same second would otherwise each run the same lookups, and the
- * database would be asked the same thing hundreds of times at once.
+ * One run serves everyone who asks within the hour: the archive does not change while the
+ * site is running. A room of people pressing the same suggested question in the same second
+ * would otherwise each run the same lookups, and the database would be asked the same thing
+ * hundreds of times at once.
  */
-const PREPARED_MS = 5 * 60_000;
+const PREPARED_MS = 60 * 60_000;
 const preparedRuns = new Map<string, { at: number; run: Promise<AskResult | null> }>();
 
 export function prepared(question: string): Promise<AskResult | null> {

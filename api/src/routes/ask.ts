@@ -18,7 +18,21 @@ export async function GET(request: Request) {
   return Response.json({ live: siLive(), model: siLive() ? SI_MODEL : null, prepared: PREPARED.map((p) => p.question) });
 }
 
+/**
+ * A question, answered. Anything that goes wrong beyond what the answer itself handles (the
+ * database turning a request away under a sudden crowd) is told to the visitor's page as
+ * "busy", which the page tries once more by itself, instead of as a bare server error.
+ */
 export async function POST(request: Request) {
+  try {
+    return await answer(request);
+  } catch (error) {
+    console.error(`[ask] could not answer: ${error instanceof Error ? error.message.split("\n")[0].slice(0, 160) : "unknown error"}`);
+    return Response.json({ error: "The site is busy right now. Please ask again in a moment." }, { status: 503, headers: { "Retry-After": "2" } });
+  }
+}
+
+async function answer(request: Request): Promise<Response> {
   let question = "";
   // The analysis the question was asked under. Anything that does not pass the check is left out.
   let cabin: Cabin | undefined;

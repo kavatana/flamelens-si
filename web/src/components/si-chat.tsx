@@ -85,7 +85,13 @@ export function useSiChat({ names, cabins, onAction, about, scope = null }: Opti
     setTurns((list) => [...list, { id, text: q, block: scope?.block ?? null, cabin: scope?.cabin }]);
     const question = about && !q.toLowerCase().includes(about.toLowerCase()) ? `${q} (about ${about})`.slice(0, QUESTION_LIMIT) : q;
     try {
-      const response = await fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question, cabin: scope?.cabin }) });
+      const post = () => fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question, cabin: scope?.cabin }) });
+      let response = await post();
+      // The server was busy for a moment: one more try, quietly, before the visitor is told.
+      if (response.status >= 500) {
+        await new Promise((resolve) => setTimeout(resolve, 1500));
+        response = await post();
+      }
       const body = await response.json();
       setTurns((list) => list.map((t) => (t.id === id ? (response.ok ? { ...t, result: body as AskResult } : { ...t, error: body.error ?? "The request failed." }) : t)));
     } catch {

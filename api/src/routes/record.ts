@@ -8,5 +8,6 @@ export async function GET(request: Request) {
   }
   const record = await getRecord(id);
   if (!record) return Response.json({ error: "Record not found." }, { status: 404 });
-  return Response.json(record, { headers: { "Cache-Control": "public, max-age=3600" } });
+  // A record changes only when the archive is rebuilt, so the network's edge may answer for an hour without asking the database.
+  return Response.json(record, { headers: { "Cache-Control": "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400" } });
 }
