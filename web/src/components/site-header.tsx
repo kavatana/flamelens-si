@@ -159,8 +159,9 @@ export function SiteHeader() {
       <div className="mx-auto flex h-full w-full max-w-[1400px] items-center justify-between gap-2 px-4 sm:px-6 md:grid md:grid-cols-[1fr_auto_1fr]">
         <Link href="/" className="float flex h-11 shrink-0 items-center gap-2 justify-self-start rounded-full pl-2 pr-2 transition-transform duration-300 hover:-translate-y-0.5 min-[430px]:pr-3.5" aria-label="FlameLens SI home">
           <span className="si-flame" style={{ width: 28, height: 28 }} aria-hidden />
-          <span className="hidden text-[15.5px] font-semibold tracking-tight min-[430px]:block">FlameLens</span>
-          <span className="num hidden rounded-xs border border-ink px-1 text-[11px] font-medium leading-[1.35] min-[430px]:block">SI</span>
+          <span className="hidden text-[15.5px] font-semibold tracking-tight min-[430px]:block">
+            FlameLens <span className="text-[#D9480F]">SI</span>
+          </span>
         </Link>
         <Suspense fallback={<Links pathname={null} />}>
           <ActiveLinks />
