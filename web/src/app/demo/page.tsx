@@ -16,8 +16,8 @@ export default function Page() {
         controls
         playsInline
         preload="metadata"
-        poster="/video/flamelens-si-demo-30s.jpg?v=7"
-        src="/video/flamelens-si-demo-30s.mp4?v=7"
+        poster="/video/flamelens-si-demo-30s.jpg?v=8"
+        src="/video/flamelens-si-demo-30s.mp4?v=8"
         aria-label="A 30-second demo of FlameLens SI: NASA's footage of a flame in space, a wall of cells from NASA's tables, then the site summarizing, ranking and interpreting them, and playing NASA's own video of a test."
         className="mt-5 block aspect-video w-full rounded-sm bg-ink"
       />
